@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YLG Salon Vajarahalli</title>
+  <script>
+    // Detect device and redirect immediately before any render
+    (function() {
+      const isMobile = /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+        || window.innerWidth <= 768;
+      if (isMobile) {
+        window.location.replace("mobile.html");
+      } else {
+        window.location.replace("desktop.html");
+      }
+    })();
+  </script>
+</head>
+<body>
+  <noscript>
+    <a href="desktop.html">Click here if you are on a desktop</a> |
+    <a href="mobile.html">Click here if you are on mobile</a>
+  </noscript>
+</body>
+</html>
