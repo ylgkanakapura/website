@@ -149,7 +149,7 @@ header {
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.98);
     border-bottom: 1px solid var(--border-color);
-    padding-top: 15px;
+    padding: 10px 0 0 0;
 }
 
 .header-container {
@@ -159,32 +159,22 @@ header {
 }
 
 .logo {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .logo img {
-    height: 75px;
+    height: 55px;
 }
 
 .header-buttons {
-    display: flex;
-    width: 100%;
-    padding: 0 20px;
-    gap: 15px;
-    margin-bottom: 15px;
-    transform: translateY(-5px);
-    /* Align relative to larger logo */
-}
-
-.header-buttons .btn-primary {
-    flex: 1;
+    display: none;
 }
 
 .pill-nav {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background-color: var(--surface-color);
     border-top: 1px solid var(--border-color);
 }
@@ -195,7 +185,7 @@ header {
 
 .nav-links {
     display: inline-flex;
-    gap: 20px;
+    gap: 15px;
     white-space: nowrap;
 }
 
@@ -468,11 +458,13 @@ header {
 }
 
 .testimonial-card {
-    min-width: 85vw;
+    width: 85vw;
+    flex-shrink: 0;
     border: 1px solid var(--border-color);
     padding: 30px;
     background-color: var(--surface-color);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    white-space: normal;
 }
 
 .review-text {
