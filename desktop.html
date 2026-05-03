@@ -14,6 +14,12 @@
     <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="desktop.css">
+    <script>
+        // Hide .html extension from URL bar
+        if (window.history.replaceState) {
+            window.history.replaceState(null, null, "/");
+        }
+    </script>
 </head>
 <body>
     <!-- Header -->
