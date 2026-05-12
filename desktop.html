@@ -114,48 +114,532 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container services-layout">
-            <div class="services-header fade-in">
-                <span class="section-subtitle">Our Expertise</span>
-                <h2 class="section-title">Signature Services</h2>
-            </div>
-            <div class="services-grid">
-                <div class="service-card fade-in">
-                    <img class="service-card-img" src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="Hair Services">
-                    <span class="service-num">01 / HAIR</span>
-                    <h3>Hair Services</h3>
-                    <p>Haircut, Hair Colour, Hair Spa, Keratin Treatment, Kerastase Hair Spa.</p>
+        <section id="services" class="services">
+        <div class="container">
+            <div class="services-menu-container fade-in">
+                <div class="services-sidebar">
+                    <button class="tab-btn active" onclick="openServiceTab(event, 'tab-hair')">
+                        <span class="tab-icon-wrap">H</span><span class="tab-text">HAIR</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-skin')">
+                        <span class="tab-icon-wrap">S</span><span class="tab-text">SKIN</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-waxing')">
+                        <span class="tab-icon-wrap">W</span><span class="tab-text">WAXING</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-nails')">
+                        <span class="tab-icon-wrap">N</span><span class="tab-text">NAILS</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-packages')">
+                        <span class="tab-icon-wrap">P</span><span class="tab-text">PACKAGES</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-de-tan')">
+                        <span class="tab-icon-wrap">D</span><span class="tab-text">DE-TAN</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-makeup')">
+                        <span class="tab-icon-wrap">M</span><span class="tab-text">MAKEUP</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-others')">
+                        <span class="tab-icon-wrap">O</span><span class="tab-text">OTHERS</span>
+                    </button>
                 </div>
-                <div class="service-card fade-in">
-                    <img class="service-card-img" src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?auto=format&fit=crop&w=800&q=80" alt="Waxing Services">
-                    <span class="service-num">02 / WAXING</span>
-                    <h3>Signature Waxing</h3>
-                    <p>Painless Waxing (YLG signature), Brazilian Wax, Full Body Wax.</p>
-                </div>
-                <div class="service-card fade-in">
-                    <img class="service-card-img" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="Facials">
-                    <span class="service-num">03 / FACE</span>
-                    <h3>Facials</h3>
-                    <p>YLG Signature Facials, European Light Therapy (ELT) Facials, Skin Brightening.</p>
-                </div>
-                <div class="service-card fade-in">
-                    <img class="service-card-img" src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80" alt="Mani Pedi">
-                    <span class="service-num">04 / NAILS</span>
-                    <h3>Mani-Pedi</h3>
-                    <p>Manicure, Pedicure, Hand Spa.</p>
-                </div>
-                <div class="service-card fade-in">
-                    <img class="service-card-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Mens Services">
-                    <span class="service-num">05 / MEN</span>
-                    <h3>Men's Services</h3>
-                    <p>Haircut, Beard Grooming, Hair Spa, Facial.</p>
-                </div>
-                <div class="service-card fade-in">
-                    <img class="service-card-img" src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=800&q=80" alt="Bridal Services">
-                    <span class="service-num">06 / BRIDAL</span>
-                    <h3>Bridal Packages</h3>
-                    <p>Pre-Bridal, Bridal Makeup, Bridal Hair.</p>
+                <div class="services-content-area">
+                    <div id="tab-hair" class="service-tab-content" style="display:block;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">HAIR</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your hair deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="HAIR">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">HAIRCUT</span>
+                                    <span class="service-desc">Refresh your look with our signature haircuts.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹735</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">HAIR SPA</span>
+                                    <span class="service-desc">Deep nourishment for shiny, healthy & smooth hair.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,575</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">HAIR COLOR</span>
+                                    <span class="service-desc">Vibrant, long-lasting color with premium products.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹2,100</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">KERATIN TREATMENT</span>
+                                    <span class="service-desc">Frizz-free, smooth & manageable hair.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹4,725</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">SMOOTHENING</span>
+                                    <span class="service-desc">Get sleek, straight & polished hair.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹6,825</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">HAIR BOTOX</span>
+                                    <span class="service-desc">Repairs, restores & adds natural shine.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹5,775</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-skin" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">SKIN</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your skin deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="SKIN">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">KIWI   CHERRY FRUIT GLOW FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,785</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CITRUS AGLOW FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,420</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">KANPEKI JAPANESE BLANCH FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹5,880</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">LOTUS 24 KARAT QUEEN S FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹5,880</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">YLG SIGNATURE BRIGHTENING FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹5,305</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">YLG SIGNATURE GLOW FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹5,305</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-waxing" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">WAXING</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your waxing deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?auto=format&fit=crop&w=800&q=80" alt="WAXING">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">B WAX PACKAGE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹6,929</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CRYSTAL ANTI-AGING GOLD WAX - BLOUSE LINE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹820</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CRYSTAL ANTI-AGING GOLD WAX - BUTTOCK</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,000</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CRYSTAL ANTI-AGING GOLD WAX - COMBO</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,995</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CRYSTAL ANTI-AGING GOLD WAX - FULL ARMS</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹995</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CRYSTAL ANTI-AGING GOLD WAX - FULL BACK</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹995</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-nails" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">NAILS</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your nails deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80" alt="NAILS">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CUT AND POLISH TOE NAILS</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹419</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">CHOCOLATE PEDICURE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹945</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">COFFEE PEDICURE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹945</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">COOLING PEPPERMINT PEDICURE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹945</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">MIN TREE BOX THE TOX PEDICURE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹2,100</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">GOLD PEDICURE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,049</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-packages" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">PACKAGES</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your packages deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=800&q=80" alt="PACKAGES">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">B WAX PACKAGE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹6,929</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">BRIDAL FACIAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹7,245</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-de-tan" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">DE-TAN</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your de-tan deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="DE-TAN">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">MEN DETAN FACE AND NECK</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹370</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">EPRES STANDALONE</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹1,155</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">OLAPLEX STANDALONE TREATMENT L</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹2,890</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">OLAPLEX STANDALONE TREATMENT S/M</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹2,310</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">OLAPLEX STANDALONE TREATMENT XL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹3,465</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">DETAN FEET</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹209</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-makeup" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">MAKEUP</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your makeup deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&q=80" alt="MAKEUP">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">SAREE DRAPE NORMAL</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹370</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">SAREE DRAPE FANCY</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹580</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
+                    <div id="tab-others" class="service-tab-content" style="display:none;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">OTHERS</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your others deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="OTHERS">
+                            </div>
+                        </div>
+                        <div class="tab-services-list">
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">THREADING LOWER LIP</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹75</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">THREADING EYEBROWS</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹75</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">THREADING FOREHEAD</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹75</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">THREADING UPPER LIP</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹75</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">THREADING NECK</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹95</div>
+                            </div>
+                            <div class="service-list-item">
+                                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                                <div class="service-info">
+                                    <span class="service-name">THREADING SIDELOCKS</span>
+                                    <span class="service-desc">Premium service tailored for your needs.</span>
+                                </div>
+                                <div class="service-dots"></div>
+                                <div class="service-price">₹75</div>
+                            </div>
+                        </div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -315,47 +799,59 @@
                     <div class="form-group row">
                         <div class="col">
                             <label for="name">Full Name</label>
-                            <input type="text" id="name" required>
+                            <input type="text" id="name" name="name" required>
                         </div>
                         <div class="col">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" required>
+                            <input type="tel" id="phone" name="phone" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col">
                             <label for="date">Preferred Date</label>
-                            <input type="date" id="date" required>
+                            <input type="date" id="date" name="date" required>
                         </div>
                         <div class="col">
                             <label for="time">Preferred Time</label>
-                            <select id="time" required>
+                            <select id="time" name="time" required>
                                 <option value="" disabled selected>Select a time</option>
-                                <option value="Morning 9–12">Morning</option>
-                                <option value="Afternoon 12–3">Afternoon</option>
-                                <option value="Evening 3–7">Evening</option>
+                                <option value="Morning 9-12">Morning</option>
+                                <option value="Afternoon 12-3">Afternoon</option>
+                                <option value="Evening 3-7">Evening</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="service">Service Interested In</label>
-                        <select id="service" required>
+                        <select id="service" name="service" required>
                             <option value="" disabled selected>Select a service</option>
-                            <option value="Hair Services">Hair Services</option>
+                            <option value="Hair">Hair</option>
+                            <option value="Skin">Skin</option>
                             <option value="Waxing">Waxing</option>
-                            <option value="Facials">Facials</option>
-                            <option value="Mani-Pedi">Mani-Pedi</option>
-                            <option value="Men's Services">Men's Services</option>
-                            <option value="Bridal Packages">Bridal Packages</option>
+                            <option value="Nails">Nails</option>
+                            <option value="Packages">Packages</option>
+                            <option value="De-Tan">De-Tan</option>
+                            <option value="Makeup">Makeup</option>
+                            <option value="Others">Others</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="notes">Additional Notes</label>
-                        <textarea id="notes" rows="1"></textarea>
+                        <textarea id="notes" name="notes" rows="1"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-full">Submit Request</button>
                     <p class="form-note">Confirmation will be sent via WhatsApp or Call.</p>
                 </form>
+
+                <div id="successMessage" style="display: none; text-align: center; padding: 60px 20px;">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                      <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                      <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                    </svg>
+                    <h3 style="font-family: 'Playfair Display', serif; color: #c2185b; margin-top: 30px; font-size: 2rem;">Booking Confirmed!</h3>
+                    <p style="font-family: 'Nunito', sans-serif; color: #666; font-size: 1.1rem; margin-top: 10px;">Thank you. We will contact you shortly.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -487,5 +983,58 @@
             }
         })();
     </script>
+
+    <script>
+        document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const submitBtn = this.querySelector('button[type="submit"]');
+            submitBtn.innerText = 'Booking...';
+            submitBtn.disabled = true;
+
+            fetch("https://formsubmit.co/ajax/ylgkanakapura@gmail.com", {
+                method: "POST",
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: document.getElementById("name").value,
+                    phone: document.getElementById("phone").value,
+                    date: document.getElementById("date").value,
+                    time: document.getElementById("time").value,
+                    service: document.getElementById("service").value,
+                    notes: document.getElementById("notes").value
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('appointmentForm').style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+            })
+            .catch(error => {
+                alert("Error booking appointment. Please try again or call us.");
+                submitBtn.innerText = 'Submit Request';
+                submitBtn.disabled = false;
+            });
+        });
+    </script>
+    
+
+<script>
+    function openServiceTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("service-tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab-btn");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
 </body>
 </html>

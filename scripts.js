@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
-            window.open(waUrl, '_blank');
+            // window.open(waUrl, '_blank'); // Disabled to prevent redirect
         });
     }
 
