@@ -138,4 +138,64 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // 8. Menu Rendering
+    if (window.menuData) {
+        renderMenu();
+    }
 });
+
+function renderMenu() {
+    const tabs = ['hair', 'skin', 'waxing', 'nails', 'packages', 'de-tan', 'makeup', 'others'];
+    
+    tabs.forEach(tab => {
+        const listContainer = document.querySelector(`#tab-${tab} .tab-services-list`);
+        if (!listContainer) return;
+        
+        listContainer.innerHTML = ''; // Clear hardcoded
+        
+        const items = window.menuData[tab] || [];
+        items.forEach(item => {
+            const el = document.createElement('div');
+            el.className = 'service-list-item';
+            el.innerHTML = `
+                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                <div class="service-info">
+                    <span class="service-name">${item.name}</span>
+                    <span class="service-desc">${item.desc}</span>
+                </div>
+                <div class="service-dots"></div>
+                <div class="service-price">${item.price}</div>
+            `;
+            listContainer.appendChild(el);
+        });
+    });
+}
+
+function filterMenu() {
+    const input = document.getElementById("menuSearchInput");
+    if (!input) return;
+    const filter = input.value.toUpperCase();
+    
+    // Find the currently active tab by checking the computed display style or active class
+    const activeTab = Array.from(document.querySelectorAll(".service-tab-content"))
+        .find(tab => tab.style.display === 'block' || window.getComputedStyle(tab).display === 'block');
+        
+    if (!activeTab) return;
+    
+    const items = activeTab.querySelectorAll(".service-list-item");
+    
+    items.forEach(item => {
+        const nameNode = item.querySelector(".service-name");
+        const descNode = item.querySelector(".service-desc");
+        if (!nameNode || !descNode) return;
+        
+        const name = nameNode.textContent;
+        const desc = descNode.textContent;
+        if (name.toUpperCase().indexOf(filter) > -1 || desc.toUpperCase().indexOf(filter) > -1) {
+            item.style.display = "flex";
+        } else {
+            item.style.display = "none";
+        }
+    });
+}

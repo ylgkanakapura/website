@@ -174,7 +174,7 @@ header {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 10px 20px;
+    padding: 10px 5px;
     background-color: var(--surface-color);
     border-top: 1px solid var(--border-color);
 }
@@ -185,8 +185,9 @@ header {
 
 .nav-links {
     display: inline-flex;
-    gap: 15px;
+    gap: 10px;
     white-space: nowrap;
+    padding-left: 5px;
 }
 
 .nav-links li a {
@@ -304,7 +305,8 @@ header {
     height: 100%;
     object-fit: cover;
     position: absolute;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     top: 0;
 }
 
@@ -1078,6 +1080,7 @@ footer {
     }
     .services-sidebar {
         flex-direction: row;
+        align-items: center;
         overflow-x: auto;
         border-right: none;
         border-bottom: 1px solid #f0e6e1;
@@ -1092,6 +1095,8 @@ footer {
         white-space: nowrap;
         padding: 8px 15px;
         font-size: 0.9rem;
+        height: 42px;
+        border-radius: 25px;
     }
     .services-content-area {
         padding-left: 0;
@@ -1106,8 +1111,8 @@ footer {
     }
     .tab-image-area img {
         width: 100%;
-        height: 150px;
-        border-radius: 0 50px 0 50px;
+        height: 180px;
+        border-radius: 20px;
     }
     .service-dots {
         display: none;
@@ -1177,3 +1182,39 @@ footer {
 @keyframes stroke { 100% { stroke-dashoffset: 0; } }
 @keyframes scale { 0%, 100% { transform: none; } 50% { transform: scale3d(1.1, 1.1, 1); } }
 @keyframes fill { 100% { box-shadow: inset 0px 0px 0px 40px #c2185b; } }
+
+/* --- Dynamic Menu Styles --- */
+.tab-services-list {
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+/* Custom Scrollbar for Menu */
+.tab-services-list::-webkit-scrollbar {
+    width: 6px;
+}
+.tab-services-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+.tab-services-list::-webkit-scrollbar-thumb {
+    background: #c2185b;
+    border-radius: 4px;
+}
+.tab-services-list::-webkit-scrollbar-thumb:hover {
+    background: #a0144b;
+}
+
+/* Search input focus state */
+.menu-search:focus {
+    border-color: #c2185b !important;
+    box-shadow: 0 0 5px rgba(194, 24, 91, 0.3);
+}
+
+.search-container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+}
