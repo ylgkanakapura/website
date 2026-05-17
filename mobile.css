@@ -1101,18 +1101,18 @@ footer {
     .services-content-area {
         padding-left: 0;
     }
-    .tab-header {
+        .tab-header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
+        gap: 8px;
+        margin-bottom: 16px;
+        padding-bottom: 16px;
     }
-    .tab-title {
-        font-size: 2.5rem;
+        .tab-title {
+        font-size: 2rem;
     }
-    .tab-image-area img {
-        width: 100%;
-        height: 180px;
-        border-radius: 20px;
+    .tab-image-area {
+        display: none;
     }
     .service-dots {
         display: none;
