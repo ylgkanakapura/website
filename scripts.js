@@ -174,6 +174,23 @@ function renderMenu() {
             `;
             listContainer.appendChild(el);
         });
+
+        // Wrap in .tab-services-wrapper for scroll fade indicator (iOS fix)
+        if (!listContainer.parentElement.classList.contains('tab-services-wrapper')) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'tab-services-wrapper';
+            listContainer.parentNode.insertBefore(wrapper, listContainer);
+            wrapper.appendChild(listContainer);
+
+            // Check if scroll fade is needed; hide it when list is fully scrolled
+            const checkFade = () => {
+                const atBottom = listContainer.scrollHeight - listContainer.scrollTop <= listContainer.clientHeight + 4;
+                wrapper.classList.toggle('at-bottom', atBottom);
+            };
+            listContainer.addEventListener('scroll', checkFade, { passive: true });
+            // Initial check — if content fits without scroll, hide fade immediately
+            checkFade();
+        }
     });
 }
 

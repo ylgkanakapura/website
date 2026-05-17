@@ -1267,3 +1267,25 @@ footer {
         font-size: 12px !important;
     }
 }
+
+/* ===== Scroll Fade Indicator (replaces invisible iOS scrollbar) ===== */
+.tab-services-wrapper {
+    position: relative;
+}
+
+.tab-services-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.97));
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.tab-services-wrapper.at-bottom::after {
+    opacity: 0;
+}
