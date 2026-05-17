@@ -1289,3 +1289,15 @@ footer {
 .tab-services-wrapper.at-bottom::after {
     opacity: 0;
 }
+
+/* ===== Remove service list scroll on mobile — show all items, no scrollbar needed ===== */
+@media (max-width: 900px) {
+    .tab-services-list {
+        max-height: none !important;
+        overflow-y: visible !important;
+        padding-right: 0 !important;
+    }
+    .tab-services-wrapper::after {
+        display: none !important;
+    }
+}
