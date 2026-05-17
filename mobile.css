@@ -1218,3 +1218,52 @@ footer {
     z-index: 10;
     background: #fff;
 }
+
+/* ===== Mobile Service Tabs: 4x2 Grid (no horizontal scroll) ===== */
+@media (max-width: 900px) {
+    .services-sidebar {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 8px !important;
+        overflow-x: unset !important;
+        flex-direction: unset !important;
+        border-right: none;
+        border-bottom: 1px solid #f0e6e1;
+        padding: 0 0 14px 0 !important;
+        -webkit-overflow-scrolling: unset !important;
+    }
+
+    .tab-btn {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 5px !important;
+        padding: 10px 4px !important;
+        font-size: 0.55rem !important;
+        white-space: normal !important;
+        text-align: center !important;
+        height: auto !important;
+        min-height: 60px !important;
+        border-radius: 12px !important;
+        border: 1px solid transparent !important;
+    }
+
+    .tab-btn.active {
+        border-color: #fce4ec !important;
+        background: linear-gradient(135deg, #fff 0%, #fff0f5 100%) !important;
+    }
+
+    .tab-text {
+        font-size: 0.55rem !important;
+        line-height: 1.2;
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .tab-icon-wrap {
+        width: 26px !important;
+        height: 26px !important;
+        font-size: 12px !important;
+    }
+}
