@@ -68,25 +68,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Scroll Animations (Intersection Observer)
     const fadeElements = document.querySelectorAll('.fade-in');
-    
+
     const appearOptions = {
-        threshold: 0.15,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.08,
+        rootMargin: "0px 0px 0px 0px"
     };
 
     const appearOnScroll = new IntersectionObserver(function(entries, observer) {
         entries.forEach(entry => {
             if (!entry.isIntersecting) {
                 return;
-            } else {
-                entry.target.classList.add('appear');
-                observer.unobserve(entry.target);
             }
+            entry.target.classList.add('appear');
+            observer.unobserve(entry.target);
         });
     }, appearOptions);
 
     fadeElements.forEach(element => {
-        appearOnScroll.observe(element);
+        // If already in viewport on page load, reveal immediately
+        const rect = element.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+            element.classList.add('appear');
+        } else {
+            appearOnScroll.observe(element);
+        }
     });
 
     // 4. Sticky Header Behavior
