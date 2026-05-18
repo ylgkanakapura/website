@@ -130,20 +130,20 @@
         <div class="container">
             <div class="services-menu-container fade-in">
                 <div class="services-sidebar">
-                    <button class="tab-btn active" onclick="openServiceTab(event, 'tab-hair')">
+                    <button class="tab-btn active" onclick="openServiceTab(event, 'tab-waxing')">
+                        <span class="tab-icon-wrap">W</span><span class="tab-text">WAXING</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-others')">
+                        <span class="tab-icon-wrap">O</span><span class="tab-text">OTHERS</span>
+                    </button>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-hair')">
                         <span class="tab-icon-wrap">H</span><span class="tab-text">HAIR</span>
                     </button>
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-skin')">
                         <span class="tab-icon-wrap">S</span><span class="tab-text">SKIN</span>
                     </button>
-                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-waxing')">
-                        <span class="tab-icon-wrap">W</span><span class="tab-text">WAXING</span>
-                    </button>
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-nails')">
                         <span class="tab-icon-wrap">N</span><span class="tab-text">NAILS</span>
-                    </button>
-                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-packages')">
-                        <span class="tab-icon-wrap">P</span><span class="tab-text">PACKAGES</span>
                     </button>
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-de-tan')">
                         <span class="tab-icon-wrap">D</span><span class="tab-text">DE-TAN</span>
@@ -151,8 +151,8 @@
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-makeup')">
                         <span class="tab-icon-wrap">M</span><span class="tab-text">MAKEUP</span>
                     </button>
-                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-others')">
-                        <span class="tab-icon-wrap">O</span><span class="tab-text">OTHERS</span>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-packages')">
+                        <span class="tab-icon-wrap">P</span><span class="tab-text">PACKAGES</span>
                     </button>
                 </div>
                 <div class="services-content-area">
@@ -161,7 +161,7 @@
                             onkeyup="filterMenu()"
                             style="width: 100%; padding: 12px 20px; border: 1px solid #ddd; border-radius: 8px; font-family: 'Nunito', sans-serif; font-size: 1rem; outline: none;">
                     </div>
-                    <div id="tab-hair" class="service-tab-content" style="display:block;">
+                    <div id="tab-hair" class="service-tab-content" style="display:none;">
                         <div class="tab-header">
                             <div class="tab-title-area">
                                 <h3 class="tab-title">HAIR</h3>
@@ -197,7 +197,7 @@
                             <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
                         </div>
                     </div>
-                    <div id="tab-waxing" class="service-tab-content" style="display:none;">
+                    <div id="tab-waxing" class="service-tab-content" style="display:block;">
                         <div class="tab-header">
                             <div class="tab-title-area">
                                 <h3 class="tab-title">WAXING</h3>

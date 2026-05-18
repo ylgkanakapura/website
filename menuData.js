@@ -1,6 +1,10 @@
 window.menuData = {
     "hair": [
         {
+            "type": "subheading",
+            "name": "ADVANCED HAIRCUTS"
+        },
+        {
             "name": "HAIR CUT BY SENIOR STYLIST",
             "desc": "Treat yourself to our professional HAIR CUT BY SENIOR STYLIST. Expertly crafted by our senior stylists for a flawless finish.",
             "price": "₹1,049"
@@ -31,6 +35,10 @@ window.menuData = {
             "price": "₹1,889"
         },
         {
+            "type": "subheading",
+            "name": "BASIC CUTS & TRIMMING"
+        },
+        {
             "name": "TRIMMING",
             "desc": "Discover our professional Trimming. Transform your look with this premium hair care service.",
             "price": "₹525"
@@ -41,6 +49,10 @@ window.menuData = {
             "price": "₹735"
         },
         {
+            "type": "subheading",
+            "name": "KIDS CUTS"
+        },
+        {
             "name": "HAIR CUT FOR KIDS",
             "desc": "Indulge in our professional HAIR CUT FOR KIDS. Tailored to suit your personal style and hair texture.",
             "price": "₹419"
@@ -49,6 +61,10 @@ window.menuData = {
             "name": "BASIC CUTS",
             "desc": "Enjoy our professional BASIC CUTS. Nourishes your hair deeply from root to tip.",
             "price": "₹735"
+        },
+        {
+            "type": "subheading",
+            "name": "BLOW DRY & SETTING"
         },
         {
             "name": "BLOW DRY  HAIRWASH S-M",
@@ -161,6 +177,303 @@ window.menuData = {
             "price": "₹2,310"
         },
         {
+            "type": "subheading",
+            "name": "GLOBAL HAIR COLOR"
+        },
+        {
+            "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
+            "desc": "Treat yourself to our professional EXPERT Creative  Zero Amm GLOBAL FASHION CO. Expertly delivered for your complete satisfaction.",
+            "price": "₹9,870"
+        },
+        {
+            "name": "INOA GLOBAL FASHION COLOR(S)",
+            "desc": "Indulge in our professional INOA GLOBAL FASHION COLOR(S). Experience professional care with top-tier products.",
+            "price": "₹3,465"
+        },
+        {
+            "name": "MAJIREL GLOBAL FASHION COLOR-S",
+            "desc": "Enjoy our professional MAJIREL GLOBAL FASHION COLOR-S. Relax and unwind with our specialized treatments.",
+            "price": "₹2,939"
+        },
+        {
+            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOR (S)",
+            "desc": "Treat yourself to our professional EXPERT Zero Amm GLOBAL FASHION COLOR (S). Expertly delivered for your complete satisfaction.",
+            "price": "₹3,725"
+        },
+        {
+            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (S)",
+            "desc": "Discover our professional EXPERT MAJIREL GLOBAL FASHION COLOR (S). Dedicated attention to detail for the perfect result.",
+            "price": "₹3,199"
+        },
+        {
+            "name": "YLG CREATIVE COLOR XL",
+            "desc": "Experience our professional YLG Creative Color XL. A premium service tailored specifically to your needs.",
+            "price": "₹7,559"
+        },
+        {
+            "name": "LOOK BOOK ICED LATTE XL",
+            "desc": "Indulge in our professional Look Book Iced Latte XL. Experience professional care with top-tier products.",
+            "price": "₹7,559"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL S-M",
+            "desc": "Enjoy our professional YLG Creative Color  Majirel Global S-M. Relax and unwind with our specialized treatments.",
+            "price": "₹7,769"
+        },
+        {
+            "name": "EXPERT INOA GLOBAL FASHION COLOR (M)",
+            "desc": "Treat yourself to our professional EXPERT INOA GLOBAL FASHION COLOR (M). Expertly delivered for your complete satisfaction.",
+            "price": "₹4,460"
+        },
+        {
+            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOR (M)",
+            "desc": "Discover our professional EXPERT Zero Amm GLOBAL FASHION COLOR (M). Dedicated attention to detail for the perfect result.",
+            "price": "₹4,460"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL L",
+            "desc": "Experience our professional YLG Creative Color  Majirel Global L. A premium service tailored specifically to your needs.",
+            "price": "₹8,925"
+        },
+        {
+            "name": "EXPERT CREATIVE  L  EXPERT INOA GLOBAL FASHIO",
+            "desc": "Indulge in our professional EXPERT Creative  L  EXPERT INOA GLOBAL FASHIO. Experience professional care with top-tier products.",
+            "price": "₹10,395"
+        },
+        {
+            "name": "ZERO AMM GLOBAL FASHION COLOR(S)",
+            "desc": "Enjoy our professional Zero Amm GLOBAL FASHION COLOR(S). Relax and unwind with our specialized treatments.",
+            "price": "₹3,359"
+        },
+        {
+            "name": "YLG CREATIVE COLOR L",
+            "desc": "Treat yourself to our professional YLG Creative Color L. Expertly delivered for your complete satisfaction.",
+            "price": "₹6,720"
+        },
+        {
+            "name": "EXPERT CREATIVE  S-M  EXPERT MAJIREL GLOBAL",
+            "desc": "Discover our professional EXPERT Creative  S-M  EXPERT MAJIREL GLOBAL. Dedicated attention to detail for the perfect result.",
+            "price": "₹8,925"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL XL",
+            "desc": "Experience our professional YLG Creative Color  Majirel Global XL. A premium service tailored specifically to your needs.",
+            "price": "₹10,130"
+        },
+        {
+            "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
+            "desc": "Treat yourself to our professional EXPERT Creative  Zero Amm GLOBAL FASHION CO. Expertly delivered for your complete satisfaction.",
+            "price": "₹9,185"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  INOA GLOBAL L",
+            "desc": "Enjoy our professional YLG Creative Color  Inoa Global L. Relax and unwind with our specialized treatments.",
+            "price": "₹9,029"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  ZERO AMM GLOBAL (L)",
+            "desc": "Treat yourself to our professional YLG Creative Color  Zero Amm Global (L). Expertly delivered for your complete satisfaction.",
+            "price": "₹9,029"
+        },
+        {
+            "name": "EXPERT YLG CREATIVE COLOR L",
+            "desc": "Discover our professional EXPERT YLG Creative Color L. Dedicated attention to detail for the perfect result.",
+            "price": "₹7,715"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  INOA GLOBAL S-M",
+            "desc": "Experience our professional YLG Creative Color  Inoa Global S-M. A premium service tailored specifically to your needs.",
+            "price": "₹7,979"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  ZERO AMM GLOBAL (S-M)",
+            "desc": "Indulge in our professional YLG Creative Color  Zero Amm Global (S-M). Experience professional care with top-tier products.",
+            "price": "₹7,979"
+        },
+        {
+            "name": "EXPERT CREATIVE  XL  EXPERT INOA GLOBAL FASH",
+            "desc": "Enjoy our professional EXPERT Creative  XL  EXPERT INOA GLOBAL FASH. Relax and unwind with our specialized treatments.",
+            "price": "₹11,969"
+        },
+        {
+            "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
+            "desc": "Treat yourself to our professional EXPERT Creative  Zero Amm GLOBAL FASHION CO. Expertly delivered for your complete satisfaction.",
+            "price": "₹11,969"
+        },
+        {
+            "name": "EXPERT CREATIVE  L  EXPERT MAJIREL GLOBAL FAS",
+            "desc": "Discover our professional EXPERT Creative  L  EXPERT MAJIREL GLOBAL FAS. Dedicated attention to detail for the perfect result.",
+            "price": "₹10,235"
+        },
+        {
+            "name": "EXPERT INOA GLOBAL FASHION COLOR (L)",
+            "desc": "Experience our professional EXPERT INOA GLOBAL FASHION COLOR (L). A premium service tailored specifically to your needs.",
+            "price": "₹5,775"
+        },
+        {
+            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOR (L)",
+            "desc": "Indulge in our professional EXPERT Zero Amm GLOBAL FASHION COLOR (L). Experience professional care with top-tier products.",
+            "price": "₹5,775"
+        },
+        {
+            "name": "EXPERT CREATIVE  S-M  EXPERT INOA GLOBAL FAS",
+            "desc": "Enjoy our professional EXPERT Creative  S-M  EXPERT INOA GLOBAL FAS. Relax and unwind with our specialized treatments.",
+            "price": "₹9,165"
+        },
+        {
+            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (XL)",
+            "desc": "Treat yourself to our professional EXPERT MAJIREL GLOBAL FASHION COLOR (XL). Expertly delivered for your complete satisfaction.",
+            "price": "₹6,355"
+        },
+        {
+            "name": "INOA GLOBAL FASHION COLOR(L)",
+            "desc": "Discover our professional INOA GLOBAL FASHION COLOR(L). Dedicated attention to detail for the perfect result.",
+            "price": "₹5,200"
+        },
+        {
+            "name": "INOA GLOBAL FASHION COLOR(M)",
+            "desc": "Experience our professional INOA GLOBAL FASHION COLOR(M). A premium service tailored specifically to your needs.",
+            "price": "₹4,040"
+        },
+        {
+            "name": "INOA GLOBAL FASHION COLOUR XL",
+            "desc": "Indulge in our professional INOA GLOBAL FASHION COLOUR XL. Experience professional care with top-tier products.",
+            "price": "₹6,355"
+        },
+        {
+            "name": "LOOK BOOK CINNAMON SWIRL L",
+            "desc": "Enjoy our professional Look Book Cinnamon Swirl L. Relax and unwind with our specialized treatments.",
+            "price": "₹6,355"
+        },
+        {
+            "name": "LOOK BOOK ICED LATTE L",
+            "desc": "Treat yourself to our professional Look Book Iced Latte L. Expertly delivered for your complete satisfaction.",
+            "price": "₹6,355"
+        },
+        {
+            "name": "MAJIREL GLOBAL FASHION COLOR - XL",
+            "desc": "Discover our professional MAJIREL GLOBAL FASHION COLOR - XL. Dedicated attention to detail for the perfect result.",
+            "price": "₹5,775"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  INOA GLOBAL XL",
+            "desc": "Experience our professional YLG Creative Color  Inoa Global XL. A premium service tailored specifically to your needs.",
+            "price": "₹10,395"
+        },
+        {
+            "name": "YLG CREATIVE COLOR  ZERO AMM GLOBAL (XL)",
+            "desc": "Indulge in our professional YLG Creative Color  Zero Amm Global (XL). Experience professional care with top-tier products.",
+            "price": "₹10,395"
+        },
+        {
+            "name": "ZERO AMM GLOBAL FASHION COLOR(L)",
+            "desc": "Enjoy our professional Zero Amm GLOBAL FASHION COLOR(L). Relax and unwind with our specialized treatments.",
+            "price": "₹5,200"
+        },
+        {
+            "name": "ZERO AMM GLOBAL FASHION COLOR(M)",
+            "desc": "Treat yourself to our professional Zero Amm GLOBAL FASHION COLOR(M). Expertly delivered for your complete satisfaction.",
+            "price": "₹4,040"
+        },
+        {
+            "name": "ZERO AMM GLOBAL FASHION COLOUR (XL)",
+            "desc": "Discover our professional Zero Amm GLOBAL FASHION COLOUR (XL). Dedicated attention to detail for the perfect result.",
+            "price": "₹6,355"
+        },
+        {
+            "name": "EXPERT INOA GLOBAL FASHION COLOUR (XL)",
+            "desc": "Experience our professional EXPERT INOA GLOBAL FASHION COLOUR (XL). A premium service tailored specifically to your needs.",
+            "price": "₹6,985"
+        },
+        {
+            "name": "EXPERT YLG CREATIVE COLOR S-M",
+            "desc": "Indulge in our professional EXPERT YLG Creative Color S-M. Experience professional care with top-tier products.",
+            "price": "₹7,035"
+        },
+        {
+            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOUR (X",
+            "desc": "Enjoy our professional EXPERT Zero Amm GLOBAL FASHION COLOUR (X. Relax and unwind with our specialized treatments.",
+            "price": "₹6,985"
+        },
+        {
+            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (M)",
+            "desc": "Treat yourself to our professional EXPERT MAJIREL GLOBAL FASHION COLOR (M). Expertly delivered for your complete satisfaction.",
+            "price": "₹4,095"
+        },
+        {
+            "name": "EXPERT YLG CREATIVE COLOR XL",
+            "desc": "Discover our professional EXPERT YLG Creative Color XL. Dedicated attention to detail for the perfect result.",
+            "price": "₹8,610"
+        },
+        {
+            "name": "YLG CREATIVE COLOR S-M",
+            "desc": "Experience our professional YLG Creative Color S-M. A premium service tailored specifically to your needs.",
+            "price": "₹6,089"
+        },
+        {
+            "name": "EXPERT INOA GLOBAL FASHION COLOR (S)",
+            "desc": "Indulge in our professional EXPERT INOA GLOBAL FASHION COLOR (S). Experience professional care with top-tier products.",
+            "price": "₹3,675"
+        },
+        {
+            "name": "MAJIREL GLOBAL FASHION COLOR-M",
+            "desc": "Enjoy our professional MAJIREL GLOBAL FASHION COLOR-M. Relax and unwind with our specialized treatments.",
+            "price": "₹3,675"
+        },
+        {
+            "name": "MAJIREL GLOBAL FASHION COLOR-L",
+            "desc": "Treat yourself to our professional MAJIREL GLOBAL FASHION COLOR-L. Expertly delivered for your complete satisfaction.",
+            "price": "₹4,935"
+        },
+        {
+            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (L)",
+            "desc": "Discover our professional EXPERT MAJIREL GLOBAL FASHION COLOR (L). Dedicated attention to detail for the perfect result.",
+            "price": "₹5,565"
+        },
+        {
+            "type": "subheading",
+            "name": "ROOT TOUCH-UP"
+        },
+        {
+            "name": "INOA ROOT TOUCH BY EXPERT STYLIST UPTO 2 INCH)",
+            "desc": "Experience our professional Inoa Root Touch by Expert Stylist upto 2 inch). A premium service tailored specifically to your needs.",
+            "price": "₹2,100"
+        },
+        {
+            "name": "ZERO AMM ROOT TOUCH BY EXPERT STYLIST (UP TO 2 I",
+            "desc": "Indulge in our professional Zero Amm Root Touch by Expert Stylist (up to 2 i. Experience professional care with top-tier products.",
+            "price": "₹2,100"
+        },
+        {
+            "name": "MAJIREL ROOT TOUCH UP TO 2-INCH (UPTO FULL TUBE)",
+            "desc": "Enjoy our professional Majirel Root Touch up to 2-inch (upto full tube). Relax and unwind with our specialized treatments.",
+            "price": "₹1,630"
+        },
+        {
+            "name": "INOA ROOT TOUCH UP TO 2 INCH (UPTO FULL TUBE)",
+            "desc": "Treat yourself to our professional Inoa Root Touch up to 2 inch (upto full tube). Expertly delivered for your complete satisfaction.",
+            "price": "₹1,735"
+        },
+        {
+            "name": "ZERO AMM ROOT TOUCH (UP TO 2 INCH)",
+            "desc": "Discover our professional Zero Amm Root Touch (up to 2 inch). Dedicated attention to detail for the perfect result.",
+            "price": "₹1,735"
+        },
+        {
+            "name": "MAJIREL ROOT TOUCH BY EXPERT STYLIST UPTO 2 INCH)",
+            "desc": "Experience our professional Majirel Root Touch by Expert Stylist upto 2 inch). A premium service tailored specifically to your needs.",
+            "price": "₹1,940"
+        },
+        {
+            "name": "ROOT TOUCH-UPHIGHLIGHTS",
+            "desc": "Indulge in our professional Root Touch-upHighlights. Experience professional care with top-tier products.",
+            "price": "₹2,939"
+        },
+        {
+            "type": "subheading",
+            "name": "HAIR SPA & NOURISHMENT"
+        },
+        {
             "name": "OLAPLEX EXPRESS HAIR SPA- DEEP CONDITIONING  S/M",
             "desc": "Enjoy our professional Olaplex Express Hair Spa- Deep Conditioning  S/M. Nourishes your hair deeply from root to tip.",
             "price": "₹840"
@@ -247,7 +560,7 @@ window.menuData = {
         },
         {
             "name": "YLG SIGNATURE MYSTIQUE MORROCAN OIL TREATMENT",
-            "desc": "Discover our professional YLG Signature Mystique Morrocan Oil Treatment. Transform your look with this premium hair care service.",
+            "desc": "Indulge in our professional YLG Signature Mystique Morrocan Oil Treatment. Tailored to suit your personal style and hair texture.",
             "price": "₹2,205"
         },
         {
@@ -516,1308 +829,8 @@ window.menuData = {
             "price": "₹2,415"
         },
         {
-            "name": "MEN HAIR CUT",
-            "desc": "Indulge in our professional MEN HAIR CUT. Tailored to suit your personal style and hair texture.",
-            "price": "₹419"
-        },
-        {
-            "name": "MEN HAIR CUT (WITHOUT WASH)",
-            "desc": "Enjoy our professional MEN HAIR CUT (Without Wash). Nourishes your hair deeply from root to tip.",
-            "price": "₹315"
-        },
-        {
-            "name": "MEN BEARD TRIMMING",
-            "desc": "Treat yourself to our professional MEN BEARD TRIMMING. Expertly crafted by our senior stylists for a flawless finish.",
-            "price": "₹370"
-        },
-        {
-            "name": "HAIR CUT   LUXURY BEARD COMBO",
-            "desc": "Discover our professional HAIR CUT   LUXURY BEARD COMBO. Transform your look with this premium hair care service.",
-            "price": "₹945"
-        },
-        {
-            "name": "LUXURY BEARD TRIMMING - MEN",
-            "desc": "Experience our professional LUXURY BEARD TRIMMING - MEN. Perfect for adding volume and shine to your hair.",
-            "price": "₹575"
-        },
-        {
-            "name": "MEN HAIRCUT & BEARD COMBO",
-            "desc": "Indulge in our professional Men Haircut & Beard Combo. Tailored to suit your personal style and hair texture.",
-            "price": "₹735"
-        },
-        {
-            "name": "MEN CUT & HEAD MASSAGE",
-            "desc": "Enjoy our professional MEN Cut & Head Massage. Nourishes your hair deeply from root to tip.",
-            "price": "₹840"
-        },
-        {
-            "name": "MEN HAIR CUT AND EXPRESS HAIR SPA",
-            "desc": "Treat yourself to our professional MEN HAIR CUT AND EXPRESS HAIR SPA. Expertly crafted by our senior stylists for a flawless finish.",
-            "price": "₹945"
-        }
-    ],
-    "skin": [
-        {
-            "name": "KIWI   CHERRY FRUIT GLOW FACIAL",
-            "desc": "Experience our professional KIWI   CHERRY FRUIT GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹1,785"
-        },
-        {
-            "name": "CITRUS AGLOW FACIAL",
-            "desc": "Indulge in our professional CITRUS AGLOW FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹1,420"
-        },
-        {
-            "name": "LOTUS GLYCOLIC PEEL TREATMENT",
-            "desc": "Enjoy our professional Lotus Glycolic Peel Treatment. Formulated to hydrate and refresh tired skin.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "KANPEKI JAPANESE BLANCH FACIAL",
-            "desc": "Treat yourself to our professional Kanpeki Japanese Blanch Facial. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹5,880"
-        },
-        {
-            "name": "LOTUS 24 KARAT QUEEN S FACIAL",
-            "desc": "Discover our professional Lotus 24 KARAT QUEEN S FACIAL. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹5,880"
-        },
-        {
-            "name": "LOTUS DERMASAGE BRIGHTENING BOOSTER",
-            "desc": "Experience our professional LOTUS DermaSAGE Brightening Booster. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "LOTUS DERMASAGE SUPER DETOX",
-            "desc": "Indulge in our professional LOTUS DermaSAGE Super Detox. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "LOTUS DERMASAGE ULTRA HYDRATING",
-            "desc": "Enjoy our professional LOTUS DermaSAGE Ultra Hydrating. Formulated to hydrate and refresh tired skin.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "LOTUS DERMASAGE YOUTH RECOVERY",
-            "desc": "Treat yourself to our professional LOTUS DermaSAGE Youth Recovery. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "YLG SIGNATURE BRIGHTENING FACIAL",
-            "desc": "Discover our professional YLG SIGNATURE BRIGHTENING FACIAL. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "YLG SIGNATURE GLOW FACIAL",
-            "desc": "Experience our professional YLG SIGNATURE GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "BRIDAL FACIAL",
-            "desc": "Indulge in our professional BRIDAL FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹7,245"
-        },
-        {
-            "name": "KANPEKI CELESTIAL GLOW FACIAL",
-            "desc": "Enjoy our professional KANPEKI CELESTIAL GLOW FACIAL. Formulated to hydrate and refresh tired skin.",
-            "price": "₹9,765"
-        },
-        {
-            "name": "KANPEKI KOREAN GLASS GLOW FACIAL",
-            "desc": "Treat yourself to our professional KANPEKI KOREAN GLASS GLOW FACIAL. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹8,610"
-        },
-        {
-            "name": "PURE GOLD",
-            "desc": "Discover our professional PURE GOLD. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "SKIN RADIANCE",
-            "desc": "Experience our professional SKIN RADIANCE. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "WINE RADIANCE",
-            "desc": "Indulge in our professional WINE RADIANCE. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "LOTUS PRESERVITA BEARBERRY MARMALADE FAC",
-            "desc": "Enjoy our professional Lotus PRESERVITA BEARBERRY MARMALADE FAC. Formulated to hydrate and refresh tired skin.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "LOTUS PRESERVITA KIWI FRUIT MARMALADE FACI",
-            "desc": "Treat yourself to our professional Lotus PRESERVITA KIWI FRUIT MARMALADE FACI. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "LOTUS PRESERVITA PINEAPPLE MARMALADE FACI",
-            "desc": "Discover our professional Lotus PRESERVITA PINEAPPLE MARMALADE FACI. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "LOTUS PRESERVITA VINO GRAPES MARMALADE F",
-            "desc": "Experience our professional Lotus PRESERVITA VINO GRAPES MARMALADE F. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "ELT WHITENING FACIAL",
-            "desc": "Indulge in our professional ELT WHITENING FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹4,515"
-        },
-        {
-            "name": "ELT GOLD FACIAL",
-            "desc": "Enjoy our professional ELT GOLD FACIAL. Formulated to hydrate and refresh tired skin.",
-            "price": "₹3,570"
-        },
-        {
-            "name": "MEN KIWI   CHERRY FRUIT GLOW FACIAL",
-            "desc": "Treat yourself to our professional MEN KIWI   CHERRY FRUIT GLOW FACIAL. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹1,840"
-        },
-        {
-            "name": "MEN ELT WHITENING FACIAL",
-            "desc": "Discover our professional Men ELT WHITENING FACIAL. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹4,570"
-        },
-        {
-            "name": "MEN ELT GOLD FACIAL",
-            "desc": "Experience our professional Men ELT GOLD FACIAL. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹3,625"
-        },
-        {
-            "name": "MEN PREMIUM EXPRESS WHITENING",
-            "desc": "Indulge in our professional MEN PREMIUM EXPRESS WHITENING. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹1,049"
-        },
-        {
-            "name": "MEN LOTUS PRESERVITA BEARBERRY MARMALAD",
-            "desc": "Enjoy our professional Men Lotus PRESERVITA BEARBERRY MARMALAD. Formulated to hydrate and refresh tired skin.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "MEN LOTUS PRESERVITA KIWI FRUIT MARMALADE",
-            "desc": "Treat yourself to our professional Men Lotus PRESERVITA KIWI FRUIT MARMALADE. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "MEN LOTUS PRESERVITA PINEAPPLE MARMALADE",
-            "desc": "Discover our professional Men Lotus PRESERVITA PINEAPPLE MARMALADE. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "MEN LOTUS PRESERVITA VINO GRAPES MARMALA",
-            "desc": "Experience our professional Men Lotus PRESERVITA VINO GRAPES MARMALA. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹4,199"
-        },
-        {
-            "name": "MEN KANPEKI JAPANESE BLANCH FACIAL",
-            "desc": "Indulge in our professional Men Kanpeki Japanese Blanch Facial. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹5,935"
-        },
-        {
-            "name": "O3 ALPHA MEN BRIGHT GROOM FACIA",
-            "desc": "Enjoy our professional O3 ALPHA MEN BRIGHT GROOM FACIA. Formulated to hydrate and refresh tired skin.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "MEN LOTUS 24 KARAT QUEEN S FACIAL",
-            "desc": "Treat yourself to our professional Men Lotus 24 KARAT QUEEN S FACIAL. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹5,880"
-        },
-        {
-            "name": "MEN LOTUS DERMASAGE GENTLE RESURFACING",
-            "desc": "Discover our professional Men LOTUS DermaSAGE Gentle Resurfacing. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "MEN YLG SIGNATURE BRIGHTENING FACIAL",
-            "desc": "Experience our professional Men YLG SIGNATURE BRIGHTENING FACIAL. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "MEN YLG SIGNATURE GLOW FACIAL",
-            "desc": "Indulge in our professional Men YLG SIGNATURE GLOW FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "MEN PURE GOLD",
-            "desc": "Enjoy our professional Men PURE GOLD. Formulated to hydrate and refresh tired skin.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "MEN SKIN RADIANCE",
-            "desc": "Treat yourself to our professional Men SKIN RADIANCE. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "MEN WINE RADIANCE",
-            "desc": "Discover our professional Men WINE RADIANCE. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "MEN DETAN FACE AND NECK",
-            "desc": "Experience our professional MEN DETAN FACE AND NECK. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹370"
-        },
-        {
-            "name": "MEN CITRUS AGLOW FACIAL",
-            "desc": "Indulge in our professional MEN CITRUS AGLOW FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹1,420"
-        },
-        {
-            "name": "CLEAN UP_KIWI   MANGO(FOR ALL SKIN)",
-            "desc": "Enjoy our professional CLEAN UP_KIWI   MANGO(FOR ALL SKIN). Formulated to hydrate and refresh tired skin.",
-            "price": "₹1,049"
-        },
-        {
-            "name": "CLEAN UP_ROSE   MINT(FOR ALL SKIN)",
-            "desc": "Treat yourself to our professional CLEAN UP_ROSE   MINT(FOR ALL SKIN). Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹1,049"
-        },
-        {
-            "name": "PREMIUM EXPRESS WHITENING",
-            "desc": "Discover our professional PREMIUM EXPRESS WHITENING. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹1,049"
-        }
-    ],
-    "waxing": [
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - BLOUSE LINE",
-            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Blouse Line. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹820"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - BUTTOCK",
-            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Buttock. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,000"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - COMBO",
-            "desc": "Experience our professional Crystal Anti-aging Gold Wax - Combo. A gentle, hygienic approach to hair removal.",
-            "price": "₹1,995"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL ARMS",
-            "desc": "Indulge in our professional Crystal Anti-aging Gold Wax - Full Arms. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹995"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL BACK",
-            "desc": "Enjoy our professional Crystal Anti-aging Gold Wax - Full Back. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹995"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL BODY",
-            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Full Body. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹3,465"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL FRONT",
-            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Full Front. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,210"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL LEGS",
-            "desc": "Experience our professional Crystal Anti-aging Gold Wax - Full Legs. A gentle, hygienic approach to hair removal.",
-            "price": "₹1,210"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD WAX - MIDRIFF",
-            "desc": "Indulge in our professional Crystal Anti-aging Gold Wax - Midriff. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹785"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN BLOUSE LINE WAX",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN BLOUSE LINE WAX. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹680"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN BUTTOCK CRACK WAX",
-            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN BUTTOCK CRACK WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹755"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN BUTTOCK WAX",
-            "desc": "Discover our professional PINK BRIGHT BRAZILIAN BUTTOCK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹755"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN CHEEK WAX",
-            "desc": "Experience our professional PINK BRIGHT BRAZILIAN CHEEK WAX. A gentle, hygienic approach to hair removal.",
-            "price": "₹140"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN CHIN WAX",
-            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN CHIN WAX. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹140"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN FOREHEAD WAX",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN FOREHEAD WAX. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹200"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN LOWER LIP WAX",
-            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN LOWER LIP WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹140"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN NECK WAX",
-            "desc": "Discover our professional PINK BRIGHT BRAZILIAN NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹225"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN NOSE WAX",
-            "desc": "Experience our professional PINK BRIGHT BRAZILIAN NOSE WAX. A gentle, hygienic approach to hair removal.",
-            "price": "₹105"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN THROAT WAX",
-            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN THROAT WAX. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹200"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BACK",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX - FULL BACK. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹1,940"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BIKINI",
-            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN WAX - FULL BIKINI. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹2,835"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS",
-            "desc": "Discover our professional PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹225"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX BIKINI LINE",
-            "desc": "Experience our professional PINK BRIGHT BRAZILIAN WAX BIKINI LINE. A gentle, hygienic approach to hair removal.",
-            "price": "₹790"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX UNDERARMS",
-            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN WAX UNDERARMS. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹225"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX UPPER LIP",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX UPPER LIP. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹105"
-        },
-        {
-            "name": "PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC",
-            "desc": "Treat yourself to our professional PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹8,499"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - BLOUSE LINE",
-            "desc": "Discover our professional Bright Blue Wax - Blouse Line. Professional and discrete service by our trained aestheticians.",
-            "price": "₹440"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - BUTTOCK",
-            "desc": "Experience our professional Bright Blue Wax - Buttock. A gentle, hygienic approach to hair removal.",
-            "price": "₹490"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - COMBO",
-            "desc": "Indulge in our professional Bright Blue Wax - Combo. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹840"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - FULL ARMS",
-            "desc": "Enjoy our professional Bright Blue Wax - Full Arms. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹340"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - FULL BACK",
-            "desc": "Treat yourself to our professional Bright Blue Wax - Full Back. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹525"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - FULL BODY",
-            "desc": "Discover our professional Bright Blue Wax - Full Body. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,940"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - FULL FRONT",
-            "desc": "Experience our professional Bright Blue Wax - Full Front. A gentle, hygienic approach to hair removal.",
-            "price": "₹470"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - FULL LEGS",
-            "desc": "Indulge in our professional Bright Blue Wax - Full Legs. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹440"
-        },
-        {
-            "name": "BRIGHT BLUE WAX - MIDRIFF",
-            "desc": "Enjoy our professional Bright Blue Wax - Midriff. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹490"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹690"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT NECK WAX",
-            "desc": "Discover our professional GOLD SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹315"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional GOLD SENSI BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹650"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹735"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL BODY",
-            "desc": "Enjoy our professional GOLD SENSI BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹2,675"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹795"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional GOLD SENSI BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹960"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional GOLD SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹735"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX COMBO",
-            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹1,520"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX MIDRIFF",
-            "desc": "Enjoy our professional GOLD SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹735"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹690"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT NECK WAX",
-            "desc": "Discover our professional PLATINUM SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹350"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional PLATINUM SENSI BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹849"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional PLATINUM SENSI BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹800"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL BODY",
-            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹2,939"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹750"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional PLATINUM SENSI BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,059"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional PLATINUM SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹755"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX COMBO",
-            "desc": "Indulge in our professional PLATINUM SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹1,735"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX MIDRIFF",
-            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹755"
-        },
-        {
-            "name": "SAFFRON BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional SAFFRON BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹610"
-        },
-        {
-            "name": "SAFFRON BRIGHT NECK WAX",
-            "desc": "Discover our professional SAFFRON BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹265"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional SAFFRON BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹570"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional SAFFRON BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹650"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL BODY",
-            "desc": "Enjoy our professional SAFFRON BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹2,415"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional SAFFRON BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹755"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional SAFFRON BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹770"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional SAFFRON BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹639"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX COMBO",
-            "desc": "Indulge in our professional SAFFRON BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹1,259"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX MIDRIFF",
-            "desc": "Enjoy our professional SAFFRON BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹639"
-        },
-        {
-            "name": "WHITE BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional WHITE BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹470"
-        },
-        {
-            "name": "WHITE BRIGHT NECK WAX",
-            "desc": "Discover our professional WHITE BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹189"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional WHITE BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹390"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional WHITE BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹560"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL BODY",
-            "desc": "Enjoy our professional WHITE BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹1,985"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional WHITE BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹525"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional WHITE BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹540"
-        },
-        {
-            "name": "WHITE BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional WHITE BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹495"
-        },
-        {
-            "name": "WHITE BRIGHT WAX COMBO",
-            "desc": "Indulge in our professional WHITE BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹945"
-        },
-        {
-            "name": "WHITE BRIGHT WAX MIDRIFF",
-            "desc": "Enjoy our professional WHITE BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹499"
-        },
-        {
-            "name": "CHOCOLATE BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional CHOCOLATE BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹440"
-        },
-        {
-            "name": "CHOCOLATE NECK WAX",
-            "desc": "Discover our professional CHOCOLATE NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹165"
-        },
-        {
-            "name": "CHOCOLATE WAX - FULL BACK",
-            "desc": "Experience our professional CHOCOLATE WAX - FULL BACK. A gentle, hygienic approach to hair removal.",
-            "price": "₹525"
-        },
-        {
-            "name": "CHOCOLATE WAX - FULL BODY",
-            "desc": "Indulge in our professional CHOCOLATE WAX - FULL BODY. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹1,890"
-        },
-        {
-            "name": "CHOCOLATE WAX - FULL FRONT",
-            "desc": "Enjoy our professional CHOCOLATE WAX - FULL FRONT. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹495"
-        },
-        {
-            "name": "CHOCOLATE WAX - FULL HANDS",
-            "desc": "Treat yourself to our professional CHOCOLATE WAX - FULL HANDS. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹340"
-        },
-        {
-            "name": "CHOCOLATE WAX - FULL LEGS",
-            "desc": "Discover our professional CHOCOLATE WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹440"
-        },
-        {
-            "name": "CHOCOLATE WAX COMBO.",
-            "desc": "Experience our professional CHOCOLATE WAX COMBO.. A gentle, hygienic approach to hair removal.",
-            "price": "₹840"
-        },
-        {
-            "name": "BIKINI CARE KIT",
-            "desc": "Treat yourself to our professional BIKINI CARE KIT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹580"
-        },
-        {
-            "name": "SAFFRON BRIGHT  - FULL BODY + B-WAX",
-            "desc": "Enjoy our professional SAFFRON BRIGHT  - FULL BODY + B-WAX. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹5,249"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT - FULL BODY + B-WAX",
-            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT - FULL BODY + B-WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT  - FULL BODY + B-WAX",
-            "desc": "Discover our professional GOLD SENSI BRIGHT  - FULL BODY + B-WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹5,510"
-        },
-        {
-            "name": "CRYSTAL ANTI-AGING GOLD - FULL BODY + B-WAX",
-            "desc": "Experience our professional Crystal Anti-aging Gold - Full Body + B-WAX. A gentle, hygienic approach to hair removal.",
-            "price": "₹6,299"
-        }
-    ],
-    "nails": [
-        {
-            "name": "CUT AND POLISH TOE NAILS",
-            "desc": "Enjoy our professional CUT and POLISH TOE NAILS. Long-lasting shine with premium nail products.",
-            "price": "₹419"
-        },
-        {
-            "name": "CHOCOLATE PEDICURE",
-            "desc": "Treat yourself to our professional CHOCOLATE PEDICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹945"
-        },
-        {
-            "name": "COFFEE PEDICURE",
-            "desc": "Discover our professional COFFEE PEDICURE. A pampering experience for your hands and feet.",
-            "price": "₹945"
-        },
-        {
-            "name": "COOLING PEPPERMINT PEDICURE",
-            "desc": "Experience our professional COOLING PEPPERMINT PEDICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹945"
-        },
-        {
-            "name": "ROSE & NEEM HERBAL EXPERIENCE (PEDI)",
-            "desc": "Indulge in our professional Rose & Neem Herbal Experience (Pedi). Relaxing hand or foot care for a polished look.",
-            "price": "₹2,625"
-        },
-        {
-            "name": "MIN TREE BOX THE TOX PEDICURE",
-            "desc": "Enjoy our professional MIN TREE BOX THE TOX PEDICURE. Long-lasting shine with premium nail products.",
-            "price": "₹2,100"
-        },
-        {
-            "name": "GOLD PEDICURE",
-            "desc": "Treat yourself to our professional GOLD PEDICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹1,049"
-        },
-        {
-            "name": "REJUVENATING PEDICURE",
-            "desc": "Discover our professional REJUVENATING PEDICURE. A pampering experience for your hands and feet.",
-            "price": "₹1,100"
-        },
-        {
-            "name": "BOMBINI PEDICURE",
-            "desc": "Experience our professional BOMBINI PEDICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹1,680"
-        },
-        {
-            "name": "DONUT BOMBINI PEDI",
-            "desc": "Indulge in our professional Donut Bombini Pedi. Relaxing hand or foot care for a polished look.",
-            "price": "₹2,260"
-        },
-        {
-            "name": "ALGA FLOWER ESSENCE PEDICURE",
-            "desc": "Enjoy our professional ALGA FLOWER ESSENCE PEDICURE. Long-lasting shine with premium nail products.",
-            "price": "₹2,470"
-        },
-        {
-            "name": "CAFE H AND F 48G PADICURE",
-            "desc": "Treat yourself to our professional CAFE H AND F 48G PADICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹1,469"
-        },
-        {
-            "name": "MEN CHOCOLATE PEDICURE",
-            "desc": "Discover our professional MEN CHOCOLATE PEDICURE. A pampering experience for your hands and feet.",
-            "price": "₹945"
-        },
-        {
-            "name": "MEN COFFEE PEDICURE",
-            "desc": "Experience our professional MEN COFFEE PEDICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹945"
-        },
-        {
-            "name": "MEN COOLING PEPPERMINT PEDICURE",
-            "desc": "Indulge in our professional MEN COOLING PEPPERMINT PEDICURE. Relaxing hand or foot care for a polished look.",
-            "price": "₹945"
-        },
-        {
-            "name": "MEN BOMBINI PEDICURE",
-            "desc": "Enjoy our professional MEN BOMBINI PEDICURE. Long-lasting shine with premium nail products.",
-            "price": "₹1,680"
-        },
-        {
-            "name": "MEN DONUT BOMBINI PEDI",
-            "desc": "Treat yourself to our professional MEN Donut Bombini Pedi. Keep your nails healthy and impeccably styled.",
-            "price": "₹2,260"
-        },
-        {
-            "name": "CHOCOLATE MANICURE",
-            "desc": "Discover our professional CHOCOLATE MANICURE. A pampering experience for your hands and feet.",
-            "price": "₹840"
-        },
-        {
-            "name": "COFFE MANICURE",
-            "desc": "Experience our professional COFFE MANICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹840"
-        },
-        {
-            "name": "COOLING PEPPERMINT MANICURE",
-            "desc": "Indulge in our professional COOLING PEPPERMINT MANICURE. Relaxing hand or foot care for a polished look.",
-            "price": "₹840"
-        },
-        {
-            "name": "CUT AND POLISH FINGER NAILS",
-            "desc": "Enjoy our professional CUT and POLISH FINGER NAILS. Long-lasting shine with premium nail products.",
-            "price": "₹419"
-        },
-        {
-            "name": "GOLD MANI CURE",
-            "desc": "Treat yourself to our professional GOLD MANI CURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹945"
-        },
-        {
-            "name": "REJUVENATING MANICURE",
-            "desc": "Discover our professional REJUVENATING MANICURE. A pampering experience for your hands and feet.",
-            "price": "₹1,000"
-        },
-        {
-            "name": "MIN TREE BOX THE TOX MANICURE",
-            "desc": "Experience our professional MIN TREE BOX THE TOX MANICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹2,050"
-        },
-        {
-            "name": "BOMBINI MANICURE",
-            "desc": "Indulge in our professional BOMBINI MANICURE. Relaxing hand or foot care for a polished look.",
-            "price": "₹1,630"
-        },
-        {
-            "name": "DONUT BOMBINI MANI",
-            "desc": "Enjoy our professional Donut Bombini Mani. Long-lasting shine with premium nail products.",
-            "price": "₹2,205"
-        },
-        {
-            "name": "ALGA FLOWER ESSENCE MANICURE",
-            "desc": "Treat yourself to our professional ALGA FLOWER ESSENCE MANICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "ROSE & NEEM HERBAL EXPERIENCE (MANI)",
-            "desc": "Discover our professional Rose & Neem Herbal Experience (Mani). A pampering experience for your hands and feet.",
-            "price": "₹2,470"
-        },
-        {
-            "name": "CAFE H AND F 48G - MANICURE",
-            "desc": "Experience our professional CAFE H AND F 48G - MANICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹1,365"
-        },
-        {
-            "name": "MEN DONUT BOMBINI MANI",
-            "desc": "Indulge in our professional MEN Donut Bombini Mani. Relaxing hand or foot care for a polished look.",
-            "price": "₹2,205"
-        },
-        {
-            "name": "MEN CHOCOLATE MANICURE",
-            "desc": "Enjoy our professional MEN CHOCOLATE MANICURE. Long-lasting shine with premium nail products.",
-            "price": "₹840"
-        },
-        {
-            "name": "MEN COFFE MANICURE",
-            "desc": "Treat yourself to our professional MEN COFFE MANICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹840"
-        },
-        {
-            "name": "MEN COOLING PEPPERMINT MANICURE",
-            "desc": "Discover our professional MEN COOLING PEPPERMINT MANICURE. A pampering experience for your hands and feet.",
-            "price": "₹840"
-        },
-        {
-            "name": "MEN BOMBINI MANICURE",
-            "desc": "Experience our professional MEN BOMBINI MANICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹1,630"
-        }
-    ],
-    "packages": [
-        {
-            "name": "NORMAL HAIRDO",
-            "desc": "Indulge in our professional NORMAL HAIRDO. Great value combined with our most popular premium services.",
-            "price": "₹1,735"
-        },
-        {
-            "name": "CREATIVE HAIRDO",
-            "desc": "Enjoy our professional CREATIVE HAIRDO. The perfect pampering session to prep for your special day.",
-            "price": "₹2,520"
-        }
-    ],
-    "de-tan": [
-        {
-            "name": "DETAN FEET",
-            "desc": "Indulge in our professional DETAN FEET. Restores your skin's natural brightness and texture.",
-            "price": "₹209"
-        },
-        {
-            "name": "DETAN UNDERARMS",
-            "desc": "Enjoy our professional DETAN UNDERARMS. A cooling and soothing treatment for sun-exposed skin.",
-            "price": "₹155"
-        },
-        {
-            "name": "DETAN BLOUSELINE",
-            "desc": "Treat yourself to our professional DETAN BLOUSELINE. Gentle formulation that brightens without irritation.",
-            "price": "₹575"
-        },
-        {
-            "name": "DETAN HALF ARMS",
-            "desc": "Discover our professional DETAN HALF ARMS. Instantly refreshing treatment for a radiant complexion.",
-            "price": "₹419"
-        },
-        {
-            "name": "DETAN LEGS",
-            "desc": "Experience our professional DETAN LEGS. Effectively removes sun tan and evens out your skin tone.",
-            "price": "₹945"
-        },
-        {
-            "name": "BLEACH BUTTOCK",
-            "desc": "Indulge in our professional BLEACH BUTTOCK. Restores your skin's natural brightness and texture.",
-            "price": "₹525"
-        },
-        {
-            "name": "DETAN FULL ARMS",
-            "desc": "Enjoy our professional DETAN FULL ARMS. A cooling and soothing treatment for sun-exposed skin.",
-            "price": "₹525"
-        },
-        {
-            "name": "DETAN HALF LEGS",
-            "desc": "Treat yourself to our professional DETAN HALF LEGS. Gentle formulation that brightens without irritation.",
-            "price": "₹525"
-        },
-        {
-            "name": "DETAN UPPER LIP",
-            "desc": "Discover our professional DETAN UPPER LIP. Instantly refreshing treatment for a radiant complexion.",
-            "price": "₹116"
-        },
-        {
-            "name": "DETAN FACE AND NECK",
-            "desc": "Experience our professional DETAN FACE AND NECK. Effectively removes sun tan and evens out your skin tone.",
-            "price": "₹365"
-        },
-        {
-            "name": "DETAN BUTTOCK",
-            "desc": "Indulge in our professional DETAN BUTTOCK. Restores your skin's natural brightness and texture.",
-            "price": "₹629"
-        },
-        {
-            "name": "DETAN FULL BACK",
-            "desc": "Enjoy our professional DETAN FULL BACK. A cooling and soothing treatment for sun-exposed skin.",
-            "price": "₹629"
-        },
-        {
-            "name": "DETAN FULL FRONT",
-            "desc": "Treat yourself to our professional DETAN FULL FRONT. Gentle formulation that brightens without irritation.",
-            "price": "₹629"
-        },
-        {
-            "name": "WHITENING SERVICE FULL",
-            "desc": "Discover our professional WHITENING SERVICE FULL. Instantly refreshing treatment for a radiant complexion.",
-            "price": "₹3,989"
-        }
-    ],
-    "makeup": [
-        {
-            "name": "SAREE DRAPE NORMAL",
-            "desc": "Experience our professional SAREE DRAPE NORMAL. Flawless application tailored to your facial features.",
-            "price": "₹370"
-        },
-        {
-            "name": "SAREE DRAPE FANCY",
-            "desc": "Indulge in our professional SAREE DRAPE FANCY. Using premium, long-lasting products for your special occasion.",
-            "price": "₹580"
-        }
-    ],
-    "others": [
-        {
-            "name": "B WAX PACKAGE",
-            "desc": "Enjoy our professional B WAX PACKAGE. Relax and unwind with our specialized treatments.",
-            "price": "₹6,929"
-        },
-        {
-            "name": "THREADING LOWER LIP",
-            "desc": "Indulge in our professional THREADING LOWER LIP. Experience professional care with top-tier products.",
-            "price": "₹75"
-        },
-        {
-            "name": "THREADNG CHIN",
-            "desc": "Enjoy our professional THREADNG CHIN. Relax and unwind with our specialized treatments.",
-            "price": "₹75"
-        },
-        {
-            "name": "THREADING EYEBROWS",
-            "desc": "Treat yourself to our professional THREADING EYEBROWS. Expertly delivered for your complete satisfaction.",
-            "price": "₹75"
-        },
-        {
-            "name": "THREADING FOREHEAD",
-            "desc": "Discover our professional Threading Forehead. Dedicated attention to detail for the perfect result.",
-            "price": "₹75"
-        },
-        {
-            "name": "THREADING UPPER LIP",
-            "desc": "Experience our professional Threading Upper Lip. A premium service tailored specifically to your needs.",
-            "price": "₹75"
-        },
-        {
-            "name": "THREADING NECK",
-            "desc": "Indulge in our professional THREADING NECK. Experience professional care with top-tier products.",
-            "price": "₹95"
-        },
-        {
-            "name": "THREADING SIDELOCKS",
-            "desc": "Enjoy our professional THREADING SIDELOCKS. Relax and unwind with our specialized treatments.",
-            "price": "₹75"
-        },
-        {
-            "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
-            "desc": "Experience our professional EXPERT Creative  Zero Amm GLOBAL FASHION CO. A premium service tailored specifically to your needs.",
-            "price": "₹9,870"
-        },
-        {
-            "name": "INOA GLOBAL FASHION COLOR(S)",
-            "desc": "Indulge in our professional INOA GLOBAL FASHION COLOR(S). Experience professional care with top-tier products.",
-            "price": "₹3,465"
-        },
-        {
-            "name": "MAJIREL GLOBAL FASHION COLOR-S",
-            "desc": "Enjoy our professional MAJIREL GLOBAL FASHION COLOR-S. Relax and unwind with our specialized treatments.",
-            "price": "₹2,939"
-        },
-        {
-            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOR (S)",
-            "desc": "Treat yourself to our professional EXPERT Zero Amm GLOBAL FASHION COLOR (S). Expertly delivered for your complete satisfaction.",
-            "price": "₹3,725"
-        },
-        {
-            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (S)",
-            "desc": "Discover our professional EXPERT MAJIREL GLOBAL FASHION COLOR (S). Dedicated attention to detail for the perfect result.",
-            "price": "₹3,199"
-        },
-        {
-            "name": "YLG CREATIVE COLOR XL",
-            "desc": "Experience our professional YLG Creative Color XL. A premium service tailored specifically to your needs.",
-            "price": "₹7,559"
-        },
-        {
-            "name": "LOOK BOOK ICED LATTE XL",
-            "desc": "Indulge in our professional Look Book Iced Latte XL. Experience professional care with top-tier products.",
-            "price": "₹7,559"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL S-M",
-            "desc": "Enjoy our professional YLG Creative Color  Majirel Global S-M. Relax and unwind with our specialized treatments.",
-            "price": "₹7,769"
-        },
-        {
-            "name": "EXPERT INOA GLOBAL FASHION COLOR (M)",
-            "desc": "Treat yourself to our professional EXPERT INOA GLOBAL FASHION COLOR (M). Expertly delivered for your complete satisfaction.",
-            "price": "₹4,460"
-        },
-        {
-            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOR (M)",
-            "desc": "Discover our professional EXPERT Zero Amm GLOBAL FASHION COLOR (M). Dedicated attention to detail for the perfect result.",
-            "price": "₹4,460"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL L",
-            "desc": "Experience our professional YLG Creative Color  Majirel Global L. A premium service tailored specifically to your needs.",
-            "price": "₹8,925"
-        },
-        {
-            "name": "EXPERT CREATIVE  L  EXPERT INOA GLOBAL FASHIO",
-            "desc": "Indulge in our professional EXPERT Creative  L  EXPERT INOA GLOBAL FASHIO. Experience professional care with top-tier products.",
-            "price": "₹10,395"
-        },
-        {
-            "name": "ZERO AMM GLOBAL FASHION COLOR(S)",
-            "desc": "Enjoy our professional Zero Amm GLOBAL FASHION COLOR(S). Relax and unwind with our specialized treatments.",
-            "price": "₹3,359"
-        },
-        {
-            "name": "YLG CREATIVE COLOR L",
-            "desc": "Treat yourself to our professional YLG Creative Color L. Expertly delivered for your complete satisfaction.",
-            "price": "₹6,720"
-        },
-        {
-            "name": "EXPERT CREATIVE  S-M  EXPERT MAJIREL GLOBAL",
-            "desc": "Discover our professional EXPERT Creative  S-M  EXPERT MAJIREL GLOBAL. Dedicated attention to detail for the perfect result.",
-            "price": "₹8,925"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL XL",
-            "desc": "Experience our professional YLG Creative Color  Majirel Global XL. A premium service tailored specifically to your needs.",
-            "price": "₹10,130"
-        },
-        {
-            "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
-            "desc": "Indulge in our professional EXPERT Creative  Zero Amm GLOBAL FASHION CO. Experience professional care with top-tier products.",
-            "price": "₹9,185"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  INOA GLOBAL L",
-            "desc": "Enjoy our professional YLG Creative Color  Inoa Global L. Relax and unwind with our specialized treatments.",
-            "price": "₹9,029"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  ZERO AMM GLOBAL (L)",
-            "desc": "Treat yourself to our professional YLG Creative Color  Zero Amm Global (L). Expertly delivered for your complete satisfaction.",
-            "price": "₹9,029"
-        },
-        {
-            "name": "EXPERT YLG CREATIVE COLOR L",
-            "desc": "Discover our professional EXPERT YLG Creative Color L. Dedicated attention to detail for the perfect result.",
-            "price": "₹7,715"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  INOA GLOBAL S-M",
-            "desc": "Experience our professional YLG Creative Color  Inoa Global S-M. A premium service tailored specifically to your needs.",
-            "price": "₹7,979"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  ZERO AMM GLOBAL (S-M)",
-            "desc": "Indulge in our professional YLG Creative Color  Zero Amm Global (S-M). Experience professional care with top-tier products.",
-            "price": "₹7,979"
-        },
-        {
-            "name": "EXPERT CREATIVE  XL  EXPERT INOA GLOBAL FASH",
-            "desc": "Enjoy our professional EXPERT Creative  XL  EXPERT INOA GLOBAL FASH. Relax and unwind with our specialized treatments.",
-            "price": "₹11,969"
-        },
-        {
-            "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
-            "desc": "Treat yourself to our professional EXPERT Creative  Zero Amm GLOBAL FASHION CO. Expertly delivered for your complete satisfaction.",
-            "price": "₹11,969"
-        },
-        {
-            "name": "EXPERT CREATIVE  L  EXPERT MAJIREL GLOBAL FAS",
-            "desc": "Discover our professional EXPERT Creative  L  EXPERT MAJIREL GLOBAL FAS. Dedicated attention to detail for the perfect result.",
-            "price": "₹10,235"
-        },
-        {
-            "name": "EXPERT INOA GLOBAL FASHION COLOR (L)",
-            "desc": "Experience our professional EXPERT INOA GLOBAL FASHION COLOR (L). A premium service tailored specifically to your needs.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOR (L)",
-            "desc": "Indulge in our professional EXPERT Zero Amm GLOBAL FASHION COLOR (L). Experience professional care with top-tier products.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "EXPERT CREATIVE  S-M  EXPERT INOA GLOBAL FAS",
-            "desc": "Enjoy our professional EXPERT Creative  S-M  EXPERT INOA GLOBAL FAS. Relax and unwind with our specialized treatments.",
-            "price": "₹9,165"
-        },
-        {
-            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (XL)",
-            "desc": "Treat yourself to our professional EXPERT MAJIREL GLOBAL FASHION COLOR (XL). Expertly delivered for your complete satisfaction.",
-            "price": "₹6,355"
-        },
-        {
-            "name": "INOA GLOBAL FASHION COLOR(L)",
-            "desc": "Discover our professional INOA GLOBAL FASHION COLOR(L). Dedicated attention to detail for the perfect result.",
-            "price": "₹5,200"
-        },
-        {
-            "name": "INOA GLOBAL FASHION COLOR(M)",
-            "desc": "Experience our professional INOA GLOBAL FASHION COLOR(M). A premium service tailored specifically to your needs.",
-            "price": "₹4,040"
-        },
-        {
-            "name": "INOA GLOBAL FASHION COLOUR XL",
-            "desc": "Indulge in our professional INOA GLOBAL FASHION COLOUR XL. Experience professional care with top-tier products.",
-            "price": "₹6,355"
-        },
-        {
-            "name": "LOOK BOOK CINNAMON SWIRL L",
-            "desc": "Enjoy our professional Look Book Cinnamon Swirl L. Relax and unwind with our specialized treatments.",
-            "price": "₹6,355"
-        },
-        {
-            "name": "LOOK BOOK ICED LATTE L",
-            "desc": "Treat yourself to our professional Look Book Iced Latte L. Expertly delivered for your complete satisfaction.",
-            "price": "₹6,355"
-        },
-        {
-            "name": "MAJIREL GLOBAL FASHION COLOR - XL",
-            "desc": "Discover our professional MAJIREL GLOBAL FASHION COLOR - XL. Dedicated attention to detail for the perfect result.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  INOA GLOBAL XL",
-            "desc": "Experience our professional YLG Creative Color  Inoa Global XL. A premium service tailored specifically to your needs.",
-            "price": "₹10,395"
-        },
-        {
-            "name": "YLG CREATIVE COLOR  ZERO AMM GLOBAL (XL)",
-            "desc": "Indulge in our professional YLG Creative Color  Zero Amm Global (XL). Experience professional care with top-tier products.",
-            "price": "₹10,395"
-        },
-        {
-            "name": "ZERO AMM GLOBAL FASHION COLOR(L)",
-            "desc": "Enjoy our professional Zero Amm GLOBAL FASHION COLOR(L). Relax and unwind with our specialized treatments.",
-            "price": "₹5,200"
-        },
-        {
-            "name": "ZERO AMM GLOBAL FASHION COLOR(M)",
-            "desc": "Treat yourself to our professional Zero Amm GLOBAL FASHION COLOR(M). Expertly delivered for your complete satisfaction.",
-            "price": "₹4,040"
-        },
-        {
-            "name": "ZERO AMM GLOBAL FASHION COLOUR (XL)",
-            "desc": "Discover our professional Zero Amm GLOBAL FASHION COLOUR (XL). Dedicated attention to detail for the perfect result.",
-            "price": "₹6,355"
-        },
-        {
-            "name": "EXPERT INOA GLOBAL FASHION COLOUR (XL)",
-            "desc": "Experience our professional EXPERT INOA GLOBAL FASHION COLOUR (XL). A premium service tailored specifically to your needs.",
-            "price": "₹6,985"
-        },
-        {
-            "name": "EXPERT YLG CREATIVE COLOR S-M",
-            "desc": "Indulge in our professional EXPERT YLG Creative Color S-M. Experience professional care with top-tier products.",
-            "price": "₹7,035"
-        },
-        {
-            "name": "EXPERT ZERO AMM GLOBAL FASHION COLOUR (X",
-            "desc": "Enjoy our professional EXPERT Zero Amm GLOBAL FASHION COLOUR (X. Relax and unwind with our specialized treatments.",
-            "price": "₹6,985"
-        },
-        {
-            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (M)",
-            "desc": "Treat yourself to our professional EXPERT MAJIREL GLOBAL FASHION COLOR (M). Expertly delivered for your complete satisfaction.",
-            "price": "₹4,095"
-        },
-        {
-            "name": "EXPERT YLG CREATIVE COLOR XL",
-            "desc": "Discover our professional EXPERT YLG Creative Color XL. Dedicated attention to detail for the perfect result.",
-            "price": "₹8,610"
-        },
-        {
-            "name": "YLG CREATIVE COLOR S-M",
-            "desc": "Experience our professional YLG Creative Color S-M. A premium service tailored specifically to your needs.",
-            "price": "₹6,089"
-        },
-        {
-            "name": "EXPERT INOA GLOBAL FASHION COLOR (S)",
-            "desc": "Indulge in our professional EXPERT INOA GLOBAL FASHION COLOR (S). Experience professional care with top-tier products.",
-            "price": "₹3,675"
-        },
-        {
-            "name": "MAJIREL GLOBAL FASHION COLOR-M",
-            "desc": "Enjoy our professional MAJIREL GLOBAL FASHION COLOR-M. Relax and unwind with our specialized treatments.",
-            "price": "₹3,675"
-        },
-        {
-            "name": "MAJIREL GLOBAL FASHION COLOR-L",
-            "desc": "Treat yourself to our professional MAJIREL GLOBAL FASHION COLOR-L. Expertly delivered for your complete satisfaction.",
-            "price": "₹4,935"
-        },
-        {
-            "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (L)",
-            "desc": "Discover our professional EXPERT MAJIREL GLOBAL FASHION COLOR (L). Dedicated attention to detail for the perfect result.",
-            "price": "₹5,565"
-        },
-        {
-            "name": "INOA ROOT TOUCH BY EXPERT STYLIST UPTO 2 INCH)",
-            "desc": "Experience our professional Inoa Root Touch by Expert Stylist upto 2 inch). A premium service tailored specifically to your needs.",
-            "price": "₹2,100"
-        },
-        {
-            "name": "ZERO AMM ROOT TOUCH BY EXPERT STYLIST (UP TO 2 I",
-            "desc": "Indulge in our professional Zero Amm Root Touch by Expert Stylist (up to 2 i. Experience professional care with top-tier products.",
-            "price": "₹2,100"
-        },
-        {
-            "name": "MAJIREL ROOT TOUCH UP TO 2-INCH (UPTO FULL TUBE)",
-            "desc": "Enjoy our professional Majirel Root Touch up to 2-inch (upto full tube). Relax and unwind with our specialized treatments.",
-            "price": "₹1,630"
-        },
-        {
-            "name": "INOA ROOT TOUCH UP TO 2 INCH (UPTO FULL TUBE)",
-            "desc": "Treat yourself to our professional Inoa Root Touch up to 2 inch (upto full tube). Expertly delivered for your complete satisfaction.",
-            "price": "₹1,735"
-        },
-        {
-            "name": "ZERO AMM ROOT TOUCH (UP TO 2 INCH)",
-            "desc": "Discover our professional Zero Amm Root Touch (up to 2 inch). Dedicated attention to detail for the perfect result.",
-            "price": "₹1,735"
-        },
-        {
-            "name": "MAJIREL ROOT TOUCH BY EXPERT STYLIST UPTO 2 INCH)",
-            "desc": "Experience our professional Majirel Root Touch by Expert Stylist upto 2 inch). A premium service tailored specifically to your needs.",
-            "price": "₹1,940"
-        },
-        {
-            "name": "ROOT TOUCH-UPHIGHLIGHTS",
-            "desc": "Indulge in our professional Root Touch-upHighlights. Experience professional care with top-tier products.",
-            "price": "₹2,939"
+            "type": "subheading",
+            "name": "SCALP CARE & ANTI-DANDRUFF"
         },
         {
             "name": "ANTI-DANDRUFF TREATMENT L-XL",
@@ -1850,104 +863,8 @@ window.menuData = {
             "price": "₹5,200"
         },
         {
-            "name": "HAND REFLEXOLOGY",
-            "desc": "Discover our professional Hand reflexology. Dedicated attention to detail for the perfect result.",
-            "price": "₹525"
-        },
-        {
-            "name": "FEET REFLEXOLOGY",
-            "desc": "Experience our professional Feet reflexology. A premium service tailored specifically to your needs.",
-            "price": "₹629"
-        },
-        {
-            "name": "FOOT MASSAGE",
-            "desc": "Indulge in our professional Foot massage. Experience professional care with top-tier products.",
-            "price": "₹629"
-        },
-        {
-            "name": "BACK POLISH (USING TERRA BODY SCRUB)",
-            "desc": "Indulge in our professional Back polish (using terra body scrub). Experience professional care with top-tier products.",
-            "price": "₹525"
-        },
-        {
-            "name": "MEN HAIR COLOUR",
-            "desc": "Enjoy our professional MEN HAIR COLOUR. Relax and unwind with our specialized treatments.",
-            "price": "₹1,155"
-        },
-        {
-            "name": "MEN HAIR STRAIGHTENING",
-            "desc": "Treat yourself to our professional MEN HAIR STRAIGHTENING. Expertly delivered for your complete satisfaction.",
-            "price": "₹3,675"
-        },
-        {
-            "name": "MEN- CLEAR LIPGLOSS",
-            "desc": "Discover our professional MEN- CLEAR LIPGLOSS. Dedicated attention to detail for the perfect result.",
-            "price": "₹1,840"
-        },
-        {
-            "name": "MEN CUT  COLOUR - NEW",
-            "desc": "Experience our professional MEN CUT  COLOUR - NEW. A premium service tailored specifically to your needs.",
-            "price": "₹1,469"
-        },
-        {
-            "name": "OLAPLEX EXPRESS SPA MENS",
-            "desc": "Discover our professional Olaplex Express Spa Mens. Dedicated attention to detail for the perfect result.",
-            "price": "₹475"
-        },
-        {
-            "name": "MEN-HEAD MSG ALMOND",
-            "desc": "Experience our professional MEN-Head Msg Almond. A premium service tailored specifically to your needs.",
-            "price": "₹475"
-        },
-        {
-            "name": "MEN-HEAD MSG OLIVE",
-            "desc": "Indulge in our professional MEN-Head Msg Olive. Experience professional care with top-tier products.",
-            "price": "₹475"
-        },
-        {
-            "name": "MEN- SPECIAL FUSION DOSE RITUAL",
-            "desc": "Enjoy our professional MEN- SPECIAL FUSION DOSE RITUAL. Relax and unwind with our specialized treatments.",
-            "price": "₹1,000"
-        },
-        {
-            "name": "ANTI-DANDRUFF TREATMENT MENS",
-            "desc": "Treat yourself to our professional Anti-Dandruff Treatment Mens. Expertly delivered for your complete satisfaction.",
-            "price": "₹1,155"
-        },
-        {
-            "name": "ANTI-HAIRFALL TREATMENT MENS",
-            "desc": "Discover our professional Anti-Hairfall Treatment Mens. Dedicated attention to detail for the perfect result.",
-            "price": "₹1,155"
-        },
-        {
-            "name": "MEN COLOR SEALING TREATMENT",
-            "desc": "Experience our professional MEN Color Sealing Treatment. A premium service tailored specifically to your needs.",
-            "price": "₹1,735"
-        },
-        {
-            "name": "MEN- HEAD MSG COMBO",
-            "desc": "Indulge in our professional MEN- Head Msg Combo. Experience professional care with top-tier products.",
-            "price": "₹1,155"
-        },
-        {
-            "name": "MEN- YLG COLORCARE TREATMENT",
-            "desc": "Enjoy our professional MEN- YLG COLORCARE TREATMENT. Relax and unwind with our specialized treatments.",
-            "price": "₹1,155"
-        },
-        {
-            "name": "MEN-KERASTASE HAIR WASH CONDITIONING",
-            "desc": "Treat yourself to our professional MEN-KERASTASE HAIR WASH CONDITIONING. Expertly delivered for your complete satisfaction.",
-            "price": "₹580"
-        },
-        {
-            "name": "MEN- HEAD MSG WITH CHROMOSTEAM",
-            "desc": "Discover our professional MEN- HEAD MSG WITH CHROMOSTEAM. Dedicated attention to detail for the perfect result.",
-            "price": "₹680"
-        },
-        {
-            "name": "YLG EXPRESS SPA (5 VARIANTS) MENS",
-            "desc": "Experience our professional YLG Express Spa (5 Variants) Mens. A premium service tailored specifically to your needs.",
-            "price": "₹790"
+            "type": "subheading",
+            "name": "HIGHLIGHTS & STREAKS"
         },
         {
             "name": "1 COLOR STREAK (W/O PRELIGHTENING)",
@@ -1965,79 +882,8 @@ window.menuData = {
             "price": "₹629"
         },
         {
-            "name": "HEAD MSG ALMOND",
-            "desc": "Discover our professional Head Msg Almond. Dedicated attention to detail for the perfect result.",
-            "price": "₹575"
-        },
-        {
-            "name": "HEAD MSG AROMA",
-            "desc": "Experience our professional Head Msg Aroma. A premium service tailored specifically to your needs.",
-            "price": "₹575"
-        },
-        {
-            "name": "HEAD MSG OLIVE",
-            "desc": "Indulge in our professional Head Msg Olive. Experience professional care with top-tier products.",
-            "price": "₹575"
-        },
-        {
-            "name": "HEAD MSG WITH CHROMOSTEAM",
-            "desc": "Enjoy our professional HEAD MSG WITH CHROMOSTEAM. Relax and unwind with our specialized treatments.",
-            "price": "₹680"
-        },
-        {
-            "name": "BEARD COLOUR (FULL TUBE) ZERO AMM",
-            "desc": "Treat yourself to our professional Beard colour (full tube) Zero Amm. Expertly delivered for your complete satisfaction.",
-            "price": "₹1,785"
-        },
-        {
-            "name": "BEARD COLOUR (FULL TUBE)INOA",
-            "desc": "Discover our professional Beard colour (full tube)INOA. Dedicated attention to detail for the perfect result.",
-            "price": "₹1,785"
-        },
-        {
-            "name": "BEARD COLOUR (HALF TUBE) MAJIREL",
-            "desc": "Experience our professional Beard colour (Half tube) MAJIREL. A premium service tailored specifically to your needs.",
-            "price": "₹1,310"
-        },
-        {
-            "name": "BEARD COLOUR (FULL TUBE) MAJIREL",
-            "desc": "Indulge in our professional Beard colour (full tube) MAJIREL. Experience professional care with top-tier products.",
-            "price": "₹1,520"
-        },
-        {
-            "name": "BEARD COLOUR (HALF TUBE) ZERO AMM",
-            "desc": "Enjoy our professional Beard colour (Half tube) Zero Amm. Relax and unwind with our specialized treatments.",
-            "price": "₹1,625"
-        },
-        {
-            "name": "BEARD COLOUR (HALF TUBE)INOA",
-            "desc": "Treat yourself to our professional Beard colour (Half tube)INOA. Expertly delivered for your complete satisfaction.",
-            "price": "₹1,625"
-        },
-        {
-            "name": "MEN FOAM SHAVE",
-            "desc": "Discover our professional MEN FOAM SHAVE. Dedicated attention to detail for the perfect result.",
-            "price": "₹525"
-        },
-        {
-            "name": "BRIGHTENING MASK",
-            "desc": "Experience our professional BRIGHTENING MASK. A premium service tailored specifically to your needs.",
-            "price": "₹840"
-        },
-        {
-            "name": "UNDEREYE MASK",
-            "desc": "Indulge in our professional UNDEREYE MASK. Experience professional care with top-tier products.",
-            "price": "₹116"
-        },
-        {
-            "name": "ALOE VERA GEL MASK FOR HYDRATION",
-            "desc": "Enjoy our professional Aloe Vera gel mask for hydration. Relax and unwind with our specialized treatments.",
-            "price": "₹345"
-        },
-        {
-            "name": "TURMERIC AND SAFFRON MASK FOR BRIGHTENING",
-            "desc": "Treat yourself to our professional Turmeric and Saffron mask for brightening. Expertly delivered for your complete satisfaction.",
-            "price": "₹345"
+            "type": "subheading",
+            "name": "COLOR ADD-ONS & CHARGES"
         },
         {
             "name": "INOA EXTRA HALF TUBE PRODUCT CHARGE",
@@ -2135,6 +981,10 @@ window.menuData = {
             "price": "₹735"
         },
         {
+            "type": "subheading",
+            "name": "CHEMICAL HAIR TREATMENTS"
+        },
+        {
             "name": "STEAM POD TREATMENT S-M",
             "desc": "Discover our professional STEAM POD TREATMENT S-M. Dedicated attention to detail for the perfect result.",
             "price": "₹945"
@@ -2218,6 +1068,1336 @@ window.menuData = {
             "name": "OLAPLEX GLOBAL COLOUR ADD-ON L",
             "desc": "Experience our professional Olaplex Global Colour Add-on L. A premium service tailored specifically to your needs.",
             "price": "₹1,259"
+        }
+    ],
+    "skin": [
+        {
+            "type": "subheading",
+            "name": "CLASSIC FACIALS"
+        },
+        {
+            "name": "KIWI   CHERRY FRUIT GLOW FACIAL",
+            "desc": "Experience our professional KIWI   CHERRY FRUIT GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹1,785"
+        },
+        {
+            "name": "CITRUS AGLOW FACIAL",
+            "desc": "Indulge in our professional CITRUS AGLOW FACIAL. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹1,420"
+        },
+        {
+            "type": "subheading",
+            "name": "LUXURY FACIALS"
+        },
+        {
+            "name": "LOTUS GLYCOLIC PEEL TREATMENT",
+            "desc": "Enjoy our professional Lotus Glycolic Peel Treatment. Formulated to hydrate and refresh tired skin.",
+            "price": "₹5,775"
+        },
+        {
+            "name": "KANPEKI JAPANESE BLANCH FACIAL",
+            "desc": "Treat yourself to our professional Kanpeki Japanese Blanch Facial. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹5,880"
+        },
+        {
+            "name": "LOTUS 24 KARAT QUEEN S FACIAL",
+            "desc": "Discover our professional Lotus 24 KARAT QUEEN S FACIAL. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹5,880"
+        },
+        {
+            "name": "LOTUS DERMASAGE BRIGHTENING BOOSTER",
+            "desc": "Experience our professional LOTUS DermaSAGE Brightening Booster. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "LOTUS DERMASAGE SUPER DETOX",
+            "desc": "Indulge in our professional LOTUS DermaSAGE Super Detox. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "LOTUS DERMASAGE ULTRA HYDRATING",
+            "desc": "Enjoy our professional LOTUS DermaSAGE Ultra Hydrating. Formulated to hydrate and refresh tired skin.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "LOTUS DERMASAGE YOUTH RECOVERY",
+            "desc": "Treat yourself to our professional LOTUS DermaSAGE Youth Recovery. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "YLG SIGNATURE BRIGHTENING FACIAL",
+            "desc": "Discover our professional YLG SIGNATURE BRIGHTENING FACIAL. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "YLG SIGNATURE GLOW FACIAL",
+            "desc": "Experience our professional YLG SIGNATURE GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "BRIDAL FACIAL",
+            "desc": "Indulge in our professional BRIDAL FACIAL. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹7,245"
+        },
+        {
+            "name": "KANPEKI CELESTIAL GLOW FACIAL",
+            "desc": "Enjoy our professional KANPEKI CELESTIAL GLOW FACIAL. Formulated to hydrate and refresh tired skin.",
+            "price": "₹9,765"
+        },
+        {
+            "name": "KANPEKI KOREAN GLASS GLOW FACIAL",
+            "desc": "Treat yourself to our professional KANPEKI KOREAN GLASS GLOW FACIAL. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹8,610"
+        },
+        {
+            "type": "subheading",
+            "name": "PREMIUM FACIALS"
+        },
+        {
+            "name": "PURE GOLD",
+            "desc": "Discover our professional PURE GOLD. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "SKIN RADIANCE",
+            "desc": "Experience our professional SKIN RADIANCE. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "WINE RADIANCE",
+            "desc": "Indulge in our professional WINE RADIANCE. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹2,365"
+        },
+        {
+            "type": "subheading",
+            "name": "SIGNATURE FACIALS"
+        },
+        {
+            "name": "LOTUS PRESERVITA BEARBERRY MARMALADE FAC",
+            "desc": "Enjoy our professional Lotus PRESERVITA BEARBERRY MARMALADE FAC. Formulated to hydrate and refresh tired skin.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "LOTUS PRESERVITA KIWI FRUIT MARMALADE FACI",
+            "desc": "Treat yourself to our professional Lotus PRESERVITA KIWI FRUIT MARMALADE FACI. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "LOTUS PRESERVITA PINEAPPLE MARMALADE FACI",
+            "desc": "Discover our professional Lotus PRESERVITA PINEAPPLE MARMALADE FACI. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "LOTUS PRESERVITA VINO GRAPES MARMALADE F",
+            "desc": "Experience our professional Lotus PRESERVITA VINO GRAPES MARMALADE F. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "ELT WHITENING FACIAL",
+            "desc": "Indulge in our professional ELT WHITENING FACIAL. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹4,515"
+        },
+        {
+            "name": "ELT GOLD FACIAL",
+            "desc": "Enjoy our professional ELT GOLD FACIAL. Formulated to hydrate and refresh tired skin.",
+            "price": "₹3,570"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS FACIALS"
+        },
+        {
+            "name": "MEN KIWI   CHERRY FRUIT GLOW FACIAL",
+            "desc": "Treat yourself to our professional MEN KIWI   CHERRY FRUIT GLOW FACIAL. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹1,840"
+        },
+        {
+            "name": "MEN ELT WHITENING FACIAL",
+            "desc": "Discover our professional Men ELT WHITENING FACIAL. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹4,570"
+        },
+        {
+            "name": "MEN ELT GOLD FACIAL",
+            "desc": "Experience our professional Men ELT GOLD FACIAL. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹3,625"
+        },
+        {
+            "name": "MEN PREMIUM EXPRESS WHITENING",
+            "desc": "Indulge in our professional MEN PREMIUM EXPRESS WHITENING. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹1,049"
+        },
+        {
+            "name": "MEN LOTUS PRESERVITA BEARBERRY MARMALAD",
+            "desc": "Enjoy our professional Men Lotus PRESERVITA BEARBERRY MARMALAD. Formulated to hydrate and refresh tired skin.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "MEN LOTUS PRESERVITA KIWI FRUIT MARMALADE",
+            "desc": "Treat yourself to our professional Men Lotus PRESERVITA KIWI FRUIT MARMALADE. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "MEN LOTUS PRESERVITA PINEAPPLE MARMALADE",
+            "desc": "Discover our professional Men Lotus PRESERVITA PINEAPPLE MARMALADE. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "MEN LOTUS PRESERVITA VINO GRAPES MARMALA",
+            "desc": "Experience our professional Men Lotus PRESERVITA VINO GRAPES MARMALA. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹4,199"
+        },
+        {
+            "name": "MEN KANPEKI JAPANESE BLANCH FACIAL",
+            "desc": "Indulge in our professional Men Kanpeki Japanese Blanch Facial. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹5,935"
+        },
+        {
+            "name": "O3 ALPHA MEN BRIGHT GROOM FACIA",
+            "desc": "Enjoy our professional O3 ALPHA MEN BRIGHT GROOM FACIA. Formulated to hydrate and refresh tired skin.",
+            "price": "₹5,775"
+        },
+        {
+            "name": "MEN LOTUS 24 KARAT QUEEN S FACIAL",
+            "desc": "Treat yourself to our professional Men Lotus 24 KARAT QUEEN S FACIAL. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹5,880"
+        },
+        {
+            "name": "MEN LOTUS DERMASAGE GENTLE RESURFACING",
+            "desc": "Discover our professional Men LOTUS DermaSAGE Gentle Resurfacing. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "MEN YLG SIGNATURE BRIGHTENING FACIAL",
+            "desc": "Experience our professional Men YLG SIGNATURE BRIGHTENING FACIAL. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "MEN YLG SIGNATURE GLOW FACIAL",
+            "desc": "Indulge in our professional Men YLG SIGNATURE GLOW FACIAL. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "MEN PURE GOLD",
+            "desc": "Enjoy our professional Men PURE GOLD. Formulated to hydrate and refresh tired skin.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "MEN SKIN RADIANCE",
+            "desc": "Treat yourself to our professional Men SKIN RADIANCE. Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "MEN WINE RADIANCE",
+            "desc": "Discover our professional Men WINE RADIANCE. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "MEN DETAN FACE AND NECK",
+            "desc": "Experience our professional MEN DETAN FACE AND NECK. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹370"
+        },
+        {
+            "name": "MEN CITRUS AGLOW FACIAL",
+            "desc": "Indulge in our professional MEN CITRUS AGLOW FACIAL. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹1,420"
+        },
+        {
+            "type": "subheading",
+            "name": "EXPRESS CLEAN-UPS"
+        },
+        {
+            "name": "CLEAN UP_KIWI   MANGO(FOR ALL SKIN)",
+            "desc": "Enjoy our professional CLEAN UP_KIWI   MANGO(FOR ALL SKIN). Formulated to hydrate and refresh tired skin.",
+            "price": "₹1,049"
+        },
+        {
+            "name": "CLEAN UP_ROSE   MINT(FOR ALL SKIN)",
+            "desc": "Treat yourself to our professional CLEAN UP_ROSE   MINT(FOR ALL SKIN). Experience ultimate relaxation while we pamper your skin.",
+            "price": "₹1,049"
+        },
+        {
+            "name": "PREMIUM EXPRESS WHITENING",
+            "desc": "Discover our professional PREMIUM EXPRESS WHITENING. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹1,049"
+        },
+        {
+            "type": "subheading",
+            "name": "BODY POLISHING"
+        },
+        {
+            "name": "BACK POLISH (USING TERRA BODY SCRUB)",
+            "desc": "Indulge in our professional Back polish (using terra body scrub). Experience professional care with top-tier products.",
+            "price": "₹525"
+        },
+        {
+            "type": "subheading",
+            "name": "ADD-ON FACE MASKS"
+        },
+        {
+            "name": "BRIGHTENING MASK",
+            "desc": "Experience our professional BRIGHTENING MASK. A premium service tailored specifically to your needs.",
+            "price": "₹840"
+        },
+        {
+            "name": "UNDEREYE MASK",
+            "desc": "Indulge in our professional UNDEREYE MASK. Experience professional care with top-tier products.",
+            "price": "₹116"
+        },
+        {
+            "name": "ALOE VERA GEL MASK FOR HYDRATION",
+            "desc": "Enjoy our professional Aloe Vera gel mask for hydration. Relax and unwind with our specialized treatments.",
+            "price": "₹345"
+        },
+        {
+            "name": "TURMERIC AND SAFFRON MASK FOR BRIGHTENING",
+            "desc": "Treat yourself to our professional Turmeric and Saffron mask for brightening. Expertly delivered for your complete satisfaction.",
+            "price": "₹345"
+        }
+    ],
+    "waxing": [
+        {
+            "type": "subheading",
+            "name": "CRYSTAL ANTI-AGING GOLD WAX"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - BLOUSE LINE",
+            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Blouse Line. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹820"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - BUTTOCK",
+            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Buttock. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,000"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - COMBO",
+            "desc": "Experience our professional Crystal Anti-aging Gold Wax - Combo. A gentle, hygienic approach to hair removal.",
+            "price": "₹1,995"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL ARMS",
+            "desc": "Indulge in our professional Crystal Anti-aging Gold Wax - Full Arms. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹995"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL BACK",
+            "desc": "Enjoy our professional Crystal Anti-aging Gold Wax - Full Back. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹995"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL BODY",
+            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Full Body. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹3,465"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL FRONT",
+            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Full Front. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,210"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - FULL LEGS",
+            "desc": "Experience our professional Crystal Anti-aging Gold Wax - Full Legs. A gentle, hygienic approach to hair removal.",
+            "price": "₹1,210"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD WAX - MIDRIFF",
+            "desc": "Indulge in our professional Crystal Anti-aging Gold Wax - Midriff. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹785"
+        },
+        {
+            "type": "subheading",
+            "name": "PINK BRIGHT BRAZILIAN WAX"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN BLOUSE LINE WAX",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN BLOUSE LINE WAX. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹680"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN BUTTOCK CRACK WAX",
+            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN BUTTOCK CRACK WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹755"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN BUTTOCK WAX",
+            "desc": "Discover our professional PINK BRIGHT BRAZILIAN BUTTOCK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹755"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN CHEEK WAX",
+            "desc": "Experience our professional PINK BRIGHT BRAZILIAN CHEEK WAX. A gentle, hygienic approach to hair removal.",
+            "price": "₹140"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN CHIN WAX",
+            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN CHIN WAX. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹140"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN FOREHEAD WAX",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN FOREHEAD WAX. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹200"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN LOWER LIP WAX",
+            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN LOWER LIP WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹140"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN NECK WAX",
+            "desc": "Discover our professional PINK BRIGHT BRAZILIAN NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹225"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN NOSE WAX",
+            "desc": "Experience our professional PINK BRIGHT BRAZILIAN NOSE WAX. A gentle, hygienic approach to hair removal.",
+            "price": "₹105"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN THROAT WAX",
+            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN THROAT WAX. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹200"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BACK",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX - FULL BACK. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹1,940"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BIKINI",
+            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN WAX - FULL BIKINI. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹2,835"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS",
+            "desc": "Discover our professional PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹225"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX BIKINI LINE",
+            "desc": "Experience our professional PINK BRIGHT BRAZILIAN WAX BIKINI LINE. A gentle, hygienic approach to hair removal.",
+            "price": "₹790"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX UNDERARMS",
+            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN WAX UNDERARMS. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹225"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX UPPER LIP",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX UPPER LIP. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹105"
+        },
+        {
+            "name": "PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC",
+            "desc": "Treat yourself to our professional PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹8,499"
+        },
+        {
+            "type": "subheading",
+            "name": "BRIGHT BLUE WAX"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - BLOUSE LINE",
+            "desc": "Discover our professional Bright Blue Wax - Blouse Line. Professional and discrete service by our trained aestheticians.",
+            "price": "₹440"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - BUTTOCK",
+            "desc": "Experience our professional Bright Blue Wax - Buttock. A gentle, hygienic approach to hair removal.",
+            "price": "₹490"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - COMBO",
+            "desc": "Indulge in our professional Bright Blue Wax - Combo. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹840"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - FULL ARMS",
+            "desc": "Enjoy our professional Bright Blue Wax - Full Arms. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹340"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - FULL BACK",
+            "desc": "Treat yourself to our professional Bright Blue Wax - Full Back. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹525"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - FULL BODY",
+            "desc": "Discover our professional Bright Blue Wax - Full Body. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,940"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - FULL FRONT",
+            "desc": "Experience our professional Bright Blue Wax - Full Front. A gentle, hygienic approach to hair removal.",
+            "price": "₹470"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - FULL LEGS",
+            "desc": "Indulge in our professional Bright Blue Wax - Full Legs. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹440"
+        },
+        {
+            "name": "BRIGHT BLUE WAX - MIDRIFF",
+            "desc": "Enjoy our professional Bright Blue Wax - Midriff. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹490"
+        },
+        {
+            "type": "subheading",
+            "name": "GOLD SENSI BRIGHT WAX"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹690"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT NECK WAX",
+            "desc": "Discover our professional GOLD SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹315"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional GOLD SENSI BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹650"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹735"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL BODY",
+            "desc": "Enjoy our professional GOLD SENSI BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹2,675"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹795"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional GOLD SENSI BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹960"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional GOLD SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹735"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX COMBO",
+            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹1,520"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX MIDRIFF",
+            "desc": "Enjoy our professional GOLD SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹735"
+        },
+        {
+            "type": "subheading",
+            "name": "PLATINUM SENSI BRIGHT WAX"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹690"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT NECK WAX",
+            "desc": "Discover our professional PLATINUM SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹350"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional PLATINUM SENSI BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹849"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional PLATINUM SENSI BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹800"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL BODY",
+            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹2,939"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹750"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional PLATINUM SENSI BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,059"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional PLATINUM SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹755"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX COMBO",
+            "desc": "Indulge in our professional PLATINUM SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹1,735"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX MIDRIFF",
+            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹755"
+        },
+        {
+            "type": "subheading",
+            "name": "SAFFRON BRIGHT WAX"
+        },
+        {
+            "name": "SAFFRON BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional SAFFRON BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹610"
+        },
+        {
+            "name": "SAFFRON BRIGHT NECK WAX",
+            "desc": "Discover our professional SAFFRON BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹265"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional SAFFRON BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹570"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional SAFFRON BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹650"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL BODY",
+            "desc": "Enjoy our professional SAFFRON BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹2,415"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional SAFFRON BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹755"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional SAFFRON BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹770"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional SAFFRON BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹639"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX COMBO",
+            "desc": "Indulge in our professional SAFFRON BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹1,259"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX MIDRIFF",
+            "desc": "Enjoy our professional SAFFRON BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹639"
+        },
+        {
+            "type": "subheading",
+            "name": "WHITE BRIGHT WAX"
+        },
+        {
+            "name": "WHITE BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional WHITE BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹470"
+        },
+        {
+            "name": "WHITE BRIGHT NECK WAX",
+            "desc": "Discover our professional WHITE BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹189"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional WHITE BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹390"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional WHITE BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹560"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL BODY",
+            "desc": "Enjoy our professional WHITE BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹1,985"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional WHITE BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹525"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional WHITE BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹540"
+        },
+        {
+            "name": "WHITE BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional WHITE BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹495"
+        },
+        {
+            "name": "WHITE BRIGHT WAX COMBO",
+            "desc": "Indulge in our professional WHITE BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹945"
+        },
+        {
+            "name": "WHITE BRIGHT WAX MIDRIFF",
+            "desc": "Enjoy our professional WHITE BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹499"
+        },
+        {
+            "type": "subheading",
+            "name": "CHOCOLATE WAX"
+        },
+        {
+            "name": "CHOCOLATE BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional CHOCOLATE BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹440"
+        },
+        {
+            "name": "CHOCOLATE NECK WAX",
+            "desc": "Discover our professional CHOCOLATE NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹165"
+        },
+        {
+            "name": "CHOCOLATE WAX - FULL BACK",
+            "desc": "Experience our professional CHOCOLATE WAX - FULL BACK. A gentle, hygienic approach to hair removal.",
+            "price": "₹525"
+        },
+        {
+            "name": "CHOCOLATE WAX - FULL BODY",
+            "desc": "Indulge in our professional CHOCOLATE WAX - FULL BODY. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹1,890"
+        },
+        {
+            "name": "CHOCOLATE WAX - FULL FRONT",
+            "desc": "Enjoy our professional CHOCOLATE WAX - FULL FRONT. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹495"
+        },
+        {
+            "name": "CHOCOLATE WAX - FULL HANDS",
+            "desc": "Treat yourself to our professional CHOCOLATE WAX - FULL HANDS. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹340"
+        },
+        {
+            "name": "CHOCOLATE WAX - FULL LEGS",
+            "desc": "Discover our professional CHOCOLATE WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹440"
+        },
+        {
+            "name": "CHOCOLATE WAX COMBO.",
+            "desc": "Experience our professional CHOCOLATE WAX COMBO.. A gentle, hygienic approach to hair removal.",
+            "price": "₹840"
+        },
+        {
+            "type": "subheading",
+            "name": "WAXING ADD-ONS"
+        },
+        {
+            "name": "BIKINI CARE KIT",
+            "desc": "Treat yourself to our professional BIKINI CARE KIT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹580"
+        },
+        {
+            "type": "subheading",
+            "name": "FULL BODY WAX COMBO PACKS"
+        },
+        {
+            "name": "SAFFRON BRIGHT  - FULL BODY + B-WAX",
+            "desc": "Enjoy our professional SAFFRON BRIGHT  - FULL BODY + B-WAX. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹5,249"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT - FULL BODY + B-WAX",
+            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT - FULL BODY + B-WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹5,775"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT  - FULL BODY + B-WAX",
+            "desc": "Discover our professional GOLD SENSI BRIGHT  - FULL BODY + B-WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹5,510"
+        },
+        {
+            "name": "CRYSTAL ANTI-AGING GOLD - FULL BODY + B-WAX",
+            "desc": "Experience our professional Crystal Anti-aging Gold - Full Body + B-WAX. A gentle, hygienic approach to hair removal.",
+            "price": "₹6,299"
+        }
+    ],
+    "nails": [
+        {
+            "type": "subheading",
+            "name": "PEDICURES"
+        },
+        {
+            "name": "CUT AND POLISH TOE NAILS",
+            "desc": "Enjoy our professional CUT and POLISH TOE NAILS. Long-lasting shine with premium nail products.",
+            "price": "₹419"
+        },
+        {
+            "name": "CHOCOLATE PEDICURE",
+            "desc": "Treat yourself to our professional CHOCOLATE PEDICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹945"
+        },
+        {
+            "name": "COFFEE PEDICURE",
+            "desc": "Discover our professional COFFEE PEDICURE. A pampering experience for your hands and feet.",
+            "price": "₹945"
+        },
+        {
+            "name": "COOLING PEPPERMINT PEDICURE",
+            "desc": "Experience our professional COOLING PEPPERMINT PEDICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹945"
+        },
+        {
+            "name": "ROSE & NEEM HERBAL EXPERIENCE (PEDI)",
+            "desc": "Indulge in our professional Rose & Neem Herbal Experience (Pedi). Relaxing hand or foot care for a polished look.",
+            "price": "₹2,625"
+        },
+        {
+            "name": "MIN TREE BOX THE TOX PEDICURE",
+            "desc": "Enjoy our professional MIN TREE BOX THE TOX PEDICURE. Long-lasting shine with premium nail products.",
+            "price": "₹2,100"
+        },
+        {
+            "name": "GOLD PEDICURE",
+            "desc": "Treat yourself to our professional GOLD PEDICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹1,049"
+        },
+        {
+            "name": "REJUVENATING PEDICURE",
+            "desc": "Discover our professional REJUVENATING PEDICURE. A pampering experience for your hands and feet.",
+            "price": "₹1,100"
+        },
+        {
+            "name": "BOMBINI PEDICURE",
+            "desc": "Experience our professional BOMBINI PEDICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹1,680"
+        },
+        {
+            "name": "DONUT BOMBINI PEDI",
+            "desc": "Indulge in our professional Donut Bombini Pedi. Relaxing hand or foot care for a polished look.",
+            "price": "₹2,260"
+        },
+        {
+            "name": "ALGA FLOWER ESSENCE PEDICURE",
+            "desc": "Enjoy our professional ALGA FLOWER ESSENCE PEDICURE. Long-lasting shine with premium nail products.",
+            "price": "₹2,470"
+        },
+        {
+            "name": "CAFE H AND F 48G PADICURE",
+            "desc": "Treat yourself to our professional CAFE H AND F 48G PADICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹1,469"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS PEDICURES"
+        },
+        {
+            "name": "MEN CHOCOLATE PEDICURE",
+            "desc": "Discover our professional MEN CHOCOLATE PEDICURE. A pampering experience for your hands and feet.",
+            "price": "₹945"
+        },
+        {
+            "name": "MEN COFFEE PEDICURE",
+            "desc": "Experience our professional MEN COFFEE PEDICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹945"
+        },
+        {
+            "name": "MEN COOLING PEPPERMINT PEDICURE",
+            "desc": "Indulge in our professional MEN COOLING PEPPERMINT PEDICURE. Relaxing hand or foot care for a polished look.",
+            "price": "₹945"
+        },
+        {
+            "name": "MEN BOMBINI PEDICURE",
+            "desc": "Enjoy our professional MEN BOMBINI PEDICURE. Long-lasting shine with premium nail products.",
+            "price": "₹1,680"
+        },
+        {
+            "name": "MEN DONUT BOMBINI PEDI",
+            "desc": "Treat yourself to our professional MEN Donut Bombini Pedi. Keep your nails healthy and impeccably styled.",
+            "price": "₹2,260"
+        },
+        {
+            "type": "subheading",
+            "name": "MANICURES"
+        },
+        {
+            "name": "CHOCOLATE MANICURE",
+            "desc": "Discover our professional CHOCOLATE MANICURE. A pampering experience for your hands and feet.",
+            "price": "₹840"
+        },
+        {
+            "name": "COFFE MANICURE",
+            "desc": "Experience our professional COFFE MANICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹840"
+        },
+        {
+            "name": "COOLING PEPPERMINT MANICURE",
+            "desc": "Indulge in our professional COOLING PEPPERMINT MANICURE. Relaxing hand or foot care for a polished look.",
+            "price": "₹840"
+        },
+        {
+            "name": "CUT AND POLISH FINGER NAILS",
+            "desc": "Enjoy our professional CUT and POLISH FINGER NAILS. Long-lasting shine with premium nail products.",
+            "price": "₹419"
+        },
+        {
+            "name": "GOLD MANI CURE",
+            "desc": "Treat yourself to our professional GOLD MANI CURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹945"
+        },
+        {
+            "name": "REJUVENATING MANICURE",
+            "desc": "Discover our professional REJUVENATING MANICURE. A pampering experience for your hands and feet.",
+            "price": "₹1,000"
+        },
+        {
+            "name": "MIN TREE BOX THE TOX MANICURE",
+            "desc": "Experience our professional MIN TREE BOX THE TOX MANICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹2,050"
+        },
+        {
+            "name": "BOMBINI MANICURE",
+            "desc": "Indulge in our professional BOMBINI MANICURE. Relaxing hand or foot care for a polished look.",
+            "price": "₹1,630"
+        },
+        {
+            "name": "DONUT BOMBINI MANI",
+            "desc": "Enjoy our professional Donut Bombini Mani. Long-lasting shine with premium nail products.",
+            "price": "₹2,205"
+        },
+        {
+            "name": "ALGA FLOWER ESSENCE MANICURE",
+            "desc": "Treat yourself to our professional ALGA FLOWER ESSENCE MANICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "ROSE & NEEM HERBAL EXPERIENCE (MANI)",
+            "desc": "Discover our professional Rose & Neem Herbal Experience (Mani). A pampering experience for your hands and feet.",
+            "price": "₹2,470"
+        },
+        {
+            "name": "CAFE H AND F 48G - MANICURE",
+            "desc": "Experience our professional CAFE H AND F 48G - MANICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹1,365"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS MANICURES"
+        },
+        {
+            "name": "MEN DONUT BOMBINI MANI",
+            "desc": "Indulge in our professional MEN Donut Bombini Mani. Relaxing hand or foot care for a polished look.",
+            "price": "₹2,205"
+        },
+        {
+            "name": "MEN CHOCOLATE MANICURE",
+            "desc": "Enjoy our professional MEN CHOCOLATE MANICURE. Long-lasting shine with premium nail products.",
+            "price": "₹840"
+        },
+        {
+            "name": "MEN COFFE MANICURE",
+            "desc": "Treat yourself to our professional MEN COFFE MANICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹840"
+        },
+        {
+            "name": "MEN COOLING PEPPERMINT MANICURE",
+            "desc": "Discover our professional MEN COOLING PEPPERMINT MANICURE. A pampering experience for your hands and feet.",
+            "price": "₹840"
+        },
+        {
+            "name": "MEN BOMBINI MANICURE",
+            "desc": "Experience our professional MEN BOMBINI MANICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹1,630"
+        }
+    ],
+    "packages": [
+        {
+            "type": "subheading",
+            "name": "SPECIAL VALUE PACKAGES"
+        },
+        {
+            "name": "B WAX PACKAGE",
+            "desc": "Enjoy our professional B WAX PACKAGE. Relax and unwind with our specialized treatments.",
+            "price": "₹6,929"
+        },
+        {
+            "type": "subheading",
+            "name": "BRIDAL & OCCASION STYLING"
+        },
+        {
+            "name": "NORMAL HAIRDO",
+            "desc": "Indulge in our professional NORMAL HAIRDO. Great value combined with our most popular premium services.",
+            "price": "₹1,735"
+        },
+        {
+            "name": "CREATIVE HAIRDO",
+            "desc": "Enjoy our professional CREATIVE HAIRDO. The perfect pampering session to prep for your special day.",
+            "price": "₹2,520"
+        }
+    ],
+    "de-tan": [
+        {
+            "type": "subheading",
+            "name": "DE-TAN & BLEACH SERVICES"
+        },
+        {
+            "name": "DETAN FEET",
+            "desc": "Indulge in our professional DETAN FEET. Restores your skin's natural brightness and texture.",
+            "price": "₹209"
+        },
+        {
+            "name": "DETAN UNDERARMS",
+            "desc": "Enjoy our professional DETAN UNDERARMS. A cooling and soothing treatment for sun-exposed skin.",
+            "price": "₹155"
+        },
+        {
+            "name": "DETAN BLOUSELINE",
+            "desc": "Treat yourself to our professional DETAN BLOUSELINE. Gentle formulation that brightens without irritation.",
+            "price": "₹575"
+        },
+        {
+            "name": "DETAN HALF ARMS",
+            "desc": "Discover our professional DETAN HALF ARMS. Instantly refreshing treatment for a radiant complexion.",
+            "price": "₹419"
+        },
+        {
+            "name": "DETAN LEGS",
+            "desc": "Experience our professional DETAN LEGS. Effectively removes sun tan and evens out your skin tone.",
+            "price": "₹945"
+        },
+        {
+            "name": "BLEACH BUTTOCK",
+            "desc": "Indulge in our professional BLEACH BUTTOCK. Restores your skin's natural brightness and texture.",
+            "price": "₹525"
+        },
+        {
+            "name": "DETAN FULL ARMS",
+            "desc": "Enjoy our professional DETAN FULL ARMS. A cooling and soothing treatment for sun-exposed skin.",
+            "price": "₹525"
+        },
+        {
+            "name": "DETAN HALF LEGS",
+            "desc": "Treat yourself to our professional DETAN HALF LEGS. Gentle formulation that brightens without irritation.",
+            "price": "₹525"
+        },
+        {
+            "name": "DETAN UPPER LIP",
+            "desc": "Discover our professional DETAN UPPER LIP. Instantly refreshing treatment for a radiant complexion.",
+            "price": "₹116"
+        },
+        {
+            "name": "DETAN FACE AND NECK",
+            "desc": "Experience our professional DETAN FACE AND NECK. Effectively removes sun tan and evens out your skin tone.",
+            "price": "₹365"
+        },
+        {
+            "name": "DETAN BUTTOCK",
+            "desc": "Indulge in our professional DETAN BUTTOCK. Restores your skin's natural brightness and texture.",
+            "price": "₹629"
+        },
+        {
+            "name": "DETAN FULL BACK",
+            "desc": "Enjoy our professional DETAN FULL BACK. A cooling and soothing treatment for sun-exposed skin.",
+            "price": "₹629"
+        },
+        {
+            "name": "DETAN FULL FRONT",
+            "desc": "Treat yourself to our professional DETAN FULL FRONT. Gentle formulation that brightens without irritation.",
+            "price": "₹629"
+        },
+        {
+            "name": "WHITENING SERVICE FULL",
+            "desc": "Discover our professional WHITENING SERVICE FULL. Instantly refreshing treatment for a radiant complexion.",
+            "price": "₹3,989"
+        }
+    ],
+    "makeup": [
+        {
+            "type": "subheading",
+            "name": "SAREE DRAPING & STYLING"
+        },
+        {
+            "name": "SAREE DRAPE NORMAL",
+            "desc": "Experience our professional SAREE DRAPE NORMAL. Flawless application tailored to your facial features.",
+            "price": "₹370"
+        },
+        {
+            "name": "SAREE DRAPE FANCY",
+            "desc": "Indulge in our professional SAREE DRAPE FANCY. Using premium, long-lasting products for your special occasion.",
+            "price": "₹580"
+        }
+    ],
+    "others": [
+        {
+            "type": "subheading",
+            "name": "THREADING & FACE WAXING"
+        },
+        {
+            "name": "THREADING LOWER LIP",
+            "desc": "Indulge in our professional THREADING LOWER LIP. Experience professional care with top-tier products.",
+            "price": "₹75"
+        },
+        {
+            "name": "THREADNG CHIN",
+            "desc": "Enjoy our professional THREADNG CHIN. Relax and unwind with our specialized treatments.",
+            "price": "₹75"
+        },
+        {
+            "name": "THREADING EYEBROWS",
+            "desc": "Treat yourself to our professional THREADING EYEBROWS. Expertly delivered for your complete satisfaction.",
+            "price": "₹75"
+        },
+        {
+            "name": "THREADING FOREHEAD",
+            "desc": "Discover our professional Threading Forehead. Dedicated attention to detail for the perfect result.",
+            "price": "₹75"
+        },
+        {
+            "name": "THREADING UPPER LIP",
+            "desc": "Experience our professional Threading Upper Lip. A premium service tailored specifically to your needs.",
+            "price": "₹75"
+        },
+        {
+            "name": "THREADING NECK",
+            "desc": "Indulge in our professional THREADING NECK. Experience professional care with top-tier products.",
+            "price": "₹95"
+        },
+        {
+            "name": "THREADING SIDELOCKS",
+            "desc": "Enjoy our professional THREADING SIDELOCKS. Relax and unwind with our specialized treatments.",
+            "price": "₹75"
+        },
+        {
+            "type": "subheading",
+            "name": "REFLEXOLOGY & MASSAGES"
+        },
+        {
+            "name": "HAND REFLEXOLOGY",
+            "desc": "Discover our professional Hand reflexology. Dedicated attention to detail for the perfect result.",
+            "price": "₹525"
+        },
+        {
+            "name": "FEET REFLEXOLOGY",
+            "desc": "Experience our professional Feet reflexology. A premium service tailored specifically to your needs.",
+            "price": "₹629"
+        },
+        {
+            "name": "FOOT MASSAGE",
+            "desc": "Indulge in our professional Foot massage. Experience professional care with top-tier products.",
+            "price": "₹629"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS HAIR COLOR"
+        },
+        {
+            "name": "MEN HAIR COLOUR",
+            "desc": "Enjoy our professional MEN HAIR COLOUR. Relax and unwind with our specialized treatments.",
+            "price": "₹1,155"
+        },
+        {
+            "name": "MEN HAIR STRAIGHTENING",
+            "desc": "Treat yourself to our professional MEN HAIR STRAIGHTENING. Expertly delivered for your complete satisfaction.",
+            "price": "₹3,675"
+        },
+        {
+            "name": "MEN- CLEAR LIPGLOSS",
+            "desc": "Discover our professional MEN- CLEAR LIPGLOSS. Dedicated attention to detail for the perfect result.",
+            "price": "₹1,840"
+        },
+        {
+            "name": "MEN CUT  COLOUR - NEW",
+            "desc": "Experience our professional MEN CUT  COLOUR - NEW. A premium service tailored specifically to your needs.",
+            "price": "₹1,469"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS CUTS"
+        },
+        {
+            "name": "MEN HAIR CUT",
+            "desc": "Indulge in our professional MEN HAIR CUT. Tailored to suit your personal style and hair texture.",
+            "price": "₹419"
+        },
+        {
+            "name": "MEN HAIR CUT (WITHOUT WASH)",
+            "desc": "Enjoy our professional MEN HAIR CUT (Without Wash). Nourishes your hair deeply from root to tip.",
+            "price": "₹315"
+        },
+        {
+            "name": "MEN BEARD TRIMMING",
+            "desc": "Treat yourself to our professional MEN BEARD TRIMMING. Expertly crafted by our senior stylists for a flawless finish.",
+            "price": "₹370"
+        },
+        {
+            "name": "HAIR CUT   LUXURY BEARD COMBO",
+            "desc": "Discover our professional HAIR CUT   LUXURY BEARD COMBO. Transform your look with this premium hair care service.",
+            "price": "₹945"
+        },
+        {
+            "name": "LUXURY BEARD TRIMMING - MEN",
+            "desc": "Experience our professional LUXURY BEARD TRIMMING - MEN. Perfect for adding volume and shine to your hair.",
+            "price": "₹575"
+        },
+        {
+            "name": "MEN HAIRCUT & BEARD COMBO",
+            "desc": "Indulge in our professional Men Haircut & Beard Combo. Tailored to suit your personal style and hair texture.",
+            "price": "₹735"
+        },
+        {
+            "name": "MEN CUT & HEAD MASSAGE",
+            "desc": "Enjoy our professional MEN Cut & Head Massage. Nourishes your hair deeply from root to tip.",
+            "price": "₹840"
+        },
+        {
+            "name": "MEN HAIR CUT AND EXPRESS HAIR SPA",
+            "desc": "Treat yourself to our professional MEN HAIR CUT AND EXPRESS HAIR SPA. Expertly crafted by our senior stylists for a flawless finish.",
+            "price": "₹945"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS HAIR SPA & SCALP CARE"
+        },
+        {
+            "name": "OLAPLEX EXPRESS SPA MENS",
+            "desc": "Discover our professional Olaplex Express Spa Mens. Dedicated attention to detail for the perfect result.",
+            "price": "₹475"
+        },
+        {
+            "name": "MEN-HEAD MSG ALMOND",
+            "desc": "Experience our professional MEN-Head Msg Almond. A premium service tailored specifically to your needs.",
+            "price": "₹475"
+        },
+        {
+            "name": "MEN-HEAD MSG OLIVE",
+            "desc": "Indulge in our professional MEN-Head Msg Olive. Experience professional care with top-tier products.",
+            "price": "₹475"
+        },
+        {
+            "name": "MEN- SPECIAL FUSION DOSE RITUAL",
+            "desc": "Enjoy our professional MEN- SPECIAL FUSION DOSE RITUAL. Relax and unwind with our specialized treatments.",
+            "price": "₹1,000"
+        },
+        {
+            "name": "ANTI-DANDRUFF TREATMENT MENS",
+            "desc": "Treat yourself to our professional Anti-Dandruff Treatment Mens. Expertly delivered for your complete satisfaction.",
+            "price": "₹1,155"
+        },
+        {
+            "name": "ANTI-HAIRFALL TREATMENT MENS",
+            "desc": "Discover our professional Anti-Hairfall Treatment Mens. Dedicated attention to detail for the perfect result.",
+            "price": "₹1,155"
+        },
+        {
+            "name": "MEN COLOR SEALING TREATMENT",
+            "desc": "Experience our professional MEN Color Sealing Treatment. A premium service tailored specifically to your needs.",
+            "price": "₹1,735"
+        },
+        {
+            "name": "MEN- HEAD MSG COMBO",
+            "desc": "Indulge in our professional MEN- Head Msg Combo. Experience professional care with top-tier products.",
+            "price": "₹1,155"
+        },
+        {
+            "name": "MEN- YLG COLORCARE TREATMENT",
+            "desc": "Enjoy our professional MEN- YLG COLORCARE TREATMENT. Relax and unwind with our specialized treatments.",
+            "price": "₹1,155"
+        },
+        {
+            "name": "MEN-KERASTASE HAIR WASH CONDITIONING",
+            "desc": "Treat yourself to our professional MEN-KERASTASE HAIR WASH CONDITIONING. Expertly delivered for your complete satisfaction.",
+            "price": "₹580"
+        },
+        {
+            "name": "MEN- HEAD MSG WITH CHROMOSTEAM",
+            "desc": "Discover our professional MEN- HEAD MSG WITH CHROMOSTEAM. Dedicated attention to detail for the perfect result.",
+            "price": "₹680"
+        },
+        {
+            "name": "YLG EXPRESS SPA (5 VARIANTS) MENS",
+            "desc": "Experience our professional YLG Express Spa (5 Variants) Mens. A premium service tailored specifically to your needs.",
+            "price": "₹790"
+        },
+        {
+            "type": "subheading",
+            "name": "RELAXING HEAD MASSAGES"
+        },
+        {
+            "name": "HEAD MSG ALMOND",
+            "desc": "Discover our professional Head Msg Almond. Dedicated attention to detail for the perfect result.",
+            "price": "₹575"
+        },
+        {
+            "name": "HEAD MSG AROMA",
+            "desc": "Experience our professional Head Msg Aroma. A premium service tailored specifically to your needs.",
+            "price": "₹575"
+        },
+        {
+            "name": "HEAD MSG OLIVE",
+            "desc": "Indulge in our professional Head Msg Olive. Experience professional care with top-tier products.",
+            "price": "₹575"
+        },
+        {
+            "name": "HEAD MSG WITH CHROMOSTEAM",
+            "desc": "Enjoy our professional HEAD MSG WITH CHROMOSTEAM. Relax and unwind with our specialized treatments.",
+            "price": "₹680"
+        },
+        {
+            "type": "subheading",
+            "name": "BEARD GROOMING & COLOR"
+        },
+        {
+            "name": "BEARD COLOUR (FULL TUBE) ZERO AMM",
+            "desc": "Treat yourself to our professional Beard colour (full tube) Zero Amm. Expertly delivered for your complete satisfaction.",
+            "price": "₹1,785"
+        },
+        {
+            "name": "BEARD COLOUR (FULL TUBE)INOA",
+            "desc": "Discover our professional Beard colour (full tube)INOA. Dedicated attention to detail for the perfect result.",
+            "price": "₹1,785"
+        },
+        {
+            "name": "BEARD COLOUR (HALF TUBE) MAJIREL",
+            "desc": "Experience our professional Beard colour (Half tube) MAJIREL. A premium service tailored specifically to your needs.",
+            "price": "₹1,310"
+        },
+        {
+            "name": "BEARD COLOUR (FULL TUBE) MAJIREL",
+            "desc": "Indulge in our professional Beard colour (full tube) MAJIREL. Experience professional care with top-tier products.",
+            "price": "₹1,520"
+        },
+        {
+            "name": "BEARD COLOUR (HALF TUBE) ZERO AMM",
+            "desc": "Enjoy our professional Beard colour (Half tube) Zero Amm. Relax and unwind with our specialized treatments.",
+            "price": "₹1,625"
+        },
+        {
+            "name": "BEARD COLOUR (HALF TUBE)INOA",
+            "desc": "Treat yourself to our professional Beard colour (Half tube)INOA. Expertly delivered for your complete satisfaction.",
+            "price": "₹1,625"
+        },
+        {
+            "type": "subheading",
+            "name": "BEARD GROOMING & SHAVE"
+        },
+        {
+            "name": "MEN FOAM SHAVE",
+            "desc": "Discover our professional MEN FOAM SHAVE. Dedicated attention to detail for the perfect result.",
+            "price": "₹525"
         }
     ]
 };

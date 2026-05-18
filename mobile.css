@@ -1290,14 +1290,51 @@ footer {
     opacity: 0;
 }
 
-/* ===== Remove service list scroll on mobile — show all items, no scrollbar needed ===== */
+/* ===== Mobile: fixed-height scrollable card with visible scrollbar ===== */
 @media (max-width: 900px) {
     .tab-services-list {
-        max-height: none !important;
-        overflow-y: visible !important;
-        padding-right: 0 !important;
+        max-height: 380px !important;
+        overflow-y: scroll !important;
+        -webkit-overflow-scrolling: touch !important;
+        padding-right: 6px !important;
+        scrollbar-width: thin !important;
+        scrollbar-color: #c2185b #fce4ec !important;
+    }
+    /* Force visible scrollbar on WebKit/iOS/Android */
+    .tab-services-list::-webkit-scrollbar {
+        width: 6px !important;
+        height: 6px !important;
+        display: block !important;
+        -webkit-appearance: none !important;
+    }
+    .tab-services-list::-webkit-scrollbar-track {
+        background: #fce4ec !important;
+        border-radius: 4px !important;
+    }
+    .tab-services-list::-webkit-scrollbar-thumb {
+        background: #c2185b !important;
+        border-radius: 4px !important;
+        min-height: 30px !important;
     }
     .tab-services-wrapper::after {
-        display: none !important;
+        display: block !important;
+    }
+
+    /* Subheading styles for mobile */
+    .service-list-subheading {
+        padding: 15px 5px 5px 5px;
+        margin-top: 10px;
+        border-bottom: 1px solid rgba(194, 24, 91, 0.1);
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .service-list-subheading h3 {
+        color: #c2185b;
+        font-family: 'Playfair Display', serif;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin: 0;
     }
 }

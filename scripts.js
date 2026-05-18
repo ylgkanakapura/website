@@ -161,6 +161,13 @@ function renderMenu() {
         
         const items = window.menuData[tab] || [];
         items.forEach(item => {
+            if (item.type === 'subheading') {
+                const subheaderEl = document.createElement('div');
+                subheaderEl.className = 'service-list-subheading';
+                subheaderEl.innerHTML = `<h3>${item.name}</h3>`;
+                listContainer.appendChild(subheaderEl);
+                return;
+            }
             const el = document.createElement('div');
             el.className = 'service-list-item';
             el.innerHTML = `
@@ -206,6 +213,16 @@ function filterMenu() {
     if (!activeTab) return;
     
     const items = activeTab.querySelectorAll(".service-list-item");
+    const subheadings = activeTab.querySelectorAll(".service-list-subheading");
+    
+    // Toggle subheadings display during search
+    subheadings.forEach(sub => {
+        if (filter.trim() !== "") {
+            sub.style.display = "none";
+        } else {
+            sub.style.display = "block";
+        }
+    });
     
     items.forEach(item => {
         const nameNode = item.querySelector(".service-name");
