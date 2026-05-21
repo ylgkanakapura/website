@@ -2,7 +2,7 @@ window.menuData = {
     "hair": [
         {
             "type": "subheading",
-            "name": "ADVANCED HAIRCUTS"
+            "name": "ADVANCED CUTS"
         },
         {
             "name": "HAIR CUT BY SENIOR STYLIST",
@@ -36,7 +36,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "BASIC CUTS & TRIMMING"
+            "name": "BASIC CUTS"
         },
         {
             "name": "TRIMMING",
@@ -50,7 +50,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "KIDS CUTS"
+            "name": "KIDS HAIR CUT"
         },
         {
             "name": "HAIR CUT FOR KIDS",
@@ -64,7 +64,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "BLOW DRY & SETTING"
+            "name": "BLOW DRY AND SETTI"
         },
         {
             "name": "BLOW DRY  HAIRWASH S-M",
@@ -178,7 +178,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "GLOBAL HAIR COLOR"
+            "name": "GLOBAL COLOR"
         },
         {
             "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
@@ -251,9 +251,17 @@ window.menuData = {
             "price": "₹6,720"
         },
         {
+            "type": "subheading",
+            "name": "FGLOBAL COLOR"
+        },
+        {
             "name": "EXPERT CREATIVE  S-M  EXPERT MAJIREL GLOBAL",
             "desc": "Discover our professional EXPERT Creative  S-M  EXPERT MAJIREL GLOBAL. Dedicated attention to detail for the perfect result.",
             "price": "₹8,925"
+        },
+        {
+            "type": "subheading",
+            "name": "GLOBAL COLOR"
         },
         {
             "name": "YLG CREATIVE COLOR  MAJIREL GLOBAL XL",
@@ -291,9 +299,17 @@ window.menuData = {
             "price": "₹7,979"
         },
         {
+            "type": "subheading",
+            "name": "IGLOBAL COLOR"
+        },
+        {
             "name": "EXPERT CREATIVE  XL  EXPERT INOA GLOBAL FASH",
             "desc": "Enjoy our professional EXPERT Creative  XL  EXPERT INOA GLOBAL FASH. Relax and unwind with our specialized treatments.",
             "price": "₹11,969"
+        },
+        {
+            "type": "subheading",
+            "name": "GLOBAL COLOR"
         },
         {
             "name": "EXPERT CREATIVE  ZERO AMM GLOBAL FASHION CO",
@@ -391,9 +407,17 @@ window.menuData = {
             "price": "₹7,035"
         },
         {
+            "type": "subheading",
+            "name": "LGLOBAL COLOR"
+        },
+        {
             "name": "EXPERT ZERO AMM GLOBAL FASHION COLOUR (X",
             "desc": "Enjoy our professional EXPERT Zero Amm GLOBAL FASHION COLOUR (X. Relax and unwind with our specialized treatments.",
             "price": "₹6,985"
+        },
+        {
+            "type": "subheading",
+            "name": "GLOBAL COLOR"
         },
         {
             "name": "EXPERT MAJIREL GLOBAL FASHION COLOR (M)",
@@ -432,7 +456,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "ROOT TOUCH-UP"
+            "name": "ROOT TOUCH UP"
         },
         {
             "name": "INOA ROOT TOUCH BY EXPERT STYLIST UPTO 2 INCH)",
@@ -440,9 +464,17 @@ window.menuData = {
             "price": "₹2,100"
         },
         {
+            "type": "subheading",
+            "name": "nROOT TOUCH UP"
+        },
+        {
             "name": "ZERO AMM ROOT TOUCH BY EXPERT STYLIST (UP TO 2 I",
             "desc": "Indulge in our professional Zero Amm Root Touch by Expert Stylist (up to 2 i. Experience professional care with top-tier products.",
             "price": "₹2,100"
+        },
+        {
+            "type": "subheading",
+            "name": "ROOT TOUCH UP"
         },
         {
             "name": "MAJIREL ROOT TOUCH UP TO 2-INCH (UPTO FULL TUBE)",
@@ -471,7 +503,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "HAIR SPA & NOURISHMENT"
+            "name": "SPA  HAIR CARE"
         },
         {
             "name": "OLAPLEX EXPRESS HAIR SPA- DEEP CONDITIONING  S/M",
@@ -749,9 +781,17 @@ window.menuData = {
             "price": "₹3,465"
         },
         {
+            "type": "subheading",
+            "name": "RSPA  HAIR CARE"
+        },
+        {
             "name": "MEN-KERASTASE SMOOTHING DE-VOLUMISING",
             "desc": "Enjoy our professional MEN-KERASTASE SMOOTHING DE-VOLUMISING. Nourishes your hair deeply from root to tip.",
             "price": "₹3,465"
+        },
+        {
+            "type": "subheading",
+            "name": "SPA  HAIR CARE"
         },
         {
             "name": "MEN-KERASTASE SOOTHING SCALP RITUAL",
@@ -830,7 +870,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "SCALP CARE & ANTI-DANDRUFF"
+            "name": "SPA  SCALP CARE"
         },
         {
             "name": "ANTI-DANDRUFF TREATMENT L-XL",
@@ -864,7 +904,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "HIGHLIGHTS & STREAKS"
+            "name": "HIGHLIGHTS"
         },
         {
             "name": "1 COLOR STREAK (W/O PRELIGHTENING)",
@@ -883,7 +923,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "COLOR ADD-ONS & CHARGES"
+            "name": "ADD ON"
         },
         {
             "name": "INOA EXTRA HALF TUBE PRODUCT CHARGE",
@@ -982,7 +1022,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "CHEMICAL HAIR TREATMENTS"
+            "name": "CHEMICALS"
         },
         {
             "name": "STEAM POD TREATMENT S-M",
@@ -1183,6 +1223,10 @@ window.menuData = {
             "price": "₹4,199"
         },
         {
+            "type": "subheading",
+            "name": "ASIGNATURE FACIALS"
+        },
+        {
             "name": "LOTUS PRESERVITA PINEAPPLE MARMALADE FACI",
             "desc": "Discover our professional Lotus PRESERVITA PINEAPPLE MARMALADE FACI. Leave feeling refreshed with visibly brighter skin.",
             "price": "₹4,199"
@@ -1191,6 +1235,10 @@ window.menuData = {
             "name": "LOTUS PRESERVITA VINO GRAPES MARMALADE F",
             "desc": "Experience our professional Lotus PRESERVITA VINO GRAPES MARMALADE F. Rejuvenate your skin and bring out your natural glow.",
             "price": "₹4,199"
+        },
+        {
+            "type": "subheading",
+            "name": "SIGNATURE FACIALS"
         },
         {
             "name": "ELT WHITENING FACIAL",
@@ -1204,7 +1252,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MENS FACIALS"
+            "name": "MENS FACIAL"
         },
         {
             "name": "MEN KIWI   CHERRY FRUIT GLOW FACIAL",
@@ -1227,9 +1275,17 @@ window.menuData = {
             "price": "₹1,049"
         },
         {
+            "type": "subheading",
+            "name": "EMENS FACIAL"
+        },
+        {
             "name": "MEN LOTUS PRESERVITA BEARBERRY MARMALAD",
             "desc": "Enjoy our professional Men Lotus PRESERVITA BEARBERRY MARMALAD. Formulated to hydrate and refresh tired skin.",
             "price": "₹4,199"
+        },
+        {
+            "type": "subheading",
+            "name": "MENS FACIAL"
         },
         {
             "name": "MEN LOTUS PRESERVITA KIWI FRUIT MARMALADE",
@@ -1303,7 +1359,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "EXPRESS CLEAN-UPS"
+            "name": "CLEAN UP"
         },
         {
             "name": "CLEAN UP_KIWI   MANGO(FOR ALL SKIN)",
@@ -1322,7 +1378,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "BODY POLISHING"
+            "name": "Full body polish"
         },
         {
             "name": "BACK POLISH (USING TERRA BODY SCRUB)",
@@ -1331,7 +1387,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "ADD-ON FACE MASKS"
+            "name": "ADD  ON"
         },
         {
             "name": "BRIGHTENING MASK",
@@ -1357,7 +1413,7 @@ window.menuData = {
     "waxing": [
         {
             "type": "subheading",
-            "name": "CRYSTAL ANTI-AGING GOLD WAX"
+            "name": "ANTI AGING WAX"
         },
         {
             "name": "CRYSTAL ANTI-AGING GOLD WAX - BLOUSE LINE",
@@ -1406,7 +1462,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "PINK BRIGHT BRAZILIAN WAX"
+            "name": "BRAZILIAN WAX"
         },
         {
             "name": "PINK BRIGHT BRAZILIAN BLOUSE LINE WAX",
@@ -1495,7 +1551,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "BRIGHT BLUE WAX"
+            "name": "BRIGHTENING WAX"
         },
         {
             "name": "BRIGHT BLUE WAX - BLOUSE LINE",
@@ -1541,10 +1597,6 @@ window.menuData = {
             "name": "BRIGHT BLUE WAX - MIDRIFF",
             "desc": "Enjoy our professional Bright Blue Wax - Midriff. Quick, efficient, and designed for maximum comfort.",
             "price": "₹490"
-        },
-        {
-            "type": "subheading",
-            "name": "GOLD SENSI BRIGHT WAX"
         },
         {
             "name": "GOLD SENSI BRIGHT BLOUSE LINE WAX",
@@ -1597,10 +1649,6 @@ window.menuData = {
             "price": "₹735"
         },
         {
-            "type": "subheading",
-            "name": "PLATINUM SENSI BRIGHT WAX"
-        },
-        {
             "name": "PLATINUM SENSI BRIGHT BLOUSE LINE WAX",
             "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
             "price": "₹690"
@@ -1651,10 +1699,6 @@ window.menuData = {
             "price": "₹755"
         },
         {
-            "type": "subheading",
-            "name": "SAFFRON BRIGHT WAX"
-        },
-        {
             "name": "SAFFRON BRIGHT BLOUSE LINE WAX",
             "desc": "Treat yourself to our professional SAFFRON BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
             "price": "₹610"
@@ -1703,10 +1747,6 @@ window.menuData = {
             "name": "SAFFRON BRIGHT WAX MIDRIFF",
             "desc": "Enjoy our professional SAFFRON BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
             "price": "₹639"
-        },
-        {
-            "type": "subheading",
-            "name": "WHITE BRIGHT WAX"
         },
         {
             "name": "WHITE BRIGHT BLOUSE LINE WAX",
@@ -1760,7 +1800,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "CHOCOLATE WAX"
+            "name": "SOS WAX"
         },
         {
             "name": "CHOCOLATE BLOUSE LINE WAX",
@@ -1804,7 +1844,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "WAXING ADD-ONS"
+            "name": "ADD ON WAX"
         },
         {
             "name": "BIKINI CARE KIT",
@@ -1813,7 +1853,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "FULL BODY WAX COMBO PACKS"
+            "name": "FULL BODY WAX + BWAX"
         },
         {
             "name": "SAFFRON BRIGHT  - FULL BODY + B-WAX",
@@ -1839,7 +1879,7 @@ window.menuData = {
     "nails": [
         {
             "type": "subheading",
-            "name": "PEDICURES"
+            "name": "PEDICURE"
         },
         {
             "name": "CUT AND POLISH TOE NAILS",
@@ -1903,7 +1943,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MENS PEDICURES"
+            "name": "MEN PEDICURE"
         },
         {
             "name": "MEN CHOCOLATE PEDICURE",
@@ -1932,7 +1972,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MANICURES"
+            "name": "MANICURE"
         },
         {
             "name": "CHOCOLATE MANICURE",
@@ -1996,7 +2036,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MENS MANICURES"
+            "name": "MEN MANICURE"
         },
         {
             "name": "MEN DONUT BOMBINI MANI",
@@ -2026,17 +2066,13 @@ window.menuData = {
     ],
     "packages": [
         {
-            "type": "subheading",
-            "name": "SPECIAL VALUE PACKAGES"
-        },
-        {
             "name": "B WAX PACKAGE",
             "desc": "Enjoy our professional B WAX PACKAGE. Relax and unwind with our specialized treatments.",
             "price": "₹6,929"
         },
         {
             "type": "subheading",
-            "name": "BRIDAL & OCCASION STYLING"
+            "name": "BRIDAL MAKEUP"
         },
         {
             "name": "NORMAL HAIRDO",
@@ -2052,7 +2088,7 @@ window.menuData = {
     "de-tan": [
         {
             "type": "subheading",
-            "name": "DE-TAN & BLEACH SERVICES"
+            "name": "DETAN"
         },
         {
             "name": "DETAN FEET",
@@ -2128,7 +2164,7 @@ window.menuData = {
     "makeup": [
         {
             "type": "subheading",
-            "name": "SAREE DRAPING & STYLING"
+            "name": "EVERYDAY MAKEUP"
         },
         {
             "name": "SAREE DRAPE NORMAL",
@@ -2144,7 +2180,7 @@ window.menuData = {
     "others": [
         {
             "type": "subheading",
-            "name": "THREADING & FACE WAXING"
+            "name": "THREADING"
         },
         {
             "name": "THREADING LOWER LIP",
@@ -2183,7 +2219,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "REFLEXOLOGY & MASSAGES"
+            "name": "REFLEXOLOGY MASSA"
         },
         {
             "name": "HAND REFLEXOLOGY",
@@ -2202,7 +2238,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MENS HAIR COLOR"
+            "name": "MENS COLOR"
         },
         {
             "name": "MEN HAIR COLOUR",
@@ -2226,7 +2262,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MENS CUTS"
+            "name": "MENS HAIRCUT"
         },
         {
             "name": "MEN HAIR CUT",
@@ -2270,7 +2306,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "MENS HAIR SPA & SCALP CARE"
+            "name": "MENS SPA SCALP CAR"
         },
         {
             "name": "OLAPLEX EXPRESS SPA MENS",
@@ -2334,7 +2370,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "RELAXING HEAD MASSAGES"
+            "name": "HEAD MASSAGE"
         },
         {
             "name": "HEAD MSG ALMOND",
@@ -2358,7 +2394,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "BEARD GROOMING & COLOR"
+            "name": "Beard Color"
         },
         {
             "name": "BEARD COLOUR (FULL TUBE) ZERO AMM",
@@ -2389,10 +2425,6 @@ window.menuData = {
             "name": "BEARD COLOUR (HALF TUBE)INOA",
             "desc": "Treat yourself to our professional Beard colour (Half tube)INOA. Expertly delivered for your complete satisfaction.",
             "price": "₹1,625"
-        },
-        {
-            "type": "subheading",
-            "name": "BEARD GROOMING & SHAVE"
         },
         {
             "name": "MEN FOAM SHAVE",
