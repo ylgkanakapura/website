@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function renderMenu() {
-    const tabs = ['hair', 'skin', 'waxing', 'nails', 'packages', 'de-tan', 'makeup', 'others'];
+    const tabs = ['waxing', 'hair', 'skin', 'nails', 'de-tan', 'mens-services', 'others'];
     
     tabs.forEach(tab => {
         const listContainer = document.querySelector(`#tab-${tab} .tab-services-list`);

@@ -140,14 +140,11 @@
                     <button class="tab-btn active" onclick="openServiceTab(event, 'tab-waxing')">
                         <span class="tab-icon-wrap">W</span><span class="tab-text">WAXING</span>
                     </button>
-                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-others')">
-                        <span class="tab-icon-wrap">O</span><span class="tab-text">OTHERS</span>
-                    </button>
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-hair')">
                         <span class="tab-icon-wrap">H</span><span class="tab-text">HAIR</span>
                     </button>
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-skin')">
-                        <span class="tab-icon-wrap">S</span><span class="tab-text">SKIN</span>
+                        <span class="tab-icon-wrap">S</span><span class="tab-text">SKIN / FACIALS</span>
                     </button>
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-nails')">
                         <span class="tab-icon-wrap">N</span><span class="tab-text">NAILS</span>
@@ -155,11 +152,11 @@
                     <button class="tab-btn" onclick="openServiceTab(event, 'tab-de-tan')">
                         <span class="tab-icon-wrap">D</span><span class="tab-text">DE-TAN</span>
                     </button>
-                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-makeup')">
-                        <span class="tab-icon-wrap">M</span><span class="tab-text">MAKEUP</span>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-mens-services')">
+                        <span class="tab-icon-wrap">M</span><span class="tab-text">MEN'S SERVICES</span>
                     </button>
-                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-packages')">
-                        <span class="tab-icon-wrap">P</span><span class="tab-text">PACKAGES</span>
+                    <button class="tab-btn" onclick="openServiceTab(event, 'tab-others')">
+                        <span class="tab-icon-wrap">O</span><span class="tab-text">OTHERS</span>
                     </button>
                 </div>
                 <div class="services-content-area">
@@ -168,16 +165,30 @@
                             onkeyup="filterMenu()"
                             style="width: 100%; padding: 12px 20px; border: 1px solid #ddd; border-radius: 8px; font-family: 'Nunito', sans-serif; font-size: 1rem; outline: none;">
                     </div>
+                                        <div id="tab-waxing" class="service-tab-content" style="display:block;">
+                        <div class="tab-header">
+                            <div class="tab-title-area">
+                                <h3 class="tab-title">WAXING</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your waxing deserves the best.</span></p>
+                            </div>
+                            <div class="tab-image-area">
+                                <img src="assets/waxing_service.png" alt="WAXING" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="tab-services-list"></div>
+                        <div class="tab-footer-note">
+                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
+                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
+                        </div>
+                    </div>
                     <div id="tab-hair" class="service-tab-content" style="display:none;">
                         <div class="tab-header">
                             <div class="tab-title-area">
                                 <h3 class="tab-title">HAIR</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your hair
-                                        deserves the best.</span></p>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your hair deserves the best.</span></p>
                             </div>
                             <div class="tab-image-area">
-                                <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80"
-                                    alt="HAIR" loading="lazy">
+                                <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="HAIR" loading="lazy">
                             </div>
                         </div>
                         <div class="tab-services-list"></div>
@@ -189,30 +200,11 @@
                     <div id="tab-skin" class="service-tab-content" style="display:none;">
                         <div class="tab-header">
                             <div class="tab-title-area">
-                                <h3 class="tab-title">SKIN</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your skin
-                                        deserves the best.</span></p>
+                                <h3 class="tab-title">SKIN / FACIALS</h3>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your skin deserves the best.</span></p>
                             </div>
                             <div class="tab-image-area">
-                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
-                                    alt="SKIN" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="tab-services-list"></div>
-                        <div class="tab-footer-note">
-                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
-                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
-                        </div>
-                    </div>
-                    <div id="tab-waxing" class="service-tab-content" style="display:block;">
-                        <div class="tab-header">
-                            <div class="tab-title-area">
-                                <h3 class="tab-title">WAXING</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your waxing
-                                        deserves the best.</span></p>
-                            </div>
-                            <div class="tab-image-area">
-                                <img src="assets/waxing_service.png" alt="WAXING" loading="lazy">
+                                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="SKIN / FACIALS" loading="lazy">
                             </div>
                         </div>
                         <div class="tab-services-list"></div>
@@ -225,29 +217,10 @@
                         <div class="tab-header">
                             <div class="tab-title-area">
                                 <h3 class="tab-title">NAILS</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your nails
-                                        deserves the best.</span></p>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your nails deserves the best.</span></p>
                             </div>
                             <div class="tab-image-area">
-                                <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80"
-                                    alt="NAILS" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="tab-services-list"></div>
-                        <div class="tab-footer-note">
-                            <span>✦ Prices are subject to change. Taxes extra as applicable.</span>
-                            <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
-                        </div>
-                    </div>
-                    <div id="tab-packages" class="service-tab-content" style="display:none;">
-                        <div class="tab-header">
-                            <div class="tab-title-area">
-                                <h3 class="tab-title">PACKAGES</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your packages
-                                        deserves the best.</span></p>
-                            </div>
-                            <div class="tab-image-area">
-                                <img src="assets/packages_service.png" alt="PACKAGES" loading="lazy">
+                                <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=800&q=80" alt="NAILS" loading="lazy">
                             </div>
                         </div>
                         <div class="tab-services-list"></div>
@@ -260,8 +233,7 @@
                         <div class="tab-header">
                             <div class="tab-title-area">
                                 <h3 class="tab-title">DE-TAN</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your de-tan
-                                        deserves the best.</span></p>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your de-tan deserves the best.</span></p>
                             </div>
                             <div class="tab-image-area">
                                 <img src="assets/detan_service.png" alt="DE-TAN" loading="lazy">
@@ -273,16 +245,14 @@
                             <span class="highlight">ASK OUR EXPERT FOR THE BEST SERVICE FOR YOU! ✦</span>
                         </div>
                     </div>
-                    <div id="tab-makeup" class="service-tab-content" style="display:none;">
+                    <div id="tab-mens-services" class="service-tab-content" style="display:none;">
                         <div class="tab-header">
                             <div class="tab-title-area">
-                                <h3 class="tab-title">MAKEUP</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your makeup
-                                        deserves the best.</span></p>
+                                <h3 class="tab-title">MEN'S SERVICES</h3>
+                                <p class="tab-subtitle">Premium grooming and custom care for men. <br><span>Because you deserve to look your absolute best.</span></p>
                             </div>
                             <div class="tab-image-area">
-                                <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&q=80"
-                                    alt="MAKEUP" loading="lazy">
+                                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="MEN'S SERVICES" loading="lazy">
                             </div>
                         </div>
                         <div class="tab-services-list"></div>
@@ -295,12 +265,10 @@
                         <div class="tab-header">
                             <div class="tab-title-area">
                                 <h3 class="tab-title">OTHERS</h3>
-                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your others
-                                        deserves the best.</span></p>
+                                <p class="tab-subtitle">Expert care for every strand. <br><span>Because your others deserves the best.</span></p>
                             </div>
                             <div class="tab-image-area">
-                                <img src="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=800&q=80"
-                                    alt="OTHERS" loading="lazy">
+                                <img src="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=800&q=80" alt="OTHERS" loading="lazy">
                             </div>
                         </div>
                         <div class="tab-services-list"></div>
@@ -314,7 +282,8 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
+    
+<!-- Gallery Section -->
     <section id="gallery" class="gallery">
         <div class="container">
             <span class="section-subtitle">Portfolio</span>
@@ -558,13 +527,12 @@
                         <label for="service">Service Interested In</label>
                         <select id="service" name="service" required>
                             <option value="" disabled selected>Select a service</option>
-                            <option value="Hair">Hair</option>
-                            <option value="Skin">Skin</option>
                             <option value="Waxing">Waxing</option>
+                            <option value="Hair">Hair</option>
+                            <option value="Skin">Skin / Facials</option>
                             <option value="Nails">Nails</option>
-                            <option value="Packages">Packages</option>
                             <option value="De-Tan">De-Tan</option>
-                            <option value="Makeup">Makeup</option>
+                            <option value="Mens Services">Men's Services</option>
                             <option value="Others">Others</option>
                         </select>
                     </div>
