@@ -67,13 +67,20 @@ except Exception as e:
     print(f"ERROR: {str(e)}", file=sys.stderr)
     sys.exit(1)
 `;
-        const tempPyFile = 'C:\\Users\\hp\\.gemini\\antigravity-ide\\brain\\f0953152-2133-4fc3-8ca3-7ad727098596\\scratch\\temp_excel.py';
+        const tempPyFile = './temp_excel.py';
         fs.writeFileSync(tempPyFile, pythonScript, 'utf8');
         
         const output = execSync(`python "${tempPyFile}"`, { encoding: 'utf8' });
+        if (fs.existsSync(tempPyFile)) {
+            fs.unlinkSync(tempPyFile);
+        }
         excelData = JSON.parse(output.trim());
         console.log(`Successfully loaded ${excelData.length} master products from price.xlsx.\n`);
     } catch (err) {
+        const tempPyFile = './temp_excel.py';
+        if (fs.existsSync(tempPyFile)) {
+            fs.unlinkSync(tempPyFile);
+        }
         console.error('❌ Failed to parse Excel sheet price.xlsx:');
         console.error(err.stderr || err.message);
         process.exit(1);

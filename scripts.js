@@ -154,34 +154,125 @@ function renderMenu() {
     const tabs = ['waxing', 'hair', 'skin', 'nails', 'de-tan', 'mens-services', 'others'];
     
     tabs.forEach(tab => {
-        const listContainer = document.querySelector(`#tab-${tab} .tab-services-list`);
+        const tabEl = document.getElementById(`tab-${tab}`);
+        if (!tabEl) return;
+        
+        const listContainer = tabEl.querySelector('.tab-services-list');
         if (!listContainer) return;
         
-        listContainer.innerHTML = ''; // Clear hardcoded
+        // Ensure 3-column DOM structure exists
+        let bodyLayout = tabEl.querySelector('.tab-body-layout');
+        let subSidebar = tabEl.querySelector('.tab-sub-sidebar');
+        
+        if (!bodyLayout) {
+            bodyLayout = document.createElement('div');
+            bodyLayout.className = 'tab-body-layout';
+            
+            subSidebar = document.createElement('div');
+            subSidebar.className = 'tab-sub-sidebar';
+            
+            listContainer.parentNode.insertBefore(bodyLayout, listContainer);
+            bodyLayout.appendChild(subSidebar);
+            bodyLayout.appendChild(listContainer);
+        }
+        
+        subSidebar.innerHTML = '';
+        listContainer.innerHTML = '';
         
         const items = window.menuData[tab] || [];
+        
+        // Group items by subheading
+        const groups = [];
+        let currentGroup = null;
+        
         items.forEach(item => {
             if (item.type === 'subheading') {
-                const subheaderEl = document.createElement('div');
-                subheaderEl.className = 'service-list-subheading';
-                subheaderEl.innerHTML = `<h3>${item.name}</h3>`;
-                listContainer.appendChild(subheaderEl);
-                return;
+                if (currentGroup) {
+                    groups.push(currentGroup);
+                }
+                currentGroup = {
+                    name: item.name,
+                    items: []
+                };
+            } else {
+                if (!currentGroup) {
+                    currentGroup = {
+                        name: 'General Services',
+                        items: []
+                    };
+                }
+                currentGroup.items.push(item);
             }
-            const el = document.createElement('div');
-            el.className = 'service-list-item';
-            el.innerHTML = `
-                <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
-                <div class="service-info">
-                    <span class="service-name">${item.name}</span>
-                    <span class="service-desc">${item.desc}</span>
-                </div>
-                <div class="service-dots"></div>
-                <div class="service-price">${item.price}</div>
-            `;
-            listContainer.appendChild(el);
         });
-
+        if (currentGroup) {
+            groups.push(currentGroup);
+        }
+        
+        // Save groups on the tab element for search reference
+        tabEl.serviceGroups = groups;
+        
+        // Function to render active group items
+        const renderGroupItems = (group) => {
+            listContainer.innerHTML = '';
+            
+            // Sub-category Title at the top of the list
+            const titleEl = document.createElement('div');
+            titleEl.className = 'service-list-subheading';
+            titleEl.style.marginTop = '0';
+            titleEl.style.paddingTop = '0';
+            titleEl.innerHTML = `<h3>${group.name}</h3>`;
+            listContainer.appendChild(titleEl);
+            
+            group.items.forEach(item => {
+                const el = document.createElement('div');
+                el.className = 'service-list-item';
+                el.innerHTML = `
+                    <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                    <div class="service-info">
+                        <span class="service-name">${item.name}</span>
+                        <span class="service-desc">${item.desc}</span>
+                    </div>
+                    <div class="service-dots"></div>
+                    <div class="service-price">${item.price}</div>
+                `;
+                listContainer.appendChild(el);
+            });
+            
+            listContainer.scrollTop = 0;
+            listContainer.dispatchEvent(new Event('scroll'));
+        };
+        
+        // Render sub-category buttons
+        groups.forEach((group, index) => {
+            if (group.items.length === 0) return;
+            
+            const btn = document.createElement('button');
+            btn.className = 'sub-tab-btn';
+            btn.type = 'button';
+            btn.innerHTML = `
+                <span class="sub-tab-text">${group.name}</span>
+                <span class="sub-tab-chevron">›</span>
+            `;
+            
+            btn.addEventListener('click', () => {
+                subSidebar.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Store active group index on tab element
+                tabEl.dataset.activeSubIndex = index;
+                
+                renderGroupItems(group);
+            });
+            
+            subSidebar.appendChild(btn);
+        });
+        
+        // Select first subcategory by default
+        const firstBtn = subSidebar.querySelector('.sub-tab-btn');
+        if (firstBtn) {
+            firstBtn.click();
+        }
+        
         // Wrap in .tab-services-wrapper for scroll fade indicator (iOS fix)
         if (!listContainer.parentElement.classList.contains('tab-services-wrapper')) {
             const wrapper = document.createElement('div');
@@ -195,7 +286,6 @@ function renderMenu() {
                 wrapper.classList.toggle('at-bottom', atBottom);
             };
             listContainer.addEventListener('scroll', checkFade, { passive: true });
-            // Initial check — if content fits without scroll, hide fade immediately
             checkFade();
         }
     });
@@ -212,29 +302,85 @@ function filterMenu() {
         
     if (!activeTab) return;
     
-    const items = activeTab.querySelectorAll(".service-list-item");
-    const subheadings = activeTab.querySelectorAll(".service-list-subheading");
+    const subSidebar = activeTab.querySelector('.tab-sub-sidebar');
+    const listContainer = activeTab.querySelector('.tab-services-list');
+    const groups = activeTab.serviceGroups || [];
     
-    // Toggle subheadings display during search
-    subheadings.forEach(sub => {
-        if (filter.trim() !== "") {
-            sub.style.display = "none";
-        } else {
-            sub.style.display = "block";
-        }
-    });
-    
-    items.forEach(item => {
-        const nameNode = item.querySelector(".service-name");
-        const descNode = item.querySelector(".service-desc");
-        if (!nameNode || !descNode) return;
+    if (filter.trim() !== "") {
+        // Hide sub-sidebar during search
+        if (subSidebar) subSidebar.style.display = "none";
         
-        const name = nameNode.textContent;
-        const desc = descNode.textContent;
-        if (name.toUpperCase().indexOf(filter) > -1 || desc.toUpperCase().indexOf(filter) > -1) {
-            item.style.display = "flex";
-        } else {
-            item.style.display = "none";
+        // Render matching items across all categories
+        listContainer.innerHTML = '';
+        
+        groups.forEach(group => {
+            const matches = group.items.filter(item => {
+                return item.name.toUpperCase().indexOf(filter) > -1 || 
+                       item.desc.toUpperCase().indexOf(filter) > -1;
+            });
+            
+            if (matches.length > 0) {
+                const titleEl = document.createElement('div');
+                titleEl.className = 'service-list-subheading';
+                titleEl.innerHTML = `<h3>${group.name}</h3>`;
+                listContainer.appendChild(titleEl);
+                
+                matches.forEach(item => {
+                    const el = document.createElement('div');
+                    el.className = 'service-list-item';
+                    el.innerHTML = `
+                        <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                        <div class="service-info">
+                            <span class="service-name">${item.name}</span>
+                            <span class="service-desc">${item.desc}</span>
+                        </div>
+                        <div class="service-dots"></div>
+                        <div class="service-price">${item.price}</div>
+                    `;
+                    listContainer.appendChild(el);
+                });
+            }
+        });
+        
+        if (listContainer.innerHTML === '') {
+            listContainer.innerHTML = '<div style="padding: 30px; text-align: center; color: #777;">No matching services found.</div>';
         }
-    });
+    } else {
+        // Show sub-sidebar
+        if (subSidebar) {
+            subSidebar.style.display = "flex";
+        }
+        
+        // Restore currently active sub-category items
+        const activeIdx = activeTab.dataset.activeSubIndex || 0;
+        const activeGroup = groups[activeIdx];
+        if (activeGroup) {
+            listContainer.innerHTML = '';
+            
+            const titleEl = document.createElement('div');
+            titleEl.className = 'service-list-subheading';
+            titleEl.style.marginTop = '0';
+            titleEl.style.paddingTop = '0';
+            titleEl.innerHTML = `<h3>${activeGroup.name}</h3>`;
+            listContainer.appendChild(titleEl);
+            
+            activeGroup.items.forEach(item => {
+                const el = document.createElement('div');
+                el.className = 'service-list-item';
+                el.innerHTML = `
+                    <div class="service-icon"><span style="color:#c2185b; font-size:12px;">✦</span></div>
+                    <div class="service-info">
+                        <span class="service-name">${item.name}</span>
+                        <span class="service-desc">${item.desc}</span>
+                    </div>
+                    <div class="service-dots"></div>
+                    <div class="service-price">${item.price}</div>
+                `;
+                listContainer.appendChild(el);
+            });
+        }
+    }
+    
+    // Update scroll fade indicator
+    listContainer.dispatchEvent(new Event('scroll'));
 }

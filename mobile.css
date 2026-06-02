@@ -976,11 +976,13 @@ footer {
 }
 .tab-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     margin-bottom: 30px;
     border-bottom: 1px solid #f0e6e1;
     padding-bottom: 30px;
+    gap: 20px;
 }
 .tab-title {
     font-family: 'Playfair Display', serif;
@@ -1103,7 +1105,8 @@ footer {
     }
         .tab-header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        text-align: center;
         gap: 8px;
         margin-bottom: 16px;
         padding-bottom: 16px;
@@ -1336,5 +1339,126 @@ footer {
         letter-spacing: 0.05em;
         text-transform: uppercase;
         margin: 0;
+    }
+}
+/* 3-Column Layout Styles */
+.tab-body-layout {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    align-items: stretch;
+}
+
+.tab-sub-sidebar {
+    flex: 0 0 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 1px solid #f0e6e1;
+    padding-right: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.tab-sub-sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+.tab-sub-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.tab-sub-sidebar::-webkit-scrollbar-thumb {
+    background: #e0e0e0;
+    border-radius: 2px;
+}
+
+.tab-services-wrapper {
+    flex: 1;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/* Sub-tab Button Style */
+.sub-tab-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.sub-tab-btn:hover {
+    color: var(--primary-color);
+    background-color: #fffafb;
+}
+
+.sub-tab-btn.active {
+    border-color: #fce4ec;
+    background: linear-gradient(90deg, #fff 0%, #fff0f5 100%);
+    color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(194, 24, 91, 0.05);
+}
+
+.sub-tab-chevron {
+    font-size: 1.1rem;
+    font-weight: bold;
+    opacity: 0.4;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.sub-tab-btn.active .sub-tab-chevron {
+    opacity: 1;
+    transform: translateX(3px);
+    color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+    .tab-body-layout {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .tab-sub-sidebar {
+        flex: 0 0 auto;
+        flex-direction: row;
+        border-right: none;
+        border-bottom: 1px solid #f0e6e1;
+        padding-right: 0;
+        padding-bottom: 12px;
+        max-height: none;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        gap: 10px;
+    }
+    
+    .tab-sub-sidebar::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .sub-tab-btn {
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: 1px solid #f0e6e1;
+        white-space: nowrap;
+        font-size: 0.85rem;
+    }
+    
+    .sub-tab-btn.active {
+        border-color: var(--primary-color);
+        background: linear-gradient(90deg, #fff 0%, #fff0f5 100%);
+        color: var(--primary-color);
+    }
+    
+    .sub-tab-chevron {
+        display: none;
     }
 }
