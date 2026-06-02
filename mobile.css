@@ -986,10 +986,10 @@ footer {
 }
 .tab-title {
     font-family: 'Playfair Display', serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 10px;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: 2px;
 }
 .tab-subtitle {
@@ -1330,11 +1330,12 @@ footer {
         border-bottom: 1px solid rgba(194, 24, 91, 0.1);
         width: 100%;
         box-sizing: border-box;
+        text-align: center;
     }
     .service-list-subheading h3 {
         color: #c2185b;
         font-family: 'Playfair Display', serif;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 600;
         letter-spacing: 0.05em;
         text-transform: uppercase;

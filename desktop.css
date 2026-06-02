@@ -1129,7 +1129,7 @@ footer {
     gap: 10px;
     border-right: 1px solid #f0e6e1;
     padding-right: 20px;
-    margin-top: 310px; /* Align with sub-services */
+    margin-top: 240px; /* Align with sub-services */
 }
 .tab-btn {
     display: flex;
@@ -1194,10 +1194,10 @@ footer {
 }
 .tab-title {
     font-family: 'Playfair Display', serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 10px;
-    line-height: 1;
+    line-height: 1.2;
     letter-spacing: 2px;
 }
 .tab-subtitle {
@@ -1459,11 +1459,12 @@ footer {
     width: 100%;
     box-sizing: border-box;
     display: block;
+    text-align: center;
 }
 .service-list-subheading h3 {
     color: var(--primary-color);
     font-family: 'Playfair Display', serif;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
