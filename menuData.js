@@ -338,44 +338,9 @@ window.menuData = {
             "price": "₹639"
         },
         {
-            "name": "WHITE BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional WHITE BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹470"
-        },
-        {
-            "name": "WHITE BRIGHT NECK WAX",
-            "desc": "Discover our professional WHITE BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹189"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional WHITE BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹390"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional WHITE BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹560"
-        },
-        {
             "name": "WHITE BRIGHT WAX - FULL BODY",
             "desc": "Enjoy our professional WHITE BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
             "price": "₹1,985"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional WHITE BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹525"
-        },
-        {
-            "name": "WHITE BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional WHITE BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹540"
-        },
-        {
-            "name": "WHITE BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional WHITE BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹495"
         },
         {
             "name": "WHITE BRIGHT WAX COMBO",
@@ -383,9 +348,44 @@ window.menuData = {
             "price": "₹945"
         },
         {
+            "name": "WHITE BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional WHITE BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹560"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional WHITE BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹540"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional WHITE BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹525"
+        },
+        {
             "name": "WHITE BRIGHT WAX MIDRIFF",
             "desc": "Enjoy our professional WHITE BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
             "price": "₹499"
+        },
+        {
+            "name": "WHITE BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional WHITE BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹495"
+        },
+        {
+            "name": "WHITE BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional WHITE BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹470"
+        },
+        {
+            "name": "WHITE BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional WHITE BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹390"
+        },
+        {
+            "name": "WHITE BRIGHT NECK WAX",
+            "desc": "Discover our professional WHITE BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹189"
         },
         {
             "type": "subheading",
