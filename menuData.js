@@ -54,9 +54,24 @@ window.menuData = {
             "name": "BRAZILIAN WAX"
         },
         {
-            "name": "PINK BRIGHT BRAZILIAN BLOUSE LINE WAX",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN BLOUSE LINE WAX. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹680"
+            "name": "PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC",
+            "desc": "Treat yourself to our professional PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹8,499"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BIKINI",
+            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN WAX - FULL BIKINI. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹2,835"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BACK",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX - FULL BACK. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹1,940"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX BIKINI LINE",
+            "desc": "Experience our professional PINK BRIGHT BRAZILIAN WAX BIKINI LINE. A gentle, hygienic approach to hair removal.",
+            "price": "₹790"
         },
         {
             "name": "PINK BRIGHT BRAZILIAN BUTTOCK CRACK WAX",
@@ -69,6 +84,36 @@ window.menuData = {
             "price": "₹755"
         },
         {
+            "name": "PINK BRIGHT BRAZILIAN BLOUSE LINE WAX",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN BLOUSE LINE WAX. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹680"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN NECK WAX",
+            "desc": "Discover our professional PINK BRIGHT BRAZILIAN NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹225"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS",
+            "desc": "Discover our professional PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹225"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN WAX UNDERARMS",
+            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN WAX UNDERARMS. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹225"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN FOREHEAD WAX",
+            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN FOREHEAD WAX. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹200"
+        },
+        {
+            "name": "PINK BRIGHT BRAZILIAN THROAT WAX",
+            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN THROAT WAX. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹200"
+        },
+        {
             "name": "PINK BRIGHT BRAZILIAN CHEEK WAX",
             "desc": "Experience our professional PINK BRIGHT BRAZILIAN CHEEK WAX. A gentle, hygienic approach to hair removal.",
             "price": "₹140"
@@ -79,19 +124,9 @@ window.menuData = {
             "price": "₹140"
         },
         {
-            "name": "PINK BRIGHT BRAZILIAN FOREHEAD WAX",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN FOREHEAD WAX. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹200"
-        },
-        {
             "name": "PINK BRIGHT BRAZILIAN LOWER LIP WAX",
             "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN LOWER LIP WAX. Using premium quality wax suitable for sensitive skin.",
             "price": "₹140"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN NECK WAX",
-            "desc": "Discover our professional PINK BRIGHT BRAZILIAN NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹225"
         },
         {
             "name": "PINK BRIGHT BRAZILIAN NOSE WAX",
@@ -99,44 +134,9 @@ window.menuData = {
             "price": "₹105"
         },
         {
-            "name": "PINK BRIGHT BRAZILIAN THROAT WAX",
-            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN THROAT WAX. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹200"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BACK",
-            "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX - FULL BACK. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹1,940"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX - FULL BIKINI",
-            "desc": "Treat yourself to our professional PINK BRIGHT BRAZILIAN WAX - FULL BIKINI. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹2,835"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS",
-            "desc": "Discover our professional PINK BRIGHT BRAZILIAN WAX - SIDE LOCKS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹225"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX BIKINI LINE",
-            "desc": "Experience our professional PINK BRIGHT BRAZILIAN WAX BIKINI LINE. A gentle, hygienic approach to hair removal.",
-            "price": "₹790"
-        },
-        {
-            "name": "PINK BRIGHT BRAZILIAN WAX UNDERARMS",
-            "desc": "Indulge in our professional PINK BRIGHT BRAZILIAN WAX UNDERARMS. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹225"
-        },
-        {
             "name": "PINK BRIGHT BRAZILIAN WAX UPPER LIP",
             "desc": "Enjoy our professional PINK BRIGHT BRAZILIAN WAX UPPER LIP. Quick, efficient, and designed for maximum comfort.",
             "price": "₹105"
-        },
-        {
-            "name": "PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC",
-            "desc": "Treat yourself to our professional PINK BRIGHT FULL BRAZILIAN BIKINI SITTING PAC. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹8,499"
         },
         {
             "type": "subheading",
