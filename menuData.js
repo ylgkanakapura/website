@@ -1438,16 +1438,7 @@ window.menuData = {
             "desc": "Experience our professional Lotus PRESERVITA VINO GRAPES MARMALADE F. Rejuvenate your skin and bring out your natural glow.",
             "price": "₹4,199"
         },
-        {
-            "name": "ELT WHITENING FACIAL",
-            "desc": "Indulge in our professional ELT WHITENING FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹4,515"
-        },
-        {
-            "name": "ELT GOLD FACIAL",
-            "desc": "Enjoy our professional ELT GOLD FACIAL. Formulated to hydrate and refresh tired skin.",
-            "price": "₹3,570"
-        },
+
         {
             "type": "subheading",
             "name": "PREMIUM FACIALS"
