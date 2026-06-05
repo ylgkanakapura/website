@@ -143,14 +143,9 @@ window.menuData = {
             "name": "BRIGHT BLUE WAX"
         },
         {
-            "name": "Bright Blue Wax - Blouse Line",
-            "desc": "Discover our professional Bright Blue Wax - Blouse Line. Professional and discrete service by our trained aestheticians.",
-            "price": "₹440"
-        },
-        {
-            "name": "Bright Blue Wax - Buttock",
-            "desc": "Experience our professional Bright Blue Wax - Buttock. A gentle, hygienic approach to hair removal.",
-            "price": "₹490"
+            "name": "Bright Blue Wax - Full Body",
+            "desc": "Discover our professional Bright Blue Wax - Full Body. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,940"
         },
         {
             "name": "Bright Blue Wax - Combo",
@@ -158,19 +153,19 @@ window.menuData = {
             "price": "₹840"
         },
         {
-            "name": "Bright Blue Wax - Full Arms",
-            "desc": "Enjoy our professional Bright Blue Wax - Full Arms. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹340"
-        },
-        {
             "name": "Bright Blue Wax - Full Back",
             "desc": "Treat yourself to our professional Bright Blue Wax - Full Back. Using premium quality wax suitable for sensitive skin.",
             "price": "₹525"
         },
         {
-            "name": "Bright Blue Wax - Full Body",
-            "desc": "Discover our professional Bright Blue Wax - Full Body. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,940"
+            "name": "Bright Blue Wax - Buttock",
+            "desc": "Experience our professional Bright Blue Wax - Buttock. A gentle, hygienic approach to hair removal.",
+            "price": "₹490"
+        },
+        {
+            "name": "Bright Blue Wax - Midriff",
+            "desc": "Enjoy our professional Bright Blue Wax - Midriff. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹490"
         },
         {
             "name": "Bright Blue Wax - Full Front",
@@ -178,14 +173,19 @@ window.menuData = {
             "price": "₹470"
         },
         {
+            "name": "Bright Blue Wax - Blouse Line",
+            "desc": "Discover our professional Bright Blue Wax - Blouse Line. Professional and discrete service by our trained aestheticians.",
+            "price": "₹440"
+        },
+        {
             "name": "Bright Blue Wax - Full Legs",
             "desc": "Indulge in our professional Bright Blue Wax - Full Legs. Leaves your skin feeling silky smooth for weeks.",
             "price": "₹440"
         },
         {
-            "name": "Bright Blue Wax - Midriff",
-            "desc": "Enjoy our professional Bright Blue Wax - Midriff. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹490"
+            "name": "Bright Blue Wax - Full Arms",
+            "desc": "Enjoy our professional Bright Blue Wax - Full Arms. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹340"
         },
         {
             "type": "subheading",
