@@ -1413,31 +1413,7 @@ window.menuData = {
             "desc": "Experience our professional YLG SIGNATURE GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
             "price": "₹5,305"
         },
-        {
-            "name": "Lotus Glycolic Peel Treatment",
-            "desc": "Enjoy our professional Lotus Glycolic Peel Treatment. Formulated to hydrate and refresh tired skin.",
-            "price": "₹5,775"
-        },
-        {
-            "name": "LOTUS DermaSAGE Brightening Booster",
-            "desc": "Experience our professional LOTUS DermaSAGE Brightening Booster. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "LOTUS DermaSAGE Super Detox",
-            "desc": "Indulge in our professional LOTUS DermaSAGE Super Detox. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "LOTUS DermaSAGE Ultra Hydrating",
-            "desc": "Enjoy our professional LOTUS DermaSAGE Ultra Hydrating. Formulated to hydrate and refresh tired skin.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "LOTUS DermaSAGE Youth Recovery",
-            "desc": "Treat yourself to our professional LOTUS DermaSAGE Youth Recovery. Experience ultimate relaxation while we pamper your skin.",
-            "price": "₹5,305"
-        },
+
         {
             "type": "subheading",
             "name": "SIGNATURE FACIALS"
