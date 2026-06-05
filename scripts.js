@@ -242,35 +242,62 @@ function renderMenu() {
             listContainer.dispatchEvent(new Event('scroll'));
         };
         
-        // Render sub-category buttons
-        groups.forEach((group, index) => {
-            if (group.items.length === 0) return;
+        // Render sub-category selectors (dropdown for mobile, buttons for desktop)
+        const isMobile = window.location.pathname.includes('mobile.html') || window.innerWidth <= 900;
+        
+        if (isMobile) {
+            const selectEl = document.createElement('select');
+            selectEl.className = 'sub-services-select';
             
-            const btn = document.createElement('button');
-            btn.className = 'sub-tab-btn';
-            btn.type = 'button';
-            btn.innerHTML = `
-                <span class="sub-tab-text">${group.name}</span>
-                <span class="sub-tab-chevron">›</span>
-            `;
-            
-            btn.addEventListener('click', () => {
-                subSidebar.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                
-                // Store active group index on tab element
-                tabEl.dataset.activeSubIndex = index;
-                
-                renderGroupItems(group);
+            groups.forEach((group, index) => {
+                if (group.items.length === 0) return;
+                const optionEl = document.createElement('option');
+                optionEl.value = index;
+                optionEl.textContent = group.name;
+                selectEl.appendChild(optionEl);
             });
             
-            subSidebar.appendChild(btn);
-        });
-        
-        // Select first subcategory by default
-        const firstBtn = subSidebar.querySelector('.sub-tab-btn');
-        if (firstBtn) {
-            firstBtn.click();
+            selectEl.addEventListener('change', (e) => {
+                const index = parseInt(e.target.value, 10);
+                tabEl.dataset.activeSubIndex = index;
+                renderGroupItems(groups[index]);
+            });
+            
+            subSidebar.appendChild(selectEl);
+            
+            if (groups.length > 0) {
+                tabEl.dataset.activeSubIndex = 0;
+                renderGroupItems(groups[0]);
+            }
+        } else {
+            groups.forEach((group, index) => {
+                if (group.items.length === 0) return;
+                
+                const btn = document.createElement('button');
+                btn.className = 'sub-tab-btn';
+                btn.type = 'button';
+                btn.innerHTML = `
+                    <span class="sub-tab-text">${group.name}</span>
+                    <span class="sub-tab-chevron">›</span>
+                `;
+                
+                btn.addEventListener('click', () => {
+                    subSidebar.querySelectorAll('.sub-tab-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    // Store active group index on tab element
+                    tabEl.dataset.activeSubIndex = index;
+                    
+                    renderGroupItems(group);
+                });
+                
+                subSidebar.appendChild(btn);
+            });
+            
+            const firstBtn = subSidebar.querySelector('.sub-tab-btn');
+            if (firstBtn) {
+                firstBtn.click();
+            }
         }
         
         // Wrap in .tab-services-wrapper for scroll fade indicator (iOS fix)

@@ -31,9 +31,20 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="desktop.css">
     <script>
-        // Hide .html extension from URL bar
+        // Save initial hash to navigate to it after layout renders
+        const initialHash = window.location.hash;
         if (window.history.replaceState) {
             window.history.replaceState(null, null, "/");
+        }
+        if (initialHash) {
+            window.addEventListener('DOMContentLoaded', () => {
+                setTimeout(() => {
+                    const targetEl = document.querySelector(initialHash);
+                    if (targetEl) {
+                        targetEl.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }, 100);
+            });
         }
     </script>
 </head>
