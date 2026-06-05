@@ -140,7 +140,7 @@ window.menuData = {
         },
         {
             "type": "subheading",
-            "name": "BRIGHTENING WAX"
+            "name": "BRIGHT BLUE WAX"
         },
         {
             "name": "Bright Blue Wax - Blouse Line",
@@ -188,24 +188,8 @@ window.menuData = {
             "price": "₹490"
         },
         {
-            "name": "GOLD SENSI BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹690"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT NECK WAX",
-            "desc": "Discover our professional GOLD SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹315"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional GOLD SENSI BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹650"
-        },
-        {
-            "name": "GOLD SENSI BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹735"
+            "type": "subheading",
+            "name": "GOLD SENSI BRIGHT WAX"
         },
         {
             "name": "GOLD SENSI BRIGHT WAX - FULL BODY",
@@ -213,9 +197,9 @@ window.menuData = {
             "price": "₹2,675"
         },
         {
-            "name": "GOLD SENSI BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹795"
+            "name": "GOLD SENSI BRIGHT WAX COMBO",
+            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹1,520"
         },
         {
             "name": "GOLD SENSI BRIGHT WAX - FULL LEGS",
@@ -223,19 +207,43 @@ window.menuData = {
             "price": "₹960"
         },
         {
+            "name": "GOLD SENSI BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹795"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹735"
+        },
+        {
             "name": "GOLD SENSI BRIGHT WAX BUTTOCK",
             "desc": "Experience our professional GOLD SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
             "price": "₹735"
         },
         {
-            "name": "GOLD SENSI BRIGHT WAX COMBO",
-            "desc": "Indulge in our professional GOLD SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹1,520"
-        },
-        {
             "name": "GOLD SENSI BRIGHT WAX MIDRIFF",
             "desc": "Enjoy our professional GOLD SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
             "price": "₹735"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional GOLD SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹690"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional GOLD SENSI BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹650"
+        },
+        {
+            "name": "GOLD SENSI BRIGHT NECK WAX",
+            "desc": "Discover our professional GOLD SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹315"
+        },
+        {
+            "type": "subheading",
+            "name": "PLATINUM SENSI BRIGHT WAX"
         },
         {
             "name": "PLATINUM SENSI BRIGHT BLOUSE LINE WAX",
@@ -288,6 +296,10 @@ window.menuData = {
             "price": "₹755"
         },
         {
+            "type": "subheading",
+            "name": "SAFFRON BRIGHT WAX"
+        },
+        {
             "name": "SAFFRON BRIGHT BLOUSE LINE WAX",
             "desc": "Treat yourself to our professional SAFFRON BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
             "price": "₹610"
@@ -336,6 +348,10 @@ window.menuData = {
             "name": "SAFFRON BRIGHT WAX MIDRIFF",
             "desc": "Enjoy our professional SAFFRON BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
             "price": "₹639"
+        },
+        {
+            "type": "subheading",
+            "name": "WHITE BRIGHT WAX"
         },
         {
             "name": "WHITE BRIGHT WAX - FULL BODY",
