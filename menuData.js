@@ -246,14 +246,19 @@ window.menuData = {
             "name": "PLATINUM SENSI BRIGHT WAX"
         },
         {
-            "name": "PLATINUM SENSI BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹690"
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL BODY",
+            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹2,939"
         },
         {
-            "name": "PLATINUM SENSI BRIGHT NECK WAX",
-            "desc": "Discover our professional PLATINUM SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹350"
+            "name": "PLATINUM SENSI BRIGHT WAX COMBO",
+            "desc": "Indulge in our professional PLATINUM SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹1,735"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional PLATINUM SENSI BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,059"
         },
         {
             "name": "PLATINUM SENSI BRIGHT WAX - FULL ARMS",
@@ -266,9 +271,14 @@ window.menuData = {
             "price": "₹800"
         },
         {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL BODY",
-            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹2,939"
+            "name": "PLATINUM SENSI BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional PLATINUM SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹755"
+        },
+        {
+            "name": "PLATINUM SENSI BRIGHT WAX MIDRIFF",
+            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
+            "price": "₹755"
         },
         {
             "name": "PLATINUM SENSI BRIGHT WAX - FULL FRONT",
@@ -276,24 +286,14 @@ window.menuData = {
             "price": "₹750"
         },
         {
-            "name": "PLATINUM SENSI BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional PLATINUM SENSI BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,059"
+            "name": "PLATINUM SENSI BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional PLATINUM SENSI BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹690"
         },
         {
-            "name": "PLATINUM SENSI BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional PLATINUM SENSI BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹755"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX COMBO",
-            "desc": "Indulge in our professional PLATINUM SENSI BRIGHT WAX COMBO. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹1,735"
-        },
-        {
-            "name": "PLATINUM SENSI BRIGHT WAX MIDRIFF",
-            "desc": "Enjoy our professional PLATINUM SENSI BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
-            "price": "₹755"
+            "name": "PLATINUM SENSI BRIGHT NECK WAX",
+            "desc": "Discover our professional PLATINUM SENSI BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹350"
         },
         {
             "type": "subheading",
