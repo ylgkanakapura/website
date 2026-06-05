@@ -1299,7 +1299,7 @@ footer {
         max-height: 380px !important;
         overflow-y: scroll !important;
         -webkit-overflow-scrolling: touch !important;
-        padding-right: 6px !important;
+        padding-right: 18px !important;
         scrollbar-width: thin !important;
         scrollbar-color: #c2185b #fce4ec !important;
     }
