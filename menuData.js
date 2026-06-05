@@ -300,44 +300,9 @@ window.menuData = {
             "name": "SAFFRON BRIGHT WAX"
         },
         {
-            "name": "SAFFRON BRIGHT BLOUSE LINE WAX",
-            "desc": "Treat yourself to our professional SAFFRON BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹610"
-        },
-        {
-            "name": "SAFFRON BRIGHT NECK WAX",
-            "desc": "Discover our professional SAFFRON BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
-            "price": "₹265"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL ARMS",
-            "desc": "Experience our professional SAFFRON BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
-            "price": "₹570"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL BACK",
-            "desc": "Indulge in our professional SAFFRON BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
-            "price": "₹650"
-        },
-        {
             "name": "SAFFRON BRIGHT WAX - FULL BODY",
             "desc": "Enjoy our professional SAFFRON BRIGHT WAX - FULL BODY. Quick, efficient, and designed for maximum comfort.",
             "price": "₹2,415"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL FRONT",
-            "desc": "Treat yourself to our professional SAFFRON BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹755"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX - FULL LEGS",
-            "desc": "Discover our professional SAFFRON BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
-            "price": "₹770"
-        },
-        {
-            "name": "SAFFRON BRIGHT WAX BUTTOCK",
-            "desc": "Experience our professional SAFFRON BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
-            "price": "₹639"
         },
         {
             "name": "SAFFRON BRIGHT WAX COMBO",
@@ -345,9 +310,44 @@ window.menuData = {
             "price": "₹1,259"
         },
         {
+            "name": "SAFFRON BRIGHT WAX - FULL LEGS",
+            "desc": "Discover our professional SAFFRON BRIGHT WAX - FULL LEGS. Professional and discrete service by our trained aestheticians.",
+            "price": "₹770"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL FRONT",
+            "desc": "Treat yourself to our professional SAFFRON BRIGHT WAX - FULL FRONT. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹755"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL BACK",
+            "desc": "Indulge in our professional SAFFRON BRIGHT WAX - FULL BACK. Leaves your skin feeling silky smooth for weeks.",
+            "price": "₹650"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX BUTTOCK",
+            "desc": "Experience our professional SAFFRON BRIGHT WAX BUTTOCK. A gentle, hygienic approach to hair removal.",
+            "price": "₹639"
+        },
+        {
             "name": "SAFFRON BRIGHT WAX MIDRIFF",
             "desc": "Enjoy our professional SAFFRON BRIGHT WAX MIDRIFF. Quick, efficient, and designed for maximum comfort.",
             "price": "₹639"
+        },
+        {
+            "name": "SAFFRON BRIGHT BLOUSE LINE WAX",
+            "desc": "Treat yourself to our professional SAFFRON BRIGHT BLOUSE LINE WAX. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹610"
+        },
+        {
+            "name": "SAFFRON BRIGHT WAX - FULL ARMS",
+            "desc": "Experience our professional SAFFRON BRIGHT WAX - FULL ARMS. A gentle, hygienic approach to hair removal.",
+            "price": "₹570"
+        },
+        {
+            "name": "SAFFRON BRIGHT NECK WAX",
+            "desc": "Discover our professional SAFFRON BRIGHT NECK WAX. Professional and discrete service by our trained aestheticians.",
+            "price": "₹265"
         },
         {
             "type": "subheading",
