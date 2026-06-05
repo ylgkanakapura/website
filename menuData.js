@@ -1404,6 +1404,16 @@ window.menuData = {
             "price": "₹5,880"
         },
         {
+            "name": "YLG SIGNATURE BRIGHTENING FACIAL",
+            "desc": "Discover our professional YLG SIGNATURE BRIGHTENING FACIAL. Leave feeling refreshed with visibly brighter skin.",
+            "price": "₹5,305"
+        },
+        {
+            "name": "YLG SIGNATURE GLOW FACIAL",
+            "desc": "Experience our professional YLG SIGNATURE GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
+            "price": "₹5,305"
+        },
+        {
             "name": "Lotus Glycolic Peel Treatment",
             "desc": "Enjoy our professional Lotus Glycolic Peel Treatment. Formulated to hydrate and refresh tired skin.",
             "price": "₹5,775"
@@ -1429,23 +1439,8 @@ window.menuData = {
             "price": "₹5,305"
         },
         {
-            "name": "YLG SIGNATURE BRIGHTENING FACIAL",
-            "desc": "Discover our professional YLG SIGNATURE BRIGHTENING FACIAL. Leave feeling refreshed with visibly brighter skin.",
-            "price": "₹5,305"
-        },
-        {
-            "name": "YLG SIGNATURE GLOW FACIAL",
-            "desc": "Experience our professional YLG SIGNATURE GLOW FACIAL. Rejuvenate your skin and bring out your natural glow.",
-            "price": "₹5,305"
-        },
-        {
             "type": "subheading",
             "name": "SIGNATURE FACIALS"
-        },
-        {
-            "name": "ELT WHITENING FACIAL",
-            "desc": "Indulge in our professional ELT WHITENING FACIAL. Deeply cleanses and revitalizes your complexion.",
-            "price": "₹4,515"
         },
         {
             "name": "Lotus PRESERVITA BEARBERRY MARMALADE FAC",
@@ -1466,6 +1461,11 @@ window.menuData = {
             "name": "Lotus PRESERVITA VINO GRAPES MARMALADE F",
             "desc": "Experience our professional Lotus PRESERVITA VINO GRAPES MARMALADE F. Rejuvenate your skin and bring out your natural glow.",
             "price": "₹4,199"
+        },
+        {
+            "name": "ELT WHITENING FACIAL",
+            "desc": "Indulge in our professional ELT WHITENING FACIAL. Deeply cleanses and revitalizes your complexion.",
+            "price": "₹4,515"
         },
         {
             "name": "ELT GOLD FACIAL",
