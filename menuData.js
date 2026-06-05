@@ -1564,9 +1564,44 @@ window.menuData = {
             "name": "PEDICURE"
         },
         {
-            "name": "CUT and POLISH TOE NAILS",
-            "desc": "Enjoy our professional CUT and POLISH TOE NAILS. Long-lasting shine with premium nail products.",
-            "price": "₹419"
+            "name": "Rose & Neem Herbal Experience (Pedi)",
+            "desc": "Indulge in our professional Rose & Neem Herbal Experience (Pedi). Relaxing hand or foot care for a polished look.",
+            "price": "₹2,625"
+        },
+        {
+            "name": "ALGA FLOWER ESSENCE PEDICURE",
+            "desc": "Enjoy our professional ALGA FLOWER ESSENCE PEDICURE. Long-lasting shine with premium nail products.",
+            "price": "₹2,470"
+        },
+        {
+            "name": "Donut Bombini Pedi",
+            "desc": "Indulge in our professional Donut Bombini Pedi. Relaxing hand or foot care for a polished look.",
+            "price": "₹2,260"
+        },
+        {
+            "name": "MIN TREE BOX THE TOX PEDICURE",
+            "desc": "Enjoy our professional MIN TREE BOX THE TOX PEDICURE. Long-lasting shine with premium nail products.",
+            "price": "₹2,100"
+        },
+        {
+            "name": "BOMBINI PEDICURE",
+            "desc": "Experience our professional BOMBINI PEDICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹1,680"
+        },
+        {
+            "name": "CAFE H AND F 48G PADICURE",
+            "desc": "Treat yourself to our professional CAFE H AND F 48G PADICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹1,469"
+        },
+        {
+            "name": "REJUVENATING PEDICURE",
+            "desc": "Discover our professional REJUVENATING PEDICURE. A pampering experience for your hands and feet.",
+            "price": "₹1,100"
+        },
+        {
+            "name": "GOLD PEDICURE",
+            "desc": "Treat yourself to our professional GOLD PEDICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹1,049"
         },
         {
             "name": "CHOCOLATE PEDICURE",
@@ -1584,48 +1619,53 @@ window.menuData = {
             "price": "₹945"
         },
         {
-            "name": "Rose & Neem Herbal Experience (Pedi)",
-            "desc": "Indulge in our professional Rose & Neem Herbal Experience (Pedi). Relaxing hand or foot care for a polished look.",
-            "price": "₹2,625"
-        },
-        {
-            "name": "MIN TREE BOX THE TOX PEDICURE",
-            "desc": "Enjoy our professional MIN TREE BOX THE TOX PEDICURE. Long-lasting shine with premium nail products.",
-            "price": "₹2,100"
-        },
-        {
-            "name": "GOLD PEDICURE",
-            "desc": "Treat yourself to our professional GOLD PEDICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹1,049"
-        },
-        {
-            "name": "REJUVENATING PEDICURE",
-            "desc": "Discover our professional REJUVENATING PEDICURE. A pampering experience for your hands and feet.",
-            "price": "₹1,100"
-        },
-        {
-            "name": "BOMBINI PEDICURE",
-            "desc": "Experience our professional BOMBINI PEDICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹1,680"
-        },
-        {
-            "name": "Donut Bombini Pedi",
-            "desc": "Indulge in our professional Donut Bombini Pedi. Relaxing hand or foot care for a polished look.",
-            "price": "₹2,260"
-        },
-        {
-            "name": "ALGA FLOWER ESSENCE PEDICURE",
-            "desc": "Enjoy our professional ALGA FLOWER ESSENCE PEDICURE. Long-lasting shine with premium nail products.",
-            "price": "₹2,470"
-        },
-        {
-            "name": "CAFE H AND F 48G PADICURE",
-            "desc": "Treat yourself to our professional CAFE H AND F 48G PADICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹1,469"
+            "name": "CUT and POLISH TOE NAILS",
+            "desc": "Enjoy our professional CUT and POLISH TOE NAILS. Long-lasting shine with premium nail products.",
+            "price": "₹419"
         },
         {
             "type": "subheading",
             "name": "MANICURE"
+        },
+        {
+            "name": "Rose & Neem Herbal Experience (Mani)",
+            "desc": "Discover our professional Rose & Neem Herbal Experience (Mani). A pampering experience for your hands and feet.",
+            "price": "₹2,470"
+        },
+        {
+            "name": "ALGA FLOWER ESSENCE MANICURE",
+            "desc": "Treat yourself to our professional ALGA FLOWER ESSENCE MANICURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹2,365"
+        },
+        {
+            "name": "Donut Bombini Mani",
+            "desc": "Enjoy our professional Donut Bombini Mani. Long-lasting shine with premium nail products.",
+            "price": "₹2,205"
+        },
+        {
+            "name": "MIN TREE BOX THE TOX MANICURE",
+            "desc": "Experience our professional MIN TREE BOX THE TOX MANICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹2,050"
+        },
+        {
+            "name": "BOMBINI MANICURE",
+            "desc": "Indulge in our professional BOMBINI MANICURE. Relaxing hand or foot care for a polished look.",
+            "price": "₹1,630"
+        },
+        {
+            "name": "CAFE H AND F 48G - MANICURE",
+            "desc": "Experience our professional CAFE H AND F 48G - MANICURE. Perfectly shaped and polished to perfection.",
+            "price": "₹1,365"
+        },
+        {
+            "name": "REJUVENATING MANICURE",
+            "desc": "Discover our professional REJUVENATING MANICURE. A pampering experience for your hands and feet.",
+            "price": "₹1,000"
+        },
+        {
+            "name": "GOLD MANI CURE",
+            "desc": "Treat yourself to our professional GOLD MANI CURE. Keep your nails healthy and impeccably styled.",
+            "price": "₹945"
         },
         {
             "name": "CHOCOLATE MANICURE",
@@ -1646,46 +1686,6 @@ window.menuData = {
             "name": "CUT and POLISH FINGER NAILS",
             "desc": "Enjoy our professional CUT and POLISH FINGER NAILS. Long-lasting shine with premium nail products.",
             "price": "₹419"
-        },
-        {
-            "name": "GOLD MANI CURE",
-            "desc": "Treat yourself to our professional GOLD MANI CURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹945"
-        },
-        {
-            "name": "REJUVENATING MANICURE",
-            "desc": "Discover our professional REJUVENATING MANICURE. A pampering experience for your hands and feet.",
-            "price": "₹1,000"
-        },
-        {
-            "name": "MIN TREE BOX THE TOX MANICURE",
-            "desc": "Experience our professional MIN TREE BOX THE TOX MANICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹2,050"
-        },
-        {
-            "name": "BOMBINI MANICURE",
-            "desc": "Indulge in our professional BOMBINI MANICURE. Relaxing hand or foot care for a polished look.",
-            "price": "₹1,630"
-        },
-        {
-            "name": "Donut Bombini Mani",
-            "desc": "Enjoy our professional Donut Bombini Mani. Long-lasting shine with premium nail products.",
-            "price": "₹2,205"
-        },
-        {
-            "name": "ALGA FLOWER ESSENCE MANICURE",
-            "desc": "Treat yourself to our professional ALGA FLOWER ESSENCE MANICURE. Keep your nails healthy and impeccably styled.",
-            "price": "₹2,365"
-        },
-        {
-            "name": "Rose & Neem Herbal Experience (Mani)",
-            "desc": "Discover our professional Rose & Neem Herbal Experience (Mani). A pampering experience for your hands and feet.",
-            "price": "₹2,470"
-        },
-        {
-            "name": "CAFE H AND F 48G - MANICURE",
-            "desc": "Experience our professional CAFE H AND F 48G - MANICURE. Perfectly shaped and polished to perfection.",
-            "price": "₹1,365"
         }
     ],
     "de-tan": [
