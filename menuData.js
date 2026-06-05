@@ -1694,54 +1694,14 @@ window.menuData = {
             "name": "DETAN"
         },
         {
-            "name": "DETAN FEET",
-            "desc": "Indulge in our professional DETAN FEET. Restores your skin's natural brightness and texture.",
-            "price": "₹209"
-        },
-        {
-            "name": "DETAN UNDERARMS",
-            "desc": "Enjoy our professional DETAN UNDERARMS. A cooling and soothing treatment for sun-exposed skin.",
-            "price": "₹155"
-        },
-        {
-            "name": "DETAN BLOUSELINE",
-            "desc": "Treat yourself to our professional DETAN BLOUSELINE. Gentle formulation that brightens without irritation.",
-            "price": "₹575"
-        },
-        {
-            "name": "DETAN HALF ARMS",
-            "desc": "Discover our professional DETAN HALF ARMS. Instantly refreshing treatment for a radiant complexion.",
-            "price": "₹419"
+            "name": "WHITENING SERVICE FULL",
+            "desc": "Discover our professional WHITENING SERVICE FULL. Instantly refreshing treatment for a radiant complexion.",
+            "price": "₹3,989"
         },
         {
             "name": "DETAN LEGS",
             "desc": "Experience our professional DETAN LEGS. Effectively removes sun tan and evens out your skin tone.",
             "price": "₹945"
-        },
-        {
-            "name": "BLEACH BUTTOCK",
-            "desc": "Indulge in our professional BLEACH BUTTOCK. Restores your skin's natural brightness and texture.",
-            "price": "₹525"
-        },
-        {
-            "name": "DETAN FULL ARMS",
-            "desc": "Enjoy our professional DETAN FULL ARMS. A cooling and soothing treatment for sun-exposed skin.",
-            "price": "₹525"
-        },
-        {
-            "name": "DETAN HALF LEGS",
-            "desc": "Treat yourself to our professional DETAN HALF LEGS. Gentle formulation that brightens without irritation.",
-            "price": "₹525"
-        },
-        {
-            "name": "DETAN UPPER LIP",
-            "desc": "Discover our professional DETAN UPPER LIP. Instantly refreshing treatment for a radiant complexion.",
-            "price": "₹116"
-        },
-        {
-            "name": "DETAN FACE AND NECK",
-            "desc": "Experience our professional DETAN FACE AND NECK. Effectively removes sun tan and evens out your skin tone.",
-            "price": "₹365"
         },
         {
             "name": "DETAN BUTTOCK",
@@ -1759,9 +1719,49 @@ window.menuData = {
             "price": "₹629"
         },
         {
-            "name": "WHITENING SERVICE FULL",
-            "desc": "Discover our professional WHITENING SERVICE FULL. Instantly refreshing treatment for a radiant complexion.",
-            "price": "₹3,989"
+            "name": "DETAN BLOUSELINE",
+            "desc": "Treat yourself to our professional DETAN BLOUSELINE. Gentle formulation that brightens without irritation.",
+            "price": "₹575"
+        },
+        {
+            "name": "BLEACH BUTTOCK",
+            "desc": "Indulge in our professional BLEACH BUTTOCK. Restores your skin's natural brightness and texture.",
+            "price": "₹525"
+        },
+        {
+            "name": "DETAN FULL ARMS",
+            "desc": "Enjoy our professional DETAN FULL ARMS. A cooling and soothing treatment for sun-exposed skin.",
+            "price": "₹525"
+        },
+        {
+            "name": "DETAN HALF LEGS",
+            "desc": "Treat yourself to our professional DETAN HALF LEGS. Gentle formulation that brightens without irritation.",
+            "price": "₹525"
+        },
+        {
+            "name": "DETAN HALF ARMS",
+            "desc": "Discover our professional DETAN HALF ARMS. Instantly refreshing treatment for a radiant complexion.",
+            "price": "₹419"
+        },
+        {
+            "name": "DETAN FACE AND NECK",
+            "desc": "Experience our professional DETAN FACE AND NECK. Effectively removes sun tan and evens out your skin tone.",
+            "price": "₹365"
+        },
+        {
+            "name": "DETAN FEET",
+            "desc": "Indulge in our professional DETAN FEET. Restores your skin's natural brightness and texture.",
+            "price": "₹209"
+        },
+        {
+            "name": "DETAN UNDERARMS",
+            "desc": "Enjoy our professional DETAN UNDERARMS. A cooling and soothing treatment for sun-exposed skin.",
+            "price": "₹155"
+        },
+        {
+            "name": "DETAN UPPER LIP",
+            "desc": "Discover our professional DETAN UPPER LIP. Instantly refreshing treatment for a radiant complexion.",
+            "price": "₹116"
         }
     ],
     "mens-services": [
