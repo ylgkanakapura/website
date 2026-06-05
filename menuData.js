@@ -5,19 +5,29 @@ window.menuData = {
             "name": "ANTI AGING WAX"
         },
         {
-            "name": "Crystal Anti-aging Gold Wax - Blouse Line",
-            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Blouse Line. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹820"
-        },
-        {
-            "name": "Crystal Anti-aging Gold Wax - Buttock",
-            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Buttock. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,000"
+            "name": "Crystal Anti-aging Gold Wax - Full Body",
+            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Full Body. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹3,465"
         },
         {
             "name": "Crystal Anti-aging Gold Wax - Combo",
             "desc": "Experience our professional Crystal Anti-aging Gold Wax - Combo. A gentle, hygienic approach to hair removal.",
             "price": "₹1,995"
+        },
+        {
+            "name": "Crystal Anti-aging Gold Wax - Full Front",
+            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Full Front. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,210"
+        },
+        {
+            "name": "Crystal Anti-aging Gold Wax - Full Legs",
+            "desc": "Experience our professional Crystal Anti-aging Gold Wax - Full Legs. A gentle, hygienic approach to hair removal.",
+            "price": "₹1,210"
+        },
+        {
+            "name": "Crystal Anti-aging Gold Wax - Buttock",
+            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Buttock. Professional and discrete service by our trained aestheticians.",
+            "price": "₹1,000"
         },
         {
             "name": "Crystal Anti-aging Gold Wax - Full Arms",
@@ -30,19 +40,9 @@ window.menuData = {
             "price": "₹995"
         },
         {
-            "name": "Crystal Anti-aging Gold Wax - Full Body",
-            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Full Body. Using premium quality wax suitable for sensitive skin.",
-            "price": "₹3,465"
-        },
-        {
-            "name": "Crystal Anti-aging Gold Wax - Full Front",
-            "desc": "Discover our professional Crystal Anti-aging Gold Wax - Full Front. Professional and discrete service by our trained aestheticians.",
-            "price": "₹1,210"
-        },
-        {
-            "name": "Crystal Anti-aging Gold Wax - Full Legs",
-            "desc": "Experience our professional Crystal Anti-aging Gold Wax - Full Legs. A gentle, hygienic approach to hair removal.",
-            "price": "₹1,210"
+            "name": "Crystal Anti-aging Gold Wax - Blouse Line",
+            "desc": "Treat yourself to our professional Crystal Anti-aging Gold Wax - Blouse Line. Using premium quality wax suitable for sensitive skin.",
+            "price": "₹820"
         },
         {
             "name": "Crystal Anti-aging Gold Wax - Midriff",
